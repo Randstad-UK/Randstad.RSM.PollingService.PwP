@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randstad.RSM.PollingService.PwP", "Randstad.RSM.PollingService.PwP.csproj", "{2617DB5C-265C-46D7-BC6F-6172E30ABA07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		Live|Any CPU = Live|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2617DB5C-265C-46D7-BC6F-6172E30ABA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2617DB5C-265C-46D7-BC6F-6172E30ABA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2617DB5C-265C-46D7-BC6F-6172E30ABA07}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{2617DB5C-265C-46D7-BC6F-6172E30ABA07}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{2617DB5C-265C-46D7-BC6F-6172E30ABA07}.Live|Any CPU.ActiveCfg = Live|Any CPU
+		{2617DB5C-265C-46D7-BC6F-6172E30ABA07}.Live|Any CPU.Build.0 = Live|Any CPU
+		{2617DB5C-265C-46D7-BC6F-6172E30ABA07}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{2617DB5C-265C-46D7-BC6F-6172E30ABA07}.Staging|Any CPU.Build.0 = Staging|Any CPU
+		{2617DB5C-265C-46D7-BC6F-6172E30ABA07}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{2617DB5C-265C-46D7-BC6F-6172E30ABA07}.Test|Any CPU.Build.0 = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CF6F583-6CC7-4543-B3C0-2C9A5BF1B04F}
+	EndGlobalSection
+EndGlobal

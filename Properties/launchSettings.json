@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Randstad.RSM.PollingService.PwP": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "staging"
+      }
+    }
+  }
+}
