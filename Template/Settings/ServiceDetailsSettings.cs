@@ -8,5 +8,6 @@ namespace Randstad.RSM.PollingService.PwP.Template.Settings
         public bool IsApi { get; set; }
         public string BaseUrl { get; set; }
         public bool AllowMonitorRestart { get; set; }
+        public string ConnectionName { get; set; }
     }
 }

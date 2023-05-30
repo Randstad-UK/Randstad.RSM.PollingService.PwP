@@ -110,8 +110,7 @@ namespace Randstad.RSM.PollingService.PwP
                     services.AddScoped<IDataAccess>(_ =>
                     {
                         var connectionString =
-                            sdClient.GetConnectionString(serviceDetailsSettings.Name,
-                                $"{applicationSettings.Environment}.{serviceDetailsSettings.Name}");
+                            sdClient.GetConnectionString(serviceDetailsSettings.Name, serviceDetailsSettings.ConnectionName);
                         return new SqlDataAccess(connectionString);
                     });
 
