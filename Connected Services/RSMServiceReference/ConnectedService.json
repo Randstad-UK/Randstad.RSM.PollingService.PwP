@@ -1,7 +1,7 @@
 {
   "ExtendedData": {
     "inputs": [
-      "https://demo.in-time.co.uk/services/IntimeServiceV3_6?wsdl"
+      "https://demo.in-time.co.uk/services/IntimeServiceV3_4?wsdl"
     ],
     "collectionTypes": [
       "System.Array",
@@ -9,50 +9,6 @@
     ],
     "namespaceMappings": [
       "*, RSMServiceReference"
-    ],
-    "references": [
-      "Dapper, {Dapper, 2.0.78}",
-      "ExcelDataReader, {ExcelDataReader, 3.6.0}",
-      "ExcelDataReader.DataSet, {ExcelDataReader.DataSet, 3.6.0}",
-      "Microsoft.Extensions.Configuration, {Microsoft.Extensions.Configuration, 3.1.6}",
-      "Microsoft.Extensions.Configuration.Abstractions, {Microsoft.Extensions.Configuration.Abstractions, 3.1.6}",
-      "Microsoft.Extensions.Configuration.Binder, {Microsoft.Extensions.Configuration.Binder, 3.1.6}",
-      "Microsoft.Extensions.Configuration.CommandLine, {Microsoft.Extensions.Configuration.CommandLine, 3.1.6}",
-      "Microsoft.Extensions.Configuration.EnvironmentVariables, {Microsoft.Extensions.Configuration.EnvironmentVariables, 3.1.6}",
-      "Microsoft.Extensions.Configuration.FileExtensions, {Microsoft.Extensions.Configuration.FileExtensions, 3.1.6}",
-      "Microsoft.Extensions.Configuration.Json, {Microsoft.Extensions.Configuration.Json, 3.1.6}",
-      "Microsoft.Extensions.Configuration.UserSecrets, {Microsoft.Extensions.Configuration.UserSecrets, 3.1.6}",
-      "Microsoft.Extensions.DependencyInjection, {Microsoft.Extensions.DependencyInjection, 5.0.0}",
-      "Microsoft.Extensions.DependencyInjection.Abstractions, {Microsoft.Extensions.DependencyInjection.Abstractions, 5.0.0}",
-      "Microsoft.Extensions.FileProviders.Abstractions, {Microsoft.Extensions.FileProviders.Abstractions, 3.1.6}",
-      "Microsoft.Extensions.FileProviders.Physical, {Microsoft.Extensions.FileProviders.Physical, 3.1.6}",
-      "Microsoft.Extensions.FileSystemGlobbing, {Microsoft.Extensions.FileSystemGlobbing, 3.1.6}",
-      "Microsoft.Extensions.Hosting, {Microsoft.Extensions.Hosting, 3.1.6}",
-      "Microsoft.Extensions.Hosting.Abstractions, {Microsoft.Extensions.Hosting.Abstractions, 3.1.6}",
-      "Microsoft.Extensions.Hosting.WindowsServices, {Microsoft.Extensions.Hosting.WindowsServices, 3.1.6}",
-      "Microsoft.Extensions.Http, {Microsoft.Extensions.Http, 5.0.0}",
-      "Microsoft.Extensions.Logging, {Microsoft.Extensions.Logging, 5.0.0}",
-      "Microsoft.Extensions.Logging.Abstractions, {Microsoft.Extensions.Logging.Abstractions, 5.0.0}",
-      "Microsoft.Extensions.Logging.Configuration, {Microsoft.Extensions.Logging.Configuration, 3.1.6}",
-      "Microsoft.Extensions.Logging.Console, {Microsoft.Extensions.Logging.Console, 3.1.6}",
-      "Microsoft.Extensions.Logging.Debug, {Microsoft.Extensions.Logging.Debug, 3.1.6}",
-      "Microsoft.Extensions.Logging.EventLog, {Microsoft.Extensions.Logging.EventLog, 3.1.6}",
-      "Microsoft.Extensions.Logging.EventSource, {Microsoft.Extensions.Logging.EventSource, 3.1.6}",
-      "Microsoft.Extensions.Options, {Microsoft.Extensions.Options, 5.0.0}",
-      "Microsoft.Extensions.Options.ConfigurationExtensions, {Microsoft.Extensions.Options.ConfigurationExtensions, 3.1.6}",
-      "Microsoft.Extensions.Primitives, {Microsoft.Extensions.Primitives, 5.0.0}",
-      "Newtonsoft.Json, {Newtonsoft.Json, 12.0.2}",
-      "RabbitMQ.Client, {RabbitMQ.Client, 5.1.1}",
-      "Randstad.Environments, {Randstad.Environments, 1.0.0}",
-      "Randstad.Logging, {Randstad.Logging, 2.1.1}",
-      "Randstad.LogLevels, {Randstad.LogLevels, 1.1.0}",
-      "Randstad.OperatingCompanies, {Randstad.OperatingCompanies, 1.0.2}",
-      "Randstad.ServiceDiscovery.Client, {Randstad.ServiceDiscovery.Client, 1.0.10}",
-      "RandstadMessageExchange, {Randstad.MessageExchange, 2.4.0}",
-      "System.Data.SqlClient, {System.Data.SqlClient, 4.8.2}",
-      "System.Diagnostics.EventLog, {System.Diagnostics.EventLog, 4.7.0}",
-      "System.Security.Principal.Windows, {System.Security.Principal.Windows, 4.7.0}",
-      "System.ServiceProcess.ServiceController, {System.ServiceProcess.ServiceController, 4.7.0}"
     ],
     "targetFramework": "net5.0",
     "typeReuseMode": "All"

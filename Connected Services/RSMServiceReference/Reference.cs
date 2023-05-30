@@ -14,8 +14,8 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
-    public partial class IntimeServiceV3_6IntimeWebServiceException
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://in-time.co.uk/xsd")]
+    public partial class IntimeServiceV3_4IntimeWebServiceException
     {
         
         private IntimeWebServiceException intimeWebServiceExceptionField;
@@ -46,7 +46,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class SplitCommission
     {
         
@@ -134,7 +134,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Rate
     {
         
@@ -798,7 +798,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class OnCost
     {
         
@@ -1190,7 +1190,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class OnCostValues
     {
         
@@ -1678,7 +1678,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Shift
     {
         
@@ -2214,7 +2214,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class InvoiceLineInfo
     {
         
@@ -2622,7 +2622,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class InvoiceInfo
     {
         
@@ -3638,7 +3638,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Financials
     {
         
@@ -3870,7 +3870,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Timesheet
     {
         
@@ -5444,686 +5444,689 @@ namespace RSMServiceReference
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", ConfigurationName="RSMServiceReference.IntimeServiceV3_6PortType")]
-    public interface IntimeServiceV3_6PortType
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://in-time.co.uk/", ConfigurationName="RSMServiceReference.IntimeServiceV3_4PortType")]
+    public interface IntimeServiceV3_4PortType
     {
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getTimesheetByRefCode", ReplyAction="urn:getTimesheetByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getTimesheetByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getTimesheetByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getTimesheetByRefCodeResponse> getTimesheetByRefCodeAsync(RSMServiceReference.getTimesheetByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getExpenseClaimByRefCode", ReplyAction="urn:getExpenseClaimByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getExpenseClaimByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getExpenseClaimByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getExpenseClaimByRefCodeResponse> getExpenseClaimByRefCodeAsync(RSMServiceReference.getExpenseClaimByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getPurchaseOrderByReference", ReplyAction="urn:getPurchaseOrderByReferenceResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getPurchaseOrderByReferenceIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getPurchaseOrderByReferenceIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getPurchaseOrderByReferenceResponse> getPurchaseOrderByReferenceAsync(RSMServiceReference.getPurchaseOrderByReferenceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getAllFinancialTags", ReplyAction="urn:getAllFinancialTagsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getAllFinancialTagsIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getAllFinancialTagsIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getAllFinancialTagsResponse> getAllFinancialTagsAsync(RSMServiceReference.getAllFinancialTagsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:rejectExpenseItem", ReplyAction="urn:rejectExpenseItemResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:rejectExpenseItemIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:rejectExpenseItemIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.rejectExpenseItemResponse> rejectExpenseItemAsync(RSMServiceReference.rejectExpenseItemRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:reinstateWorkerByRefCode", ReplyAction="urn:reinstateWorkerByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:reinstateWorkerByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:reinstateWorkerByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.reinstateWorkerByRefCodeResponse> reinstateWorkerByRefCodeAsync(RSMServiceReference.reinstateWorkerByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getAllPaymentFrequencies", ReplyAction="urn:getAllPaymentFrequenciesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getAllPaymentFrequenciesIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getAllPaymentFrequenciesIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getAllPaymentFrequenciesResponse> getAllPaymentFrequenciesAsync(RSMServiceReference.getAllPaymentFrequenciesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:createOrUpdatePurchaseOrder", ReplyAction="urn:createOrUpdatePurchaseOrderResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createOrUpdatePurchaseOrderIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:createOrUpdatePurchaseOrderIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.createOrUpdatePurchaseOrderResponse> createOrUpdatePurchaseOrderAsync(RSMServiceReference.createOrUpdatePurchaseOrderRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:createOrUpdateHolidayClaim", ReplyAction="urn:createOrUpdateHolidayClaimResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createOrUpdateHolidayClaimIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:createOrUpdateHolidayClaimIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateHolidayClaimResponse> createOrUpdateHolidayClaimAsync(RSMServiceReference.createOrUpdateHolidayClaimRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getHolidayClaimByRefCode", ReplyAction="urn:getHolidayClaimByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getHolidayClaimByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getHolidayClaimByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getHolidayClaimByRefCodeResponse> getHolidayClaimByRefCodeAsync(RSMServiceReference.getHolidayClaimByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getExpenseIdsWithStatusAndDates", ReplyAction="urn:getExpenseIdsWithStatusAndDatesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getExpenseIdsWithStatusAndDatesIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getExpenseIdsWithStatusAndDatesIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getExpenseIdsWithStatusAndDatesResponse> getExpenseIdsWithStatusAndDatesAsync(RSMServiceReference.getExpenseIdsWithStatusAndDatesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getProvidersByExternalId", ReplyAction="urn:getProvidersByExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getProvidersByExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getProvidersByExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getProvidersByExternalIdResponse> getProvidersByExternalIdAsync(RSMServiceReference.getProvidersByExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getClientsByExternalId", ReplyAction="urn:getClientsByExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getClientsByExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getClientsByExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getClientsByExternalIdResponse> getClientsByExternalIdAsync(RSMServiceReference.getClientsByExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:createOrUpdateManager", ReplyAction="urn:createOrUpdateManagerResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createOrUpdateManagerIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:createOrUpdateManagerIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateManagerResponse> createOrUpdateManagerAsync(RSMServiceReference.createOrUpdateManagerRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getModifiedItemsInRangeWithRefCode", ReplyAction="urn:getModifiedItemsInRangeWithRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getModifiedItemsInRangeWithRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getModifiedItemsInRangeWithRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsInRangeWithRefCodeResponse> getModifiedItemsInRangeWithRefCodeAsync(RSMServiceReference.getModifiedItemsInRangeWithRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:makeLeaverById", ReplyAction="urn:makeLeaverByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:makeLeaverByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:makeLeaverByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.makeLeaverByIdResponse> makeLeaverByIdAsync(RSMServiceReference.makeLeaverByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getHolidayClaimsByRefCodes", ReplyAction="urn:getHolidayClaimsByRefCodesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getHolidayClaimsByRefCodesIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getHolidayClaimsByRefCodesIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getHolidayClaimsByRefCodesResponse> getHolidayClaimsByRefCodesAsync(RSMServiceReference.getHolidayClaimsByRefCodesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getClientByRefCode", ReplyAction="urn:getClientByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getClientByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getClientByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getClientByRefCodeResponse> getClientByRefCodeAsync(RSMServiceReference.getClientByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getTimesheetIdsWithStatus", ReplyAction="urn:getTimesheetIdsWithStatusResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getTimesheetIdsWithStatusIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getTimesheetIdsWithStatusIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getTimesheetIdsWithStatusResponse> getTimesheetIdsWithStatusAsync(RSMServiceReference.getTimesheetIdsWithStatusRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:approveTimesheet", ReplyAction="urn:approveTimesheetResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:approveTimesheetIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:approveTimesheetIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.approveTimesheetResponse> approveTimesheetAsync(RSMServiceReference.approveTimesheetRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getPaymentBatchById", ReplyAction="urn:getPaymentBatchByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getPaymentBatchByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getPaymentBatchByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getPaymentBatchByIdResponse> getPaymentBatchByIdAsync(RSMServiceReference.getPaymentBatchByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getInvoicesForClient", ReplyAction="urn:getInvoicesForClientResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getInvoicesForClientIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getInvoicesForClientIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getInvoicesForClientResponse> getInvoicesForClientAsync(RSMServiceReference.getInvoicesForClientRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:rejectTimesheet", ReplyAction="urn:rejectTimesheetResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:rejectTimesheetIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:rejectTimesheetIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.rejectTimesheetResponse> rejectTimesheetAsync(RSMServiceReference.rejectTimesheetRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getProviderById", ReplyAction="urn:getProviderByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getProviderByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getProviderByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getProviderByIdResponse> getProviderByIdAsync(RSMServiceReference.getProviderByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:searchHolidayClaimRefCodes", ReplyAction="urn:searchHolidayClaimRefCodesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:searchHolidayClaimRefCodesIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:searchHolidayClaimRefCodesIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.searchHolidayClaimRefCodesResponse> searchHolidayClaimRefCodesAsync(RSMServiceReference.searchHolidayClaimRefCodesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:updatePlacementExternalId", ReplyAction="urn:updatePlacementExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:updatePlacementExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:updatePlacementExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.updatePlacementExternalIdResponse> updatePlacementExternalIdAsync(RSMServiceReference.updatePlacementExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getTimesheetById", ReplyAction="urn:getTimesheetByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getTimesheetByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getTimesheetByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getTimesheetByIdResponse> getTimesheetByIdAsync(RSMServiceReference.getTimesheetByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getModifiedItemsInRangeWithRefCodeByType", ReplyAction="urn:getModifiedItemsInRangeWithRefCodeByTypeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getModifiedItemsInRangeWithRefCodeByTypeIntimeServiceV3_6IntimeWebServiceExce" +
-            "ption", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getModifiedItemsInRangeWithRefCodeByTypeIntimeServiceV3_4IntimeWebServiceExce" +
+            "ption", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsInRangeWithRefCodeByTypeResponse> getModifiedItemsInRangeWithRefCodeByTypeAsync(RSMServiceReference.getModifiedItemsInRangeWithRefCodeByTypeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getLtdCoUserByRefCode", ReplyAction="urn:getLtdCoUserByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getLtdCoUserByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getLtdCoUserByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getLtdCoUserByRefCodeResponse> getLtdCoUserByRefCodeAsync(RSMServiceReference.getLtdCoUserByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getWorkerById", ReplyAction="urn:getWorkerByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getWorkerByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getWorkerByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getWorkerByIdResponse> getWorkerByIdAsync(RSMServiceReference.getWorkerByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getAllExpenseTemplates", ReplyAction="urn:getAllExpenseTemplatesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getAllExpenseTemplatesIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getAllExpenseTemplatesIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getAllExpenseTemplatesResponse> getAllExpenseTemplatesAsync(RSMServiceReference.getAllExpenseTemplatesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getModifiedItems", ReplyAction="urn:getModifiedItemsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getModifiedItemsIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getModifiedItemsIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsResponse> getModifiedItemsAsync(RSMServiceReference.getModifiedItemsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:createOrUpdateFinancialTag", ReplyAction="urn:createOrUpdateFinancialTagResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createOrUpdateFinancialTagIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:createOrUpdateFinancialTagIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateFinancialTagResponse> createOrUpdateFinancialTagAsync(RSMServiceReference.createOrUpdateFinancialTagRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getPlacementById", ReplyAction="urn:getPlacementByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getPlacementByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getPlacementByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getPlacementByIdResponse> getPlacementByIdAsync(RSMServiceReference.getPlacementByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:createOrUpdateClient", ReplyAction="urn:createOrUpdateClientResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createOrUpdateClientIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:createOrUpdateClientIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateClientResponse> createOrUpdateClientAsync(RSMServiceReference.createOrUpdateClientRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getUserById", ReplyAction="urn:getUserByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getUserByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getUserByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getUserByIdResponse> getUserByIdAsync(RSMServiceReference.getUserByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:authenticate", ReplyAction="urn:authenticateResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:authenticateIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:authenticateIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.authenticateResponse> authenticateAsync(RSMServiceReference.authenticateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getModifiedItemsWithRefCode", ReplyAction="urn:getModifiedItemsWithRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getModifiedItemsWithRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getModifiedItemsWithRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsWithRefCodeResponse> getModifiedItemsWithRefCodeAsync(RSMServiceReference.getModifiedItemsWithRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getManagerByRefCode", ReplyAction="urn:getManagerByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getManagerByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getManagerByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getManagerByRefCodeResponse> getManagerByRefCodeAsync(RSMServiceReference.getManagerByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getMissingTimesheetsForPlacement", ReplyAction="urn:getMissingTimesheetsForPlacementResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getMissingTimesheetsForPlacementIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getMissingTimesheetsForPlacementIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getMissingTimesheetsForPlacementResponse> getMissingTimesheetsForPlacementAsync(RSMServiceReference.getMissingTimesheetsForPlacementRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getAllApprovalRoutes", ReplyAction="urn:getAllApprovalRoutesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getAllApprovalRoutesIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getAllApprovalRoutesIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getAllApprovalRoutesResponse> getAllApprovalRoutesAsync(RSMServiceReference.getAllApprovalRoutesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getWorkerByRefCode", ReplyAction="urn:getWorkerByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getWorkerByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getWorkerByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getWorkerByRefCodeResponse> getWorkerByRefCodeAsync(RSMServiceReference.getWorkerByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getExpenseItemsForWorker", ReplyAction="urn:getExpenseItemsForWorkerResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getExpenseItemsForWorkerIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getExpenseItemsForWorkerIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getExpenseItemsForWorkerResponse> getExpenseItemsForWorkerAsync(RSMServiceReference.getExpenseItemsForWorkerRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:updateLtdCoUserExternalId", ReplyAction="urn:updateLtdCoUserExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:updateLtdCoUserExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:updateLtdCoUserExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.updateLtdCoUserExternalIdResponse> updateLtdCoUserExternalIdAsync(RSMServiceReference.updateLtdCoUserExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getAdministratorsByExternalId", ReplyAction="urn:getAdministratorsByExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getAdministratorsByExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getAdministratorsByExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getAdministratorsByExternalIdResponse> getAdministratorsByExternalIdAsync(RSMServiceReference.getAdministratorsByExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:reinstateWorkerById", ReplyAction="urn:reinstateWorkerByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:reinstateWorkerByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:reinstateWorkerByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.reinstateWorkerByIdResponse> reinstateWorkerByIdAsync(RSMServiceReference.reinstateWorkerByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getExpenseItemById", ReplyAction="urn:getExpenseItemByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getExpenseItemByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getExpenseItemByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getExpenseItemByIdResponse> getExpenseItemByIdAsync(RSMServiceReference.getExpenseItemByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:updateExpenseStatus", ReplyAction="urn:updateExpenseStatusResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:updateExpenseStatusIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:updateExpenseStatusIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.updateExpenseStatusResponse> updateExpenseStatusAsync(RSMServiceReference.updateExpenseStatusRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getTimesheetsByIds", ReplyAction="urn:getTimesheetsByIdsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getTimesheetsByIdsIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getTimesheetsByIdsIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getTimesheetsByIdsResponse> getTimesheetsByIdsAsync(RSMServiceReference.getTimesheetsByIdsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getPlacementsByWorkerExternalIdAndDate", ReplyAction="urn:getPlacementsByWorkerExternalIdAndDateResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getPlacementsByWorkerExternalIdAndDateIntimeServiceV3_6IntimeWebServiceExcept" +
-            "ion", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getPlacementsByWorkerExternalIdAndDateIntimeServiceV3_4IntimeWebServiceExcept" +
+            "ion", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getPlacementsByWorkerExternalIdAndDateResponse> getPlacementsByWorkerExternalIdAndDateAsync(RSMServiceReference.getPlacementsByWorkerExternalIdAndDateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getInvoiceAdjustmentById", ReplyAction="urn:getInvoiceAdjustmentByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getInvoiceAdjustmentByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getInvoiceAdjustmentByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getInvoiceAdjustmentByIdResponse> getInvoiceAdjustmentByIdAsync(RSMServiceReference.getInvoiceAdjustmentByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getPlacementByExternalId", ReplyAction="urn:getPlacementByExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getPlacementByExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getPlacementByExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getPlacementByExternalIdResponse> getPlacementByExternalIdAsync(RSMServiceReference.getPlacementByExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:updateConsultantExternalId", ReplyAction="urn:updateConsultantExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:updateConsultantExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:updateConsultantExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.updateConsultantExternalIdResponse> updateConsultantExternalIdAsync(RSMServiceReference.updateConsultantExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:updateTimesheetFile", ReplyAction="urn:updateTimesheetFileResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:updateTimesheetFileIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:updateTimesheetFileIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.updateTimesheetFileResponse> updateTimesheetFileAsync(RSMServiceReference.updateTimesheetFileRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getExpenseClaimById", ReplyAction="urn:getExpenseClaimByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getExpenseClaimByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getExpenseClaimByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getExpenseClaimByIdResponse> getExpenseClaimByIdAsync(RSMServiceReference.getExpenseClaimByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getPlacementIdsByConsultantId", ReplyAction="urn:getPlacementIdsByConsultantIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getPlacementIdsByConsultantIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getPlacementIdsByConsultantIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getPlacementIdsByConsultantIdResponse> getPlacementIdsByConsultantIdAsync(RSMServiceReference.getPlacementIdsByConsultantIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getLtdCoUserById", ReplyAction="urn:getLtdCoUserByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getLtdCoUserByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getLtdCoUserByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getLtdCoUserByIdResponse> getLtdCoUserByIdAsync(RSMServiceReference.getLtdCoUserByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getWorkerByPayrollNumber", ReplyAction="urn:getWorkerByPayrollNumberResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getWorkerByPayrollNumberIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getWorkerByPayrollNumberIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getWorkerByPayrollNumberResponse> getWorkerByPayrollNumberAsync(RSMServiceReference.getWorkerByPayrollNumberRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:revertExpenseItem", ReplyAction="urn:revertExpenseItemResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:revertExpenseItemIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:revertExpenseItemIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.revertExpenseItemResponse> revertExpenseItemAsync(RSMServiceReference.revertExpenseItemRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getContractDocumentByRefCode", ReplyAction="urn:getContractDocumentByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getContractDocumentByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getContractDocumentByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getContractDocumentByRefCodeResponse> getContractDocumentByRefCodeAsync(RSMServiceReference.getContractDocumentByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getPlacementIdsByWorkerId", ReplyAction="urn:getPlacementIdsByWorkerIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getPlacementIdsByWorkerIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getPlacementIdsByWorkerIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getPlacementIdsByWorkerIdResponse> getPlacementIdsByWorkerIdAsync(RSMServiceReference.getPlacementIdsByWorkerIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:createOrUpdateWorker", ReplyAction="urn:createOrUpdateWorkerResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createOrUpdateWorkerIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:createOrUpdateWorkerIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateWorkerResponse> createOrUpdateWorkerAsync(RSMServiceReference.createOrUpdateWorkerRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getUserByRefCode", ReplyAction="urn:getUserByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getUserByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getUserByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getUserByRefCodeResponse> getUserByRefCodeAsync(RSMServiceReference.getUserByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getTimesheetIdsWithStatusAndDates", ReplyAction="urn:getTimesheetIdsWithStatusAndDatesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getTimesheetIdsWithStatusAndDatesIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getTimesheetIdsWithStatusAndDatesIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getTimesheetIdsWithStatusAndDatesResponse> getTimesheetIdsWithStatusAndDatesAsync(RSMServiceReference.getTimesheetIdsWithStatusAndDatesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getManagersByExternalId", ReplyAction="urn:getManagersByExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getManagersByExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getManagersByExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getManagersByExternalIdResponse> getManagersByExternalIdAsync(RSMServiceReference.getManagersByExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getPlacementIdsByManagerId", ReplyAction="urn:getPlacementIdsByManagerIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getPlacementIdsByManagerIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getPlacementIdsByManagerIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getPlacementIdsByManagerIdResponse> getPlacementIdsByManagerIdAsync(RSMServiceReference.getPlacementIdsByManagerIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getTimesheetIdsWithStatusAndDatesForWorker", ReplyAction="urn:getTimesheetIdsWithStatusAndDatesForWorkerResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getTimesheetIdsWithStatusAndDatesForWorkerIntimeServiceV3_6IntimeWebServiceEx" +
-            "ception", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getTimesheetIdsWithStatusAndDatesForWorkerIntimeServiceV3_4IntimeWebServiceEx" +
+            "ception", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getTimesheetIdsWithStatusAndDatesForWorkerResponse> getTimesheetIdsWithStatusAndDatesForWorkerAsync(RSMServiceReference.getTimesheetIdsWithStatusAndDatesForWorkerRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getInvoicesByRefCodes", ReplyAction="urn:getInvoicesByRefCodesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getInvoicesByRefCodesIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getInvoicesByRefCodesIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getInvoicesByRefCodesResponse> getInvoicesByRefCodesAsync(RSMServiceReference.getInvoicesByRefCodesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getAdministratorByRefCode", ReplyAction="urn:getAdministratorByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getAdministratorByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getAdministratorByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getAdministratorByRefCodeResponse> getAdministratorByRefCodeAsync(RSMServiceReference.getAdministratorByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getPurchaseOrderById", ReplyAction="urn:getPurchaseOrderByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getPurchaseOrderByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getPurchaseOrderByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getPurchaseOrderByIdResponse> getPurchaseOrderByIdAsync(RSMServiceReference.getPurchaseOrderByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:readFile", ReplyAction="urn:readFileResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:readFileIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:readFileIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.readFileResponse> readFileAsync(RSMServiceReference.readFileRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getConsultantsByExternalId", ReplyAction="urn:getConsultantsByExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getConsultantsByExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getConsultantsByExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getConsultantsByExternalIdResponse> getConsultantsByExternalIdAsync(RSMServiceReference.getConsultantsByExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:makeLeaverByExternalId", ReplyAction="urn:makeLeaverByExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:makeLeaverByExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:makeLeaverByExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.makeLeaverByExternalIdResponse> makeLeaverByExternalIdAsync(RSMServiceReference.makeLeaverByExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getModifiedItemsWithRefCodeByType", ReplyAction="urn:getModifiedItemsWithRefCodeByTypeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getModifiedItemsWithRefCodeByTypeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getModifiedItemsWithRefCodeByTypeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsWithRefCodeByTypeResponse> getModifiedItemsWithRefCodeByTypeAsync(RSMServiceReference.getModifiedItemsWithRefCodeByTypeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getInvoicesForWorker", ReplyAction="urn:getInvoicesForWorkerResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getInvoicesForWorkerIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getInvoicesForWorkerIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getInvoicesForWorkerResponse> getInvoicesForWorkerAsync(RSMServiceReference.getInvoicesForWorkerRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getAdministratorById", ReplyAction="urn:getAdministratorByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getAdministratorByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getAdministratorByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getAdministratorByIdResponse> getAdministratorByIdAsync(RSMServiceReference.getAdministratorByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:approveExpenseItem", ReplyAction="urn:approveExpenseItemResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:approveExpenseItemIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:approveExpenseItemIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.approveExpenseItemResponse> approveExpenseItemAsync(RSMServiceReference.approveExpenseItemRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:markInvoiceAsPaid", ReplyAction="urn:markInvoiceAsPaidResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:markInvoiceAsPaidIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:markInvoiceAsPaidIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.markInvoiceAsPaidResponse> markInvoiceAsPaidAsync(RSMServiceReference.markInvoiceAsPaidRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getConsultantByRefCode", ReplyAction="urn:getConsultantByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getConsultantByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getConsultantByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getConsultantByRefCodeResponse> getConsultantByRefCodeAsync(RSMServiceReference.getConsultantByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getAllPayElements", ReplyAction="urn:getAllPayElementsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getAllPayElementsIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getAllPayElementsIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getAllPayElementsResponse> getAllPayElementsAsync(RSMServiceReference.getAllPayElementsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getLtdCoUsersByExternalId", ReplyAction="urn:getLtdCoUsersByExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getLtdCoUsersByExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getLtdCoUsersByExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getLtdCoUsersByExternalIdResponse> getLtdCoUsersByExternalIdAsync(RSMServiceReference.getLtdCoUsersByExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:updateClientExternalId", ReplyAction="urn:updateClientExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:updateClientExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:updateClientExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.updateClientExternalIdResponse> updateClientExternalIdAsync(RSMServiceReference.updateClientExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getPlacementByRefCode", ReplyAction="urn:getPlacementByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getPlacementByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getPlacementByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getPlacementByRefCodeResponse> getPlacementByRefCodeAsync(RSMServiceReference.getPlacementByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:submitExpenseClaim", ReplyAction="urn:submitExpenseClaimResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:submitExpenseClaimIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:submitExpenseClaimIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.submitExpenseClaimResponse> submitExpenseClaimAsync(RSMServiceReference.submitExpenseClaimRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getUsersByExternalId", ReplyAction="urn:getUsersByExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getUsersByExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getUsersByExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getUsersByExternalIdResponse> getUsersByExternalIdAsync(RSMServiceReference.getUsersByExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:updateProviderExternalId", ReplyAction="urn:updateProviderExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:updateProviderExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:updateProviderExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.updateProviderExternalIdResponse> updateProviderExternalIdAsync(RSMServiceReference.updateProviderExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getProjectById", ReplyAction="urn:getProjectByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getProjectByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getProjectByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getProjectByIdResponse> getProjectByIdAsync(RSMServiceReference.getProjectByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getPurchaseOrderByRefCode", ReplyAction="urn:getPurchaseOrderByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getPurchaseOrderByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getPurchaseOrderByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getPurchaseOrderByRefCodeResponse> getPurchaseOrderByRefCodeAsync(RSMServiceReference.getPurchaseOrderByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getTimesheetsForWorker", ReplyAction="urn:getTimesheetsForWorkerResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getTimesheetsForWorkerIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getTimesheetsForWorkerIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getTimesheetsForWorkerResponse> getTimesheetsForWorkerAsync(RSMServiceReference.getTimesheetsForWorkerRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getPlacementIdsByClientId", ReplyAction="urn:getPlacementIdsByClientIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getPlacementIdsByClientIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getPlacementIdsByClientIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getPlacementIdsByClientIdResponse> getPlacementIdsByClientIdAsync(RSMServiceReference.getPlacementIdsByClientIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:createOrUpdateExchangeRate", ReplyAction="urn:createOrUpdateExchangeRateResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createOrUpdateExchangeRateIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:createOrUpdateExchangeRateIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateExchangeRateResponse> createOrUpdateExchangeRateAsync(RSMServiceReference.createOrUpdateExchangeRateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:createOrUpdateTaxRate", ReplyAction="urn:createOrUpdateTaxRateResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createOrUpdateTaxRateIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:createOrUpdateTaxRateIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateTaxRateResponse> createOrUpdateTaxRateAsync(RSMServiceReference.createOrUpdateTaxRateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getProjectByRefCode", ReplyAction="urn:getProjectByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getProjectByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getProjectByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getProjectByRefCodeResponse> getProjectByRefCodeAsync(RSMServiceReference.getProjectByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getExpenseItemByRefCode", ReplyAction="urn:getExpenseItemByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getExpenseItemByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getExpenseItemByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getExpenseItemByRefCodeResponse> getExpenseItemByRefCodeAsync(RSMServiceReference.getExpenseItemByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:revertTimesheet", ReplyAction="urn:revertTimesheetResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:revertTimesheetIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:revertTimesheetIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.revertTimesheetResponse> revertTimesheetAsync(RSMServiceReference.revertTimesheetRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:reinstateWorkerByExternalId", ReplyAction="urn:reinstateWorkerByExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:reinstateWorkerByExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:reinstateWorkerByExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.reinstateWorkerByExternalIdResponse> reinstateWorkerByExternalIdAsync(RSMServiceReference.reinstateWorkerByExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getInvoiceAdjustmentByRefCode", ReplyAction="urn:getInvoiceAdjustmentByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getInvoiceAdjustmentByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getInvoiceAdjustmentByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getInvoiceAdjustmentByRefCodeResponse> getInvoiceAdjustmentByRefCodeAsync(RSMServiceReference.getInvoiceAdjustmentByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getExpenseIdsForPlacementWithStatusAndDates", ReplyAction="urn:getExpenseIdsForPlacementWithStatusAndDatesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getExpenseIdsForPlacementWithStatusAndDatesIntimeServiceV3_6IntimeWebServiceE" +
-            "xception", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getExpenseIdsForPlacementWithStatusAndDatesIntimeServiceV3_4IntimeWebServiceE" +
+            "xception", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getExpenseIdsForPlacementWithStatusAndDatesResponse> getExpenseIdsForPlacementWithStatusAndDatesAsync(RSMServiceReference.getExpenseIdsForPlacementWithStatusAndDatesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getPaymentBatchByRefCode", ReplyAction="urn:getPaymentBatchByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getPaymentBatchByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getPaymentBatchByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getPaymentBatchByRefCodeResponse> getPaymentBatchByRefCodeAsync(RSMServiceReference.getPaymentBatchByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getModifiedItemsByType", ReplyAction="urn:getModifiedItemsByTypeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getModifiedItemsByTypeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getModifiedItemsByTypeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsByTypeResponse> getModifiedItemsByTypeAsync(RSMServiceReference.getModifiedItemsByTypeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:createOrUpdateConsultant", ReplyAction="urn:createOrUpdateConsultantResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createOrUpdateConsultantIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:createOrUpdateConsultantIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateConsultantResponse> createOrUpdateConsultantAsync(RSMServiceReference.createOrUpdateConsultantRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:searchInvoiceRefCodes", ReplyAction="urn:searchInvoiceRefCodesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:searchInvoiceRefCodesIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:searchInvoiceRefCodesIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.searchInvoiceRefCodesResponse> searchInvoiceRefCodesAsync(RSMServiceReference.searchInvoiceRefCodesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:markInvoiceAsExported", ReplyAction="urn:markInvoiceAsExportedResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:markInvoiceAsExportedIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:markInvoiceAsExportedIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.markInvoiceAsExportedResponse> markInvoiceAsExportedAsync(RSMServiceReference.markInvoiceAsExportedRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getInvoicesForProvider", ReplyAction="urn:getInvoicesForProviderResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getInvoicesForProviderIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getInvoicesForProviderIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getInvoicesForProviderResponse> getInvoicesForProviderAsync(RSMServiceReference.getInvoicesForProviderRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:readFiles", ReplyAction="urn:readFilesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:readFilesIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:readFilesIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.readFilesResponse> readFilesAsync(RSMServiceReference.readFilesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getInvoiceByRefCode", ReplyAction="urn:getInvoiceByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getInvoiceByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getInvoiceByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getInvoiceByRefCodeResponse> getInvoiceByRefCodeAsync(RSMServiceReference.getInvoiceByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:makeLeaverByRefCode", ReplyAction="urn:makeLeaverByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:makeLeaverByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:makeLeaverByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.makeLeaverByRefCodeResponse> makeLeaverByRefCodeAsync(RSMServiceReference.makeLeaverByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getWorkersByExternalId", ReplyAction="urn:getWorkersByExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getWorkersByExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getWorkersByExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getWorkersByExternalIdResponse> getWorkersByExternalIdAsync(RSMServiceReference.getWorkersByExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:createOrUpdatePlacement", ReplyAction="urn:createOrUpdatePlacementResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createOrUpdatePlacementIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:createOrUpdatePlacementIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.createOrUpdatePlacementResponse> createOrUpdatePlacementAsync(RSMServiceReference.createOrUpdatePlacementRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getConsultantById", ReplyAction="urn:getConsultantByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getConsultantByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getConsultantByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getConsultantByIdResponse> getConsultantByIdAsync(RSMServiceReference.getConsultantByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getManagerById", ReplyAction="urn:getManagerByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getManagerByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getManagerByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getManagerByIdResponse> getManagerByIdAsync(RSMServiceReference.getManagerByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:createContractDocument", ReplyAction="urn:createContractDocumentResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createContractDocumentIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:createContractDocumentIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.createContractDocumentResponse> createContractDocumentAsync(RSMServiceReference.createContractDocumentRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:updateWorkerExternalId", ReplyAction="urn:updateWorkerExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:updateWorkerExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:updateWorkerExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.updateWorkerExternalIdResponse> updateWorkerExternalIdAsync(RSMServiceReference.updateWorkerExternalIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:markTimesheetAndExpenseAsExported", ReplyAction="urn:markTimesheetAndExpenseAsExportedResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:markTimesheetAndExpenseAsExportedIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:markTimesheetAndExpenseAsExportedIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.markTimesheetAndExpenseAsExportedResponse> markTimesheetAndExpenseAsExportedAsync(RSMServiceReference.markTimesheetAndExpenseAsExportedRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getExpenseItemsByPayrollRef", ReplyAction="urn:getExpenseItemsByPayrollRefResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getExpenseItemsByPayrollRefIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getExpenseItemsByPayrollRefIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getExpenseItemsByPayrollRefResponse> getExpenseItemsByPayrollRefAsync(RSMServiceReference.getExpenseItemsByPayrollRefRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:updateManagerExternalId", ReplyAction="urn:updateManagerExternalIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:updateManagerExternalIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:updateManagerExternalIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.updateManagerExternalIdResponse> updateManagerExternalIdAsync(RSMServiceReference.updateManagerExternalIdRequest request);
         
+        [System.ServiceModel.OperationContractAttribute(Action="urn:getRootCause", ReplyAction="urn:getRootCauseResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<RSMServiceReference.getRootCauseResponse> getRootCauseAsync(RSMServiceReference.getRootCauseRequest request);
+        
         [System.ServiceModel.OperationContractAttribute(Action="urn:getClientById", ReplyAction="urn:getClientByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getClientByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getClientByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getClientByIdResponse> getClientByIdAsync(RSMServiceReference.getClientByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getAllTaxRates", ReplyAction="urn:getAllTaxRatesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getAllTaxRatesIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getAllTaxRatesIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getAllTaxRatesResponse> getAllTaxRatesAsync(RSMServiceReference.getAllTaxRatesRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="urn:createOrUpdateTimesheets", ReplyAction="urn:createOrUpdateTimesheetsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createOrUpdateTimesheetsIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.OperationContractAttribute(Action="urn:getElapsedTime", ReplyAction="urn:getElapsedTimeResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateTimesheetsResponse> createOrUpdateTimesheetsAsync(RSMServiceReference.createOrUpdateTimesheetsRequest request);
+        System.Threading.Tasks.Task<RSMServiceReference.getElapsedTimeResponse> getElapsedTimeAsync(RSMServiceReference.getElapsedTimeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:searchTimesheetIds", ReplyAction="urn:searchTimesheetIdsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:searchTimesheetIdsIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:searchTimesheetIdsIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.searchTimesheetIdsResponse> searchTimesheetIdsAsync(RSMServiceReference.searchTimesheetIdsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getSingleSignOnToken", ReplyAction="urn:getSingleSignOnTokenResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getSingleSignOnTokenIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getSingleSignOnTokenIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getSingleSignOnTokenResponse> getSingleSignOnTokenAsync(RSMServiceReference.getSingleSignOnTokenRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:createOrUpdateProvider", ReplyAction="urn:createOrUpdateProviderResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createOrUpdateProviderIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:createOrUpdateProviderIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateProviderResponse> createOrUpdateProviderAsync(RSMServiceReference.createOrUpdateProviderRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:createOrUpdateExpenseClaim", ReplyAction="urn:createOrUpdateExpenseClaimResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createOrUpdateExpenseClaimIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:createOrUpdateExpenseClaimIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateExpenseClaimResponse> createOrUpdateExpenseClaimAsync(RSMServiceReference.createOrUpdateExpenseClaimRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getHolidayClaimById", ReplyAction="urn:getHolidayClaimByIdResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getHolidayClaimByIdIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getHolidayClaimByIdIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getHolidayClaimByIdResponse> getHolidayClaimByIdAsync(RSMServiceReference.getHolidayClaimByIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getTimesheetsByPayrollRef", ReplyAction="urn:getTimesheetsByPayrollRefResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getTimesheetsByPayrollRefIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getTimesheetsByPayrollRefIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getTimesheetsByPayrollRefResponse> getTimesheetsByPayrollRefAsync(RSMServiceReference.getTimesheetsByPayrollRefRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:createOrUpdateLtdCoUser", ReplyAction="urn:createOrUpdateLtdCoUserResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:createOrUpdateLtdCoUserIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:createOrUpdateLtdCoUserIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateLtdCoUserResponse> createOrUpdateLtdCoUserAsync(RSMServiceReference.createOrUpdateLtdCoUserRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getURLForContractorsPayslip", ReplyAction="urn:getURLForContractorsPayslipResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getURLForContractorsPayslipIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getURLForContractorsPayslipIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getURLForContractorsPayslipResponse> getURLForContractorsPayslipAsync(RSMServiceReference.getURLForContractorsPayslipRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:updateTimesheetStatus", ReplyAction="urn:updateTimesheetStatusResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:updateTimesheetStatusIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:updateTimesheetStatusIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.updateTimesheetStatusResponse> updateTimesheetStatusAsync(RSMServiceReference.updateTimesheetStatusRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getProviderByRefCode", ReplyAction="urn:getProviderByRefCodeResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getProviderByRefCodeIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getProviderByRefCodeIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getProviderByRefCodeResponse> getProviderByRefCodeAsync(RSMServiceReference.getProviderByRefCodeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:updateTimesheet", ReplyAction="urn:updateTimesheetResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:updateTimesheetIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:updateTimesheetIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.updateTimesheetResponse> updateTimesheetAsync(RSMServiceReference.updateTimesheetRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getAllInvoicingTerms", ReplyAction="urn:getAllInvoicingTermsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getAllInvoicingTermsIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getAllInvoicingTermsIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getAllInvoicingTermsResponse> getAllInvoicingTermsAsync(RSMServiceReference.getAllInvoicingTermsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:markInvoiceAsSent", ReplyAction="urn:markInvoiceAsSentResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:markInvoiceAsSentIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:markInvoiceAsSentIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.markInvoiceAsSentResponse> markInvoiceAsSentAsync(RSMServiceReference.markInvoiceAsSentRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getNumberOfPayslips", ReplyAction="urn:getNumberOfPayslipsResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getNumberOfPayslipsIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getNumberOfPayslipsIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getNumberOfPayslipsResponse> getNumberOfPayslipsAsync(RSMServiceReference.getNumberOfPayslipsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getAllExchangeRates", ReplyAction="urn:getAllExchangeRatesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:getAllExchangeRatesIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:getAllExchangeRatesIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.getAllExchangeRatesResponse> getAllExchangeRatesAsync(RSMServiceReference.getAllExchangeRatesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:submitTimesheet", ReplyAction="urn:submitTimesheetResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_6IntimeWebServiceException), Action="urn:submitTimesheetIntimeServiceV3_6IntimeWebServiceException", Name="IntimeServiceV3_6IntimeWebServiceException")]
+        [System.ServiceModel.FaultContractAttribute(typeof(RSMServiceReference.IntimeServiceV3_4IntimeWebServiceException), Action="urn:submitTimesheetIntimeServiceV3_4IntimeWebServiceException", Name="IntimeServiceV3_4IntimeWebServiceException", Namespace="http://in-time.co.uk/xsd")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<RSMServiceReference.submitTimesheetResponse> submitTimesheetAsync(RSMServiceReference.submitTimesheetRequest request);
     }
@@ -6131,15 +6134,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -6157,11 +6160,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Timesheet @return;
         
@@ -6178,7 +6181,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class ExpenseClaim
     {
         
@@ -6362,7 +6365,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class ExpenseItem
     {
         
@@ -7938,15 +7941,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseClaimByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseClaimByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseClaimByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -7964,11 +7967,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseClaimByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseClaimByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseClaimByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.ExpenseClaim @return;
         
@@ -7985,7 +7988,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class PurchaseOrder
     {
         
@@ -8537,7 +8540,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Client : Company
     {
         
@@ -9219,7 +9222,7 @@ namespace RSMServiceReference
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Client))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Company
     {
         
@@ -10027,7 +10030,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class InvoiceAdjustmentSettings
     {
         
@@ -10323,7 +10326,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Contact
     {
         
@@ -10475,7 +10478,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Address
     {
         
@@ -10595,7 +10598,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class OnCostInstance
     {
         
@@ -10795,7 +10798,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Provider : Company
     {
         
@@ -10931,7 +10934,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class BankAccount
     {
         
@@ -11083,19 +11086,19 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPurchaseOrderByReference", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPurchaseOrderByReference", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPurchaseOrderByReferenceRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string purchaseOrderReference;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string clientExternalID;
         
@@ -11114,11 +11117,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPurchaseOrderByReferenceResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPurchaseOrderByReferenceResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPurchaseOrderByReferenceResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.PurchaseOrder @return;
         
@@ -11135,7 +11138,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class TagCategory
     {
         
@@ -11223,7 +11226,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class TagCategoryValue
     {
         
@@ -11263,11 +11266,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllFinancialTags", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllFinancialTags", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllFinancialTagsRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
@@ -11284,11 +11287,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllFinancialTagsResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllFinancialTagsResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllFinancialTagsResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.TagCategory[] @return;
         
@@ -11305,21 +11308,21 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="rejectExpenseItem", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="rejectExpenseItem", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class rejectExpenseItemRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long userId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         public long expenseId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string reason;
         
@@ -11339,11 +11342,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="rejectExpenseItemResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="rejectExpenseItemResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class rejectExpenseItemResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public rejectExpenseItemResponse()
@@ -11359,35 +11362,35 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="reinstateWorkerByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="reinstateWorkerByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class reinstateWorkerByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string workerRefCode;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> startDate;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string taxCode;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=4)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=4)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string paymentFrequency;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=5)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=5)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string starterStatement;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=6)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=6)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string cisBusinessType;
         
@@ -11410,11 +11413,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="reinstateWorkerByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="reinstateWorkerByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class reinstateWorkerByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public reinstateWorkerByRefCodeResponse()
@@ -11430,11 +11433,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllPaymentFrequencies", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllPaymentFrequencies", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllPaymentFrequenciesRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
@@ -11451,11 +11454,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllPaymentFrequenciesResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllPaymentFrequenciesResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllPaymentFrequenciesResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public string[] @return;
         
@@ -11472,15 +11475,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdatePurchaseOrder", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdatePurchaseOrder", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdatePurchaseOrderRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.PurchaseOrder purchaseOrder;
         
@@ -11498,11 +11501,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdatePurchaseOrderResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdatePurchaseOrderResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdatePurchaseOrderResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public createOrUpdatePurchaseOrderResponse()
@@ -11518,7 +11521,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class HolidayClaim
     {
         
@@ -12011,7 +12014,7 @@ namespace RSMServiceReference
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Worker))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class User
     {
         
@@ -12515,7 +12518,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Administrator : User
     {
         
@@ -12555,7 +12558,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class LtdCoUser : User
     {
         
@@ -12643,7 +12646,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Consultant : User
     {
         
@@ -12699,7 +12702,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Manager : User
     {
         
@@ -12787,7 +12790,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Worker : User
     {
         
@@ -13915,15 +13918,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateHolidayClaim", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateHolidayClaim", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateHolidayClaimRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.HolidayClaim wsClaim;
         
@@ -13941,11 +13944,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateHolidayClaimResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateHolidayClaimResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateHolidayClaimResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.HolidayClaim @return;
         
@@ -13962,15 +13965,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getHolidayClaimByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getHolidayClaimByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getHolidayClaimByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -13988,11 +13991,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getHolidayClaimByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getHolidayClaimByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getHolidayClaimByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.HolidayClaim @return;
         
@@ -14009,22 +14012,22 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseIdsWithStatusAndDates", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseIdsWithStatusAndDates", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseIdsWithStatusAndDatesRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string status;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         public long rangeStartInstant;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=3)]
         public long rangeEndInstant;
         
         public getExpenseIdsWithStatusAndDatesRequest()
@@ -14043,11 +14046,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseIdsWithStatusAndDatesResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseIdsWithStatusAndDatesResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseIdsWithStatusAndDatesResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return")]
         public long[] @return;
         
@@ -14064,15 +14067,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getProvidersByExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getProvidersByExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getProvidersByExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string externalId;
         
@@ -14090,11 +14093,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getProvidersByExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getProvidersByExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getProvidersByExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Provider[] @return;
         
@@ -14111,15 +14114,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getClientsByExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getClientsByExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getClientsByExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string externalId;
         
@@ -14137,11 +14140,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getClientsByExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getClientsByExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getClientsByExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Client[] @return;
         
@@ -14158,15 +14161,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateManager", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateManager", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateManagerRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Manager manager;
         
@@ -14184,11 +14187,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateManagerResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateManagerResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateManagerResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public createOrUpdateManagerResponse()
@@ -14204,7 +14207,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Entity
     {
         
@@ -14308,19 +14311,19 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsInRangeWithRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsInRangeWithRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getModifiedItemsInRangeWithRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> since;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> until;
         
@@ -14339,11 +14342,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsInRangeWithRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsInRangeWithRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getModifiedItemsInRangeWithRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Entity[] @return;
         
@@ -14360,18 +14363,18 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="makeLeaverById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="makeLeaverById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class makeLeaverByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long workerId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> leavingDate;
         
@@ -14390,11 +14393,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="makeLeaverByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="makeLeaverByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class makeLeaverByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public makeLeaverByIdResponse()
@@ -14410,15 +14413,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getHolidayClaimsByRefCodes", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getHolidayClaimsByRefCodes", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getHolidayClaimsByRefCodesRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("holidayClaimRefCodes", IsNullable=true)]
         public string[] holidayClaimRefCodes;
         
@@ -14436,11 +14439,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getHolidayClaimsByRefCodesResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getHolidayClaimsByRefCodesResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getHolidayClaimsByRefCodesResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.HolidayClaim[] @return;
         
@@ -14457,15 +14460,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getClientByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getClientByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getClientByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -14483,11 +14486,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getClientByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getClientByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getClientByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Client @return;
         
@@ -14504,15 +14507,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetIdsWithStatus", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetIdsWithStatus", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetIdsWithStatusRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string status;
         
@@ -14530,11 +14533,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetIdsWithStatusResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetIdsWithStatusResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetIdsWithStatusResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return")]
         public long[] @return;
         
@@ -14551,21 +14554,21 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="approveTimesheet", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="approveTimesheet", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class approveTimesheetRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long userId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         public long timesheetId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string po;
         
@@ -14585,11 +14588,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="approveTimesheetResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="approveTimesheetResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class approveTimesheetResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public approveTimesheetResponse()
@@ -14605,7 +14608,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class PaymentBatch
     {
         
@@ -15157,7 +15160,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class BacsPaymentLine
     {
         
@@ -15613,15 +15616,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPaymentBatchById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPaymentBatchById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPaymentBatchByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long paymentBatchId;
         
         public getPaymentBatchByIdRequest()
@@ -15638,11 +15641,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPaymentBatchByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPaymentBatchByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPaymentBatchByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.PaymentBatch @return;
         
@@ -15659,15 +15662,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesForClient", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesForClient", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getInvoicesForClientRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long clientId;
         
         public getInvoicesForClientRequest()
@@ -15684,11 +15687,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesForClientResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesForClientResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getInvoicesForClientResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.InvoiceInfo[] @return;
         
@@ -15705,21 +15708,21 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="rejectTimesheet", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="rejectTimesheet", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class rejectTimesheetRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long userId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         public long timesheetId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string reason;
         
@@ -15739,11 +15742,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="rejectTimesheetResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="rejectTimesheetResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class rejectTimesheetResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public rejectTimesheetResponse()
@@ -15759,15 +15762,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getProviderById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getProviderById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getProviderByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getProviderByIdRequest()
@@ -15784,11 +15787,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getProviderByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getProviderByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getProviderByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Provider @return;
         
@@ -15805,7 +15808,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class HolidayClaimSearchCriteria
     {
         
@@ -16549,15 +16552,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="searchHolidayClaimRefCodes", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="searchHolidayClaimRefCodes", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class searchHolidayClaimRefCodesRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.HolidayClaimSearchCriteria searchCriteria;
         
@@ -16575,11 +16578,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="searchHolidayClaimRefCodesResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="searchHolidayClaimRefCodesResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class searchHolidayClaimRefCodesResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public string[] @return;
         
@@ -16596,18 +16599,18 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updatePlacementExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updatePlacementExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updatePlacementExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long internalId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string newExternalId;
         
@@ -16626,11 +16629,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updatePlacementExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updatePlacementExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updatePlacementExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public updatePlacementExternalIdResponse()
@@ -16646,15 +16649,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getTimesheetByIdRequest()
@@ -16671,11 +16674,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Timesheet @return;
         
@@ -16692,23 +16695,23 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsInRangeWithRefCodeByType", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsInRangeWithRefCodeByType", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getModifiedItemsInRangeWithRefCodeByTypeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> since;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> until;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string types;
         
@@ -16728,11 +16731,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsInRangeWithRefCodeByTypeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsInRangeWithRefCodeByTypeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getModifiedItemsInRangeWithRefCodeByTypeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Entity[] @return;
         
@@ -16749,15 +16752,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getLtdCoUserByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getLtdCoUserByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getLtdCoUserByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -16775,11 +16778,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getLtdCoUserByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getLtdCoUserByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getLtdCoUserByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.LtdCoUser @return;
         
@@ -16796,15 +16799,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkerById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkerById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getWorkerByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getWorkerByIdRequest()
@@ -16821,11 +16824,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkerByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkerByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getWorkerByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Worker @return;
         
@@ -16842,7 +16845,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class ExpenseTemplate
     {
         
@@ -16946,7 +16949,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class ExpenseType
     {
         
@@ -17434,11 +17437,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllExpenseTemplates", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllExpenseTemplates", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllExpenseTemplatesRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
@@ -17455,11 +17458,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllExpenseTemplatesResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllExpenseTemplatesResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllExpenseTemplatesResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.ExpenseTemplate[] @return;
         
@@ -17476,15 +17479,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItems", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItems", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getModifiedItemsRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> since;
         
@@ -17502,11 +17505,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getModifiedItemsResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Entity[] @return;
         
@@ -17523,15 +17526,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateFinancialTag", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateFinancialTag", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateFinancialTagRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.TagCategory tagCategory;
         
@@ -17549,11 +17552,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateFinancialTagResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateFinancialTagResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateFinancialTagResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public createOrUpdateFinancialTagResponse()
@@ -17569,7 +17572,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Placement
     {
         
@@ -17672,8 +17675,6 @@ namespace RSMServiceReference
         private System.Nullable<bool> faxbackEnabledField;
         
         private bool faxbackEnabledFieldSpecified;
-        
-        private FilterConfig[] filtersField;
         
         private System.Nullable<decimal> holidayAccrualRateField;
         
@@ -18524,21 +18525,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("filters", IsNullable=true, Order=37)]
-        public FilterConfig[] filters
-        {
-            get
-            {
-                return this.filtersField;
-            }
-            set
-            {
-                this.filtersField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=38)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=37)]
         public System.Nullable<decimal> holidayAccrualRate
         {
             get
@@ -18566,7 +18553,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=39)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=38)]
         public System.Nullable<decimal> holidayAccrualRatePostAWR
         {
             get
@@ -18594,7 +18581,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=40)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=39)]
         public string holidayCalendar
         {
             get
@@ -18608,7 +18595,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=41)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=40)]
         public System.Nullable<long> id
         {
             get
@@ -18636,7 +18623,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=42)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=41)]
         public string internalAgencyComments
         {
             get
@@ -18650,7 +18637,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=43)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=42)]
         public Contact invoiceContactOverride
         {
             get
@@ -18664,7 +18651,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=44)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=43)]
         public System.Nullable<bool> invoiceRequiresPO
         {
             get
@@ -18692,7 +18679,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=45)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=44)]
         public string jobDescription
         {
             get
@@ -18706,7 +18693,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=46)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=45)]
         public string jobTitle
         {
             get
@@ -18720,7 +18707,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=47)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=46)]
         public string layout
         {
             get
@@ -18734,7 +18721,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=48)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=47)]
         public Manager manager
         {
             get
@@ -18748,7 +18735,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=49)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=48)]
         public Manager milestoneManager
         {
             get
@@ -18762,7 +18749,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=50)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=49)]
         public System.Nullable<System.DateTime> modified
         {
             get
@@ -18790,7 +18777,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=51)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=50)]
         public string noCommunications
         {
             get
@@ -18804,7 +18791,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=52)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=51)]
         public string nonChargeableExpenseApprovalRoute
         {
             get
@@ -18818,7 +18805,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=53)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=52)]
         public string noticePeriod
         {
             get
@@ -18832,7 +18819,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=54)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=53)]
         public string overtimeRules
         {
             get
@@ -18846,7 +18833,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=55)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=54)]
         public System.Nullable<bool> payOnHold
         {
             get
@@ -18874,7 +18861,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=56)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=55)]
         public string payOnHoldReason
         {
             get
@@ -18888,7 +18875,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=57)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=56)]
         public string payOnHoldReasonCode
         {
             get
@@ -18902,7 +18889,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=58)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=57)]
         public System.Nullable<int> payTermsDaysOverride
         {
             get
@@ -18930,7 +18917,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=59)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=58)]
         public string payTermsExtraTextOverride
         {
             get
@@ -18944,7 +18931,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=60)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=59)]
         public string payTermsOverride
         {
             get
@@ -18958,7 +18945,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=61)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=60)]
         public string payTermsTypeOverride
         {
             get
@@ -18972,7 +18959,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=62)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=61)]
         public System.Nullable<bool> perm
         {
             get
@@ -19000,7 +18987,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=63)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=62)]
         public System.Nullable<System.DateTime> placed
         {
             get
@@ -19028,7 +19015,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=64)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=63)]
         public string previousExternalId
         {
             get
@@ -19042,7 +19029,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=65)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=64)]
         public System.Nullable<long> previousId
         {
             get
@@ -19070,7 +19057,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=66)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=65)]
         public string previousRefCode
         {
             get
@@ -19084,7 +19071,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=67)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=66)]
         public Provider provider
         {
             get
@@ -19098,7 +19085,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=68)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=67)]
         public string purchaseBranch
         {
             get
@@ -19112,7 +19099,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=69)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=68)]
         public string purchaseCostCentre
         {
             get
@@ -19126,7 +19113,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=70)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=69)]
         public string purchaseDepartment
         {
             get
@@ -19140,7 +19127,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=71)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=70)]
         public string purchaseDivision
         {
             get
@@ -19154,7 +19141,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=72)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=71)]
         public string purchaseLocation
         {
             get
@@ -19168,7 +19155,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=73)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=72)]
         public string purchaseNoticePeriod
         {
             get
@@ -19182,7 +19169,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("purchaseOnCosts", IsNullable=true, Order=74)]
+        [System.Xml.Serialization.XmlElementAttribute("purchaseOnCosts", IsNullable=true, Order=73)]
         public OnCostInstance[] purchaseOnCosts
         {
             get
@@ -19196,7 +19183,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=75)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=74)]
         public string purchaseOrderNum
         {
             get
@@ -19210,7 +19197,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("purchaseOrders", IsNullable=true, Order=76)]
+        [System.Xml.Serialization.XmlElementAttribute("purchaseOrders", IsNullable=true, Order=75)]
         public PurchaseOrder[] purchaseOrders
         {
             get
@@ -19224,7 +19211,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=77)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=76)]
         public string purchaseProject
         {
             get
@@ -19238,7 +19225,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=78)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=77)]
         public string purchaseSector
         {
             get
@@ -19252,7 +19239,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("rates", IsNullable=true, Order=79)]
+        [System.Xml.Serialization.XmlElementAttribute("rates", IsNullable=true, Order=78)]
         public Rate[] rates
         {
             get
@@ -19266,7 +19253,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=80)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=79)]
         public string refCode
         {
             get
@@ -19280,7 +19267,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=81)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=80)]
         public System.Nullable<int> roundToNearestMin
         {
             get
@@ -19308,7 +19295,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=82)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=81)]
         public string salesBranch
         {
             get
@@ -19322,7 +19309,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=83)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=82)]
         public string salesCostCentre
         {
             get
@@ -19336,7 +19323,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=84)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=83)]
         public string salesDepartment
         {
             get
@@ -19350,7 +19337,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=85)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=84)]
         public string salesDivision
         {
             get
@@ -19364,7 +19351,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=86)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=85)]
         public string salesLocation
         {
             get
@@ -19378,7 +19365,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("salesOnCosts", IsNullable=true, Order=87)]
+        [System.Xml.Serialization.XmlElementAttribute("salesOnCosts", IsNullable=true, Order=86)]
         public OnCostInstance[] salesOnCosts
         {
             get
@@ -19392,7 +19379,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=88)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=87)]
         public string salesProject
         {
             get
@@ -19406,7 +19393,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=89)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=88)]
         public string salesSector
         {
             get
@@ -19420,7 +19407,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=90)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=89)]
         public string selfBillTaxCodeOverride
         {
             get
@@ -19434,7 +19421,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=91)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=90)]
         public Address siteAddress
         {
             get
@@ -19448,7 +19435,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("splitCommissions", IsNullable=true, Order=92)]
+        [System.Xml.Serialization.XmlElementAttribute("splitCommissions", IsNullable=true, Order=91)]
         public SplitCommission[] splitCommissions
         {
             get
@@ -19462,7 +19449,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=93)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=92)]
         public System.Nullable<System.DateTime> start
         {
             get
@@ -19490,7 +19477,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=94)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=93)]
         public string timeZone
         {
             get
@@ -19504,7 +19491,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=95)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=94)]
         public string timesheetApprovalRoute
         {
             get
@@ -19518,7 +19505,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=96)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=95)]
         public string timesheetDateCalculatorName
         {
             get
@@ -19532,7 +19519,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=97)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=96)]
         public System.Nullable<bool> timesheetEmailApproval
         {
             get
@@ -19560,7 +19547,7 @@ namespace RSMServiceReference
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=98)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=97)]
         public Worker worker
         {
             get
@@ -19574,114 +19561,18 @@ namespace RSMServiceReference
         }
     }
     
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
-    public partial class FilterConfig
-    {
-        
-        private string applicableExpressionField;
-        
-        private FilterProperty[] filterPropertiesField;
-        
-        private string nameField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
-        public string applicableExpression
-        {
-            get
-            {
-                return this.applicableExpressionField;
-            }
-            set
-            {
-                this.applicableExpressionField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("filterProperties", IsNullable=true, Order=1)]
-        public FilterProperty[] filterProperties
-        {
-            get
-            {
-                return this.filterPropertiesField;
-            }
-            set
-            {
-                this.filterPropertiesField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
-        public string name
-        {
-            get
-            {
-                return this.nameField;
-            }
-            set
-            {
-                this.nameField = value;
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
-    public partial class FilterProperty
-    {
-        
-        private string nameField;
-        
-        private string valueField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
-        public string name
-        {
-            get
-            {
-                return this.nameField;
-            }
-            set
-            {
-                this.nameField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
-        public string value
-        {
-            get
-            {
-                return this.valueField;
-            }
-            set
-            {
-                this.valueField = value;
-            }
-        }
-    }
-    
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getPlacementByIdRequest()
@@ -19698,11 +19589,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Placement @return;
         
@@ -19719,15 +19610,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateClient", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateClient", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateClientRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Client client;
         
@@ -19745,11 +19636,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateClientResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateClientResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateClientResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public createOrUpdateClientResponse()
@@ -19765,15 +19656,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getUserById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getUserById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getUserByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getUserByIdRequest()
@@ -19790,11 +19681,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getUserByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getUserByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getUserByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.User @return;
         
@@ -19811,19 +19702,19 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="authenticate", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="authenticate", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class authenticateRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string agencyRefCode;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string username;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string password;
         
@@ -19842,11 +19733,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="authenticateResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="authenticateResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class authenticateResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string @return;
         
@@ -19863,15 +19754,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsWithRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsWithRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getModifiedItemsWithRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> since;
         
@@ -19889,11 +19780,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsWithRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsWithRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getModifiedItemsWithRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Entity[] @return;
         
@@ -19910,15 +19801,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getManagerByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getManagerByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getManagerByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -19936,11 +19827,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getManagerByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getManagerByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getManagerByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Manager @return;
         
@@ -19957,22 +19848,22 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getMissingTimesheetsForPlacement", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getMissingTimesheetsForPlacement", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getMissingTimesheetsForPlacementRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long placementId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(DataType="date", IsNullable=true)]
         public System.Nullable<System.DateTime> start;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(DataType="date", IsNullable=true)]
         public System.Nullable<System.DateTime> end;
         
@@ -19992,11 +19883,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getMissingTimesheetsForPlacementResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getMissingTimesheetsForPlacementResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getMissingTimesheetsForPlacementResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Timesheet[] @return;
         
@@ -20013,11 +19904,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllApprovalRoutes", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllApprovalRoutes", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllApprovalRoutesRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
@@ -20034,11 +19925,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllApprovalRoutesResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllApprovalRoutesResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllApprovalRoutesResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public string[] @return;
         
@@ -20055,15 +19946,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkerByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkerByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getWorkerByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -20081,11 +19972,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkerByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkerByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getWorkerByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Worker @return;
         
@@ -20102,15 +19993,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemsForWorker", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemsForWorker", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseItemsForWorkerRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string workerRefCode;
         
@@ -20128,11 +20019,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemsForWorkerResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemsForWorkerResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseItemsForWorkerResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.ExpenseItem[] @return;
         
@@ -20149,18 +20040,18 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateLtdCoUserExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateLtdCoUserExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateLtdCoUserExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long internalId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string newExternalId;
         
@@ -20179,11 +20070,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateLtdCoUserExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateLtdCoUserExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateLtdCoUserExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public updateLtdCoUserExternalIdResponse()
@@ -20199,15 +20090,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAdministratorsByExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAdministratorsByExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAdministratorsByExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string id;
         
@@ -20225,11 +20116,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAdministratorsByExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAdministratorsByExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAdministratorsByExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Administrator[] @return;
         
@@ -20246,34 +20137,34 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="reinstateWorkerById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="reinstateWorkerById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class reinstateWorkerByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long workerId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> startDate;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string taxCode;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=4)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=4)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string paymentFrequency;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=5)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=5)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string starterStatement;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=6)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=6)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string cisBusinessType;
         
@@ -20296,11 +20187,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="reinstateWorkerByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="reinstateWorkerByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class reinstateWorkerByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public reinstateWorkerByIdResponse()
@@ -20316,15 +20207,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseItemByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getExpenseItemByIdRequest()
@@ -20341,11 +20232,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseItemByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.ExpenseItem @return;
         
@@ -20362,15 +20253,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateExpenseStatus", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateExpenseStatus", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateExpenseStatusRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.ExpenseItem expenseItem;
         
@@ -20388,11 +20279,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateExpenseStatusResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateExpenseStatusResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateExpenseStatusResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public updateExpenseStatusResponse()
@@ -20408,15 +20299,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetsByIds", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetsByIds", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetsByIdsRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("timesheetIds")]
         public long[] timesheetIds;
         
@@ -20434,11 +20325,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetsByIdsResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetsByIdsResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetsByIdsResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Timesheet[] @return;
         
@@ -20455,19 +20346,19 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementsByWorkerExternalIdAndDate", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementsByWorkerExternalIdAndDate", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementsByWorkerExternalIdAndDateRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string workerExternalId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> activeDate;
         
@@ -20486,11 +20377,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementsByWorkerExternalIdAndDateResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementsByWorkerExternalIdAndDateResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementsByWorkerExternalIdAndDateResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Placement[] @return;
         
@@ -20507,7 +20398,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class InvoiceAdjustment
     {
         
@@ -21475,15 +21366,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoiceAdjustmentById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoiceAdjustmentById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getInvoiceAdjustmentByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getInvoiceAdjustmentByIdRequest()
@@ -21500,11 +21391,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoiceAdjustmentByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoiceAdjustmentByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getInvoiceAdjustmentByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.InvoiceAdjustment @return;
         
@@ -21521,15 +21412,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementByExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementByExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementByExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string id;
         
@@ -21547,11 +21438,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementByExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementByExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementByExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Placement @return;
         
@@ -21568,18 +21459,18 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateConsultantExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateConsultantExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateConsultantExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long internalId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string newExternalId;
         
@@ -21598,11 +21489,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateConsultantExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateConsultantExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateConsultantExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public updateConsultantExternalIdResponse()
@@ -21618,15 +21509,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateTimesheetFile", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateTimesheetFile", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateTimesheetFileRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Timesheet timesheet;
         
@@ -21644,11 +21535,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateTimesheetFileResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateTimesheetFileResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateTimesheetFileResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public updateTimesheetFileResponse()
@@ -21664,15 +21555,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseClaimById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseClaimById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseClaimByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getExpenseClaimByIdRequest()
@@ -21689,11 +21580,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseClaimByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseClaimByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseClaimByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.ExpenseClaim @return;
         
@@ -21710,15 +21601,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByConsultantId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByConsultantId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementIdsByConsultantIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long consultantId;
         
         public getPlacementIdsByConsultantIdRequest()
@@ -21735,11 +21626,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByConsultantIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByConsultantIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementIdsByConsultantIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return")]
         public long[] @return;
         
@@ -21756,15 +21647,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getLtdCoUserById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getLtdCoUserById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getLtdCoUserByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getLtdCoUserByIdRequest()
@@ -21781,11 +21672,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getLtdCoUserByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getLtdCoUserByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getLtdCoUserByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.LtdCoUser @return;
         
@@ -21802,15 +21693,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkerByPayrollNumber", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkerByPayrollNumber", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getWorkerByPayrollNumberRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string payrollNumber;
         
@@ -21828,11 +21719,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkerByPayrollNumberResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkerByPayrollNumberResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getWorkerByPayrollNumberResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Worker @return;
         
@@ -21849,21 +21740,21 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="revertExpenseItem", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="revertExpenseItem", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class revertExpenseItemRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long userId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         public long expenseId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string reason;
         
@@ -21883,11 +21774,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="revertExpenseItemResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="revertExpenseItemResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class revertExpenseItemResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.ExpenseItem @return;
         
@@ -21904,7 +21795,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class ContractDocument
     {
         
@@ -23064,7 +22955,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class ContractDocumentField
     {
         
@@ -23104,15 +22995,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getContractDocumentByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getContractDocumentByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getContractDocumentByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string contractDocumentRefCode;
         
@@ -23130,11 +23021,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getContractDocumentByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getContractDocumentByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getContractDocumentByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.ContractDocument @return;
         
@@ -23151,15 +23042,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByWorkerId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByWorkerId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementIdsByWorkerIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long workerId;
         
         public getPlacementIdsByWorkerIdRequest()
@@ -23176,11 +23067,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByWorkerIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByWorkerIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementIdsByWorkerIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return")]
         public long[] @return;
         
@@ -23197,15 +23088,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateWorker", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateWorker", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateWorkerRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Worker worker;
         
@@ -23223,11 +23114,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateWorkerResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateWorkerResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateWorkerResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public createOrUpdateWorkerResponse()
@@ -23243,15 +23134,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getUserByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getUserByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getUserByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -23269,11 +23160,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getUserByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getUserByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getUserByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.User @return;
         
@@ -23290,22 +23181,22 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetIdsWithStatusAndDates", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetIdsWithStatusAndDates", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetIdsWithStatusAndDatesRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string status;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         public long rangeStartInstant;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=3)]
         public long rangeEndInstant;
         
         public getTimesheetIdsWithStatusAndDatesRequest()
@@ -23324,11 +23215,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetIdsWithStatusAndDatesResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetIdsWithStatusAndDatesResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetIdsWithStatusAndDatesResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return")]
         public long[] @return;
         
@@ -23345,15 +23236,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getManagersByExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getManagersByExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getManagersByExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string id;
         
@@ -23371,11 +23262,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getManagersByExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getManagersByExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getManagersByExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Manager[] @return;
         
@@ -23392,15 +23283,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByManagerId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByManagerId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementIdsByManagerIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long managerId;
         
         public getPlacementIdsByManagerIdRequest()
@@ -23417,11 +23308,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByManagerIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByManagerIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementIdsByManagerIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return")]
         public long[] @return;
         
@@ -23438,25 +23329,25 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetIdsWithStatusAndDatesForWorker", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetIdsWithStatusAndDatesForWorker", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetIdsWithStatusAndDatesForWorkerRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string status;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         public long rangeStartInstant;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=3)]
         public long rangeEndInstant;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=4)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=4)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string workerRefCode;
         
@@ -23477,11 +23368,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetIdsWithStatusAndDatesForWorkerResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetIdsWithStatusAndDatesForWorkerResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetIdsWithStatusAndDatesForWorkerResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return")]
         public long[] @return;
         
@@ -23498,15 +23389,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesByRefCodes", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesByRefCodes", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getInvoicesByRefCodesRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("invoiceRefCodes", IsNullable=true)]
         public string[] invoiceRefCodes;
         
@@ -23524,11 +23415,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesByRefCodesResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesByRefCodesResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getInvoicesByRefCodesResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.InvoiceInfo[] @return;
         
@@ -23545,15 +23436,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAdministratorByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAdministratorByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAdministratorByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -23571,11 +23462,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAdministratorByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAdministratorByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAdministratorByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Administrator @return;
         
@@ -23592,15 +23483,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPurchaseOrderById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPurchaseOrderById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPurchaseOrderByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long purchaseOrderId;
         
         public getPurchaseOrderByIdRequest()
@@ -23617,11 +23508,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPurchaseOrderByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPurchaseOrderByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPurchaseOrderByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.PurchaseOrder @return;
         
@@ -23638,7 +23529,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class FileAttachment
     {
         
@@ -23710,15 +23601,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="readFile", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="readFile", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class readFileRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -23736,11 +23627,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="readFileResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="readFileResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class readFileResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.FileAttachment @return;
         
@@ -23757,15 +23648,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getConsultantsByExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getConsultantsByExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getConsultantsByExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string id;
         
@@ -23783,11 +23674,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getConsultantsByExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getConsultantsByExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getConsultantsByExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Consultant[] @return;
         
@@ -23804,19 +23695,19 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="makeLeaverByExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="makeLeaverByExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class makeLeaverByExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string externalId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> leavingDate;
         
@@ -23835,11 +23726,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="makeLeaverByExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="makeLeaverByExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class makeLeaverByExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public makeLeaverByExternalIdResponse()
@@ -23855,19 +23746,19 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsWithRefCodeByType", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsWithRefCodeByType", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getModifiedItemsWithRefCodeByTypeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> since;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string types;
         
@@ -23886,11 +23777,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsWithRefCodeByTypeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsWithRefCodeByTypeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getModifiedItemsWithRefCodeByTypeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Entity[] @return;
         
@@ -23907,15 +23798,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesForWorker", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesForWorker", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getInvoicesForWorkerRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long workerId;
         
         public getInvoicesForWorkerRequest()
@@ -23932,11 +23823,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesForWorkerResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesForWorkerResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getInvoicesForWorkerResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.InvoiceInfo[] @return;
         
@@ -23953,15 +23844,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAdministratorById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAdministratorById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAdministratorByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getAdministratorByIdRequest()
@@ -23978,11 +23869,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAdministratorByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAdministratorByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAdministratorByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Administrator @return;
         
@@ -23999,18 +23890,18 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="approveExpenseItem", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="approveExpenseItem", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class approveExpenseItemRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long userId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         public long expenseId;
         
         public approveExpenseItemRequest()
@@ -24028,11 +23919,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="approveExpenseItemResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="approveExpenseItemResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class approveExpenseItemResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public approveExpenseItemResponse()
@@ -24048,19 +23939,19 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="markInvoiceAsPaid", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="markInvoiceAsPaid", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class markInvoiceAsPaidRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string invoiceRefCode;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string datetime;
         
@@ -24079,11 +23970,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="markInvoiceAsPaidResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="markInvoiceAsPaidResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class markInvoiceAsPaidResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public markInvoiceAsPaidResponse()
@@ -24099,15 +23990,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getConsultantByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getConsultantByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getConsultantByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -24125,11 +24016,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getConsultantByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getConsultantByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getConsultantByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Consultant @return;
         
@@ -24146,7 +24037,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class PayElement
     {
         
@@ -24506,11 +24397,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllPayElements", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllPayElements", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllPayElementsRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
@@ -24527,11 +24418,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllPayElementsResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllPayElementsResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllPayElementsResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.PayElement[] @return;
         
@@ -24548,15 +24439,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getLtdCoUsersByExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getLtdCoUsersByExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getLtdCoUsersByExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string id;
         
@@ -24574,11 +24465,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getLtdCoUsersByExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getLtdCoUsersByExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getLtdCoUsersByExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.LtdCoUser[] @return;
         
@@ -24595,18 +24486,18 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateClientExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateClientExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateClientExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long internalId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string newExternalId;
         
@@ -24625,11 +24516,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateClientExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateClientExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateClientExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public updateClientExternalIdResponse()
@@ -24645,15 +24536,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -24671,11 +24562,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Placement @return;
         
@@ -24692,15 +24583,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="submitExpenseClaim", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="submitExpenseClaim", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class submitExpenseClaimRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long expenseClaimId;
         
         public submitExpenseClaimRequest()
@@ -24717,11 +24608,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="submitExpenseClaimResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="submitExpenseClaimResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class submitExpenseClaimResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public submitExpenseClaimResponse()
@@ -24737,15 +24628,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getUsersByExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getUsersByExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getUsersByExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string id;
         
@@ -24763,11 +24654,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getUsersByExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getUsersByExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getUsersByExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.User[] @return;
         
@@ -24784,18 +24675,18 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateProviderExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateProviderExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateProviderExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long internalId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string newExternalId;
         
@@ -24814,11 +24705,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateProviderExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateProviderExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateProviderExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public updateProviderExternalIdResponse()
@@ -24834,7 +24725,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class Project
     {
         
@@ -24970,15 +24861,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getProjectById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getProjectById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getProjectByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getProjectByIdRequest()
@@ -24995,11 +24886,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getProjectByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getProjectByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getProjectByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Project @return;
         
@@ -25016,15 +24907,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPurchaseOrderByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPurchaseOrderByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPurchaseOrderByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string purchaseOrderRefCode;
         
@@ -25042,11 +24933,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPurchaseOrderByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPurchaseOrderByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPurchaseOrderByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.PurchaseOrder @return;
         
@@ -25063,15 +24954,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetsForWorker", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetsForWorker", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetsForWorkerRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string workerRefCode;
         
@@ -25089,11 +24980,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetsForWorkerResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetsForWorkerResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetsForWorkerResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Timesheet[] @return;
         
@@ -25110,15 +25001,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByClientId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByClientId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementIdsByClientIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long clientId;
         
         public getPlacementIdsByClientIdRequest()
@@ -25135,11 +25026,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByClientIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPlacementIdsByClientIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPlacementIdsByClientIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return")]
         public long[] @return;
         
@@ -25156,7 +25047,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class ExchangeRate
     {
         
@@ -25324,15 +25215,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateExchangeRate", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateExchangeRate", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateExchangeRateRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.ExchangeRate exchangeRate;
         
@@ -25350,11 +25241,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateExchangeRateResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateExchangeRateResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateExchangeRateResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public createOrUpdateExchangeRateResponse()
@@ -25370,7 +25261,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class VATCode
     {
         
@@ -25506,7 +25397,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class VATRate
     {
         
@@ -25626,15 +25517,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateTaxRate", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateTaxRate", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateTaxRateRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.VATCode vatCode;
         
@@ -25652,11 +25543,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateTaxRateResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateTaxRateResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateTaxRateResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public createOrUpdateTaxRateResponse()
@@ -25672,15 +25563,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getProjectByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getProjectByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getProjectByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -25698,11 +25589,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getProjectByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getProjectByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getProjectByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Project @return;
         
@@ -25719,15 +25610,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseItemByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -25745,11 +25636,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseItemByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.ExpenseItem @return;
         
@@ -25766,21 +25657,21 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="revertTimesheet", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="revertTimesheet", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class revertTimesheetRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long userId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         public long timesheetId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string reason;
         
@@ -25800,11 +25691,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="revertTimesheetResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="revertTimesheetResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class revertTimesheetResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Timesheet @return;
         
@@ -25821,35 +25712,35 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="reinstateWorkerByExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="reinstateWorkerByExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class reinstateWorkerByExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string externalId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> startDate;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=3)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string taxCode;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=4)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=4)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string paymentFrequency;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=5)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=5)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string starterStatement;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=6)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=6)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string cisBusinessType;
         
@@ -25872,11 +25763,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="reinstateWorkerByExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="reinstateWorkerByExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class reinstateWorkerByExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public reinstateWorkerByExternalIdResponse()
@@ -25892,15 +25783,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoiceAdjustmentByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoiceAdjustmentByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getInvoiceAdjustmentByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -25918,11 +25809,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoiceAdjustmentByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoiceAdjustmentByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getInvoiceAdjustmentByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.InvoiceAdjustment @return;
         
@@ -25939,26 +25830,26 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseIdsForPlacementWithStatusAndDates", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseIdsForPlacementWithStatusAndDates", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseIdsForPlacementWithStatusAndDatesRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string placementExternalId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string status;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=3)]
         public long rangeStartInstant;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=4)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=4)]
         public long rangeEndInstant;
         
         public getExpenseIdsForPlacementWithStatusAndDatesRequest()
@@ -25978,11 +25869,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseIdsForPlacementWithStatusAndDatesResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseIdsForPlacementWithStatusAndDatesResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseIdsForPlacementWithStatusAndDatesResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return")]
         public long[] @return;
         
@@ -25999,15 +25890,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPaymentBatchByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPaymentBatchByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPaymentBatchByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string paymentBatchRefCode;
         
@@ -26025,11 +25916,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getPaymentBatchByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getPaymentBatchByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getPaymentBatchByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.PaymentBatch @return;
         
@@ -26046,19 +25937,19 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsByType", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsByType", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getModifiedItemsByTypeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> since;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string types;
         
@@ -26077,11 +25968,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsByTypeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getModifiedItemsByTypeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getModifiedItemsByTypeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Entity[] @return;
         
@@ -26098,15 +25989,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateConsultant", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateConsultant", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateConsultantRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Consultant consultant;
         
@@ -26124,11 +26015,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateConsultantResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateConsultantResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateConsultantResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public createOrUpdateConsultantResponse()
@@ -26144,7 +26035,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class SearchCriteria
     {
         
@@ -27400,15 +27291,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="searchInvoiceRefCodes", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="searchInvoiceRefCodes", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class searchInvoiceRefCodesRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.SearchCriteria searchCriteria;
         
@@ -27426,11 +27317,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="searchInvoiceRefCodesResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="searchInvoiceRefCodesResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class searchInvoiceRefCodesResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public string[] @return;
         
@@ -27447,19 +27338,19 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="markInvoiceAsExported", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="markInvoiceAsExported", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class markInvoiceAsExportedRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string invoiceRefCode;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string datetime;
         
@@ -27478,11 +27369,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="markInvoiceAsExportedResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="markInvoiceAsExportedResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class markInvoiceAsExportedResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public markInvoiceAsExportedResponse()
@@ -27498,15 +27389,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesForProvider", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesForProvider", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getInvoicesForProviderRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long providerId;
         
         public getInvoicesForProviderRequest()
@@ -27523,11 +27414,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesForProviderResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoicesForProviderResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getInvoicesForProviderResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.InvoiceInfo[] @return;
         
@@ -27544,15 +27435,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="readFiles", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="readFiles", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class readFilesRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -27570,11 +27461,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="readFilesResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="readFilesResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class readFilesResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.FileAttachment[] @return;
         
@@ -27591,15 +27482,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoiceByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoiceByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getInvoiceByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string invoiceRefCode;
         
@@ -27617,11 +27508,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoiceByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getInvoiceByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getInvoiceByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.InvoiceInfo @return;
         
@@ -27638,19 +27529,19 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="makeLeaverByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="makeLeaverByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class makeLeaverByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string workerRefCode;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public System.Nullable<System.DateTime> leavingDate;
         
@@ -27669,11 +27560,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="makeLeaverByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="makeLeaverByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class makeLeaverByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public makeLeaverByRefCodeResponse()
@@ -27689,15 +27580,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkersByExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkersByExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getWorkersByExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string externalId;
         
@@ -27715,11 +27606,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkersByExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getWorkersByExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getWorkersByExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Worker[] @return;
         
@@ -27736,19 +27627,19 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdatePlacement", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdatePlacement", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdatePlacementRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Placement placement;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         public bool updateParticipants;
         
         public createOrUpdatePlacementRequest()
@@ -27766,11 +27657,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdatePlacementResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdatePlacementResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdatePlacementResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public createOrUpdatePlacementResponse()
@@ -27786,15 +27677,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getConsultantById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getConsultantById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getConsultantByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getConsultantByIdRequest()
@@ -27811,11 +27702,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getConsultantByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getConsultantByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getConsultantByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Consultant @return;
         
@@ -27832,15 +27723,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getManagerById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getManagerById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getManagerByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getManagerByIdRequest()
@@ -27857,11 +27748,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getManagerByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getManagerByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getManagerByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Manager @return;
         
@@ -27878,15 +27769,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createContractDocument", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createContractDocument", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createContractDocumentRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.ContractDocument contractDocument;
         
@@ -27904,11 +27795,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createContractDocumentResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createContractDocumentResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createContractDocumentResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string @return;
         
@@ -27925,18 +27816,18 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateWorkerExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateWorkerExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateWorkerExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long internalId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string newExternalId;
         
@@ -27955,11 +27846,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateWorkerExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateWorkerExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateWorkerExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public updateWorkerExternalIdResponse()
@@ -27975,15 +27866,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="markTimesheetAndExpenseAsExported", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="markTimesheetAndExpenseAsExported", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class markTimesheetAndExpenseAsExportedRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string sheetRefCode;
         
@@ -28001,11 +27892,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="markTimesheetAndExpenseAsExportedResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="markTimesheetAndExpenseAsExportedResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class markTimesheetAndExpenseAsExportedResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public markTimesheetAndExpenseAsExportedResponse()
@@ -28021,15 +27912,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemsByPayrollRef", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemsByPayrollRef", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseItemsByPayrollRefRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string payrollRef;
         
@@ -28047,11 +27938,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemsByPayrollRefResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getExpenseItemsByPayrollRefResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getExpenseItemsByPayrollRefResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.ExpenseItem[] @return;
         
@@ -28068,18 +27959,18 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateManagerExternalId", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateManagerExternalId", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateManagerExternalIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long internalId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string newExternalId;
         
@@ -28098,11 +27989,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateManagerExternalIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateManagerExternalIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateManagerExternalIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public updateManagerExternalIdResponse()
@@ -28118,15 +28009,57 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getClientById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getRootCause", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
+    public partial class getRootCauseRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public object rootCause;
+        
+        public getRootCauseRequest()
+        {
+        }
+        
+        public getRootCauseRequest(object rootCause)
+        {
+            this.rootCause = rootCause;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getRootCauseResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
+    public partial class getRootCauseResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public object @return;
+        
+        public getRootCauseResponse()
+        {
+        }
+        
+        public getRootCauseResponse(object @return)
+        {
+            this.@return = @return;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getClientById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getClientByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getClientByIdRequest()
@@ -28143,11 +28076,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getClientByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getClientByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getClientByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Client @return;
         
@@ -28164,11 +28097,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllTaxRates", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllTaxRates", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllTaxRatesRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
@@ -28185,11 +28118,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllTaxRatesResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllTaxRatesResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllTaxRatesResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.VATCode[] @return;
         
@@ -28206,58 +28139,39 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateTimesheets", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
-    public partial class createOrUpdateTimesheetsRequest
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getElapsedTime", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
+    public partial class getElapsedTimeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string token;
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
+        public long startTime;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute("timesheets", IsNullable=true)]
-        public RSMServiceReference.Timesheet[] timesheets;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
-        public bool submit;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=3)]
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string idField;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=4)]
-        public bool updateIfExists;
-        
-        public createOrUpdateTimesheetsRequest()
+        public getElapsedTimeRequest()
         {
         }
         
-        public createOrUpdateTimesheetsRequest(string token, RSMServiceReference.Timesheet[] timesheets, bool submit, string idField, bool updateIfExists)
+        public getElapsedTimeRequest(long startTime)
         {
-            this.token = token;
-            this.timesheets = timesheets;
-            this.submit = submit;
-            this.idField = idField;
-            this.updateIfExists = updateIfExists;
+            this.startTime = startTime;
         }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateTimesheetsResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
-    public partial class createOrUpdateTimesheetsResponse
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getElapsedTimeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
+    public partial class getElapsedTimeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
-        public string[] @return;
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string @return;
         
-        public createOrUpdateTimesheetsResponse()
+        public getElapsedTimeResponse()
         {
         }
         
-        public createOrUpdateTimesheetsResponse(string[] @return)
+        public getElapsedTimeResponse(string @return)
         {
             this.@return = @return;
         }
@@ -28266,15 +28180,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="searchTimesheetIds", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="searchTimesheetIds", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class searchTimesheetIdsRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.SearchCriteria searchCriteria;
         
@@ -28292,11 +28206,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="searchTimesheetIdsResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="searchTimesheetIdsResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class searchTimesheetIdsResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return")]
         public long[] @return;
         
@@ -28313,19 +28227,19 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getSingleSignOnToken", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getSingleSignOnToken", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getSingleSignOnTokenRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string username;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         public int timeToLiveSeconds;
         
         public getSingleSignOnTokenRequest()
@@ -28343,11 +28257,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getSingleSignOnTokenResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getSingleSignOnTokenResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getSingleSignOnTokenResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string @return;
         
@@ -28364,15 +28278,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateProvider", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateProvider", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateProviderRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Provider provider;
         
@@ -28390,11 +28304,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateProviderResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateProviderResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateProviderResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public createOrUpdateProviderResponse()
@@ -28410,15 +28324,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateExpenseClaim", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateExpenseClaim", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateExpenseClaimRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.ExpenseClaim expenseClaim;
         
@@ -28436,11 +28350,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateExpenseClaimResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateExpenseClaimResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateExpenseClaimResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public createOrUpdateExpenseClaimResponse()
@@ -28456,15 +28370,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getHolidayClaimById", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getHolidayClaimById", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getHolidayClaimByIdRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long id;
         
         public getHolidayClaimByIdRequest()
@@ -28481,11 +28395,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getHolidayClaimByIdResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getHolidayClaimByIdResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getHolidayClaimByIdResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.HolidayClaim @return;
         
@@ -28502,15 +28416,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetsByPayrollRef", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetsByPayrollRef", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetsByPayrollRefRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string payrollRef;
         
@@ -28528,11 +28442,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetsByPayrollRefResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getTimesheetsByPayrollRefResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getTimesheetsByPayrollRefResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.Timesheet[] @return;
         
@@ -28549,15 +28463,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateLtdCoUser", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateLtdCoUser", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateLtdCoUserRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.LtdCoUser ltdCoUser;
         
@@ -28575,11 +28489,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateLtdCoUserResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="createOrUpdateLtdCoUserResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class createOrUpdateLtdCoUserResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public createOrUpdateLtdCoUserResponse()
@@ -28595,18 +28509,18 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getURLForContractorsPayslip", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getURLForContractorsPayslip", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getURLForContractorsPayslipRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long userId;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         public bool daily;
         
         public getURLForContractorsPayslipRequest()
@@ -28624,11 +28538,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getURLForContractorsPayslipResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getURLForContractorsPayslipResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getURLForContractorsPayslipResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string @return;
         
@@ -28645,15 +28559,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateTimesheetStatus", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateTimesheetStatus", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateTimesheetStatusRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Timesheet timesheet;
         
@@ -28671,11 +28585,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateTimesheetStatusResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateTimesheetStatusResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateTimesheetStatusResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public updateTimesheetStatusResponse()
@@ -28691,15 +28605,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getProviderByRefCode", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getProviderByRefCode", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getProviderByRefCodeRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string refCode;
         
@@ -28717,11 +28631,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getProviderByRefCodeResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getProviderByRefCodeResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getProviderByRefCodeResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Provider @return;
         
@@ -28738,15 +28652,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateTimesheet", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateTimesheet", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateTimesheetRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public RSMServiceReference.Timesheet timesheet;
         
@@ -28764,11 +28678,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="updateTimesheetResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="updateTimesheetResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class updateTimesheetResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public updateTimesheetResponse()
@@ -28784,7 +28698,7 @@ namespace RSMServiceReference
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://v3_4.webservices.intime.ipfour.com/xsd")]
     public partial class InvoicingTerm
     {
         
@@ -28840,11 +28754,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllInvoicingTerms", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllInvoicingTerms", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllInvoicingTermsRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
@@ -28861,11 +28775,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllInvoicingTermsResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllInvoicingTermsResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllInvoicingTermsResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.InvoicingTerm[] @return;
         
@@ -28882,19 +28796,19 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="markInvoiceAsSent", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="markInvoiceAsSent", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class markInvoiceAsSentRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string invoiceRefCode;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=2)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string datetime;
         
@@ -28913,11 +28827,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="markInvoiceAsSentResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="markInvoiceAsSentResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class markInvoiceAsSentResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public bool @return;
         
         public markInvoiceAsSentResponse()
@@ -28933,15 +28847,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getNumberOfPayslips", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getNumberOfPayslips", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getNumberOfPayslipsRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long userId;
         
         public getNumberOfPayslipsRequest()
@@ -28958,11 +28872,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getNumberOfPayslipsResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getNumberOfPayslipsResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getNumberOfPayslipsResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public int @return;
         
         public getNumberOfPayslipsResponse()
@@ -28978,11 +28892,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllExchangeRates", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllExchangeRates", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllExchangeRatesRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
@@ -28999,11 +28913,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllExchangeRatesResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="getAllExchangeRatesResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class getAllExchangeRatesResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", IsNullable=true)]
         public RSMServiceReference.ExchangeRate[] @return;
         
@@ -29020,15 +28934,15 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="submitTimesheet", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="submitTimesheet", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class submitTimesheetRequest
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public string token;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=1)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=1)]
         public long timesheetId;
         
         public submitTimesheetRequest()
@@ -29045,11 +28959,11 @@ namespace RSMServiceReference
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="submitTimesheetResponse", WrapperNamespace="http://v3_6.webservices.intime.ipfour.com/xsd", IsWrapped=true)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="submitTimesheetResponse", WrapperNamespace="http://in-time.co.uk/xsd", IsWrapped=true)]
     public partial class submitTimesheetResponse
     {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://v3_6.webservices.intime.ipfour.com/xsd", Order=0)]
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://in-time.co.uk/xsd", Order=0)]
         public long @return;
         
         public submitTimesheetResponse()
@@ -29063,13 +28977,13 @@ namespace RSMServiceReference
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    public interface IntimeServiceV3_6PortTypeChannel : RSMServiceReference.IntimeServiceV3_6PortType, System.ServiceModel.IClientChannel
+    public interface IntimeServiceV3_4PortTypeChannel : RSMServiceReference.IntimeServiceV3_4PortType, System.ServiceModel.IClientChannel
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    public partial class IntimeServiceV3_6PortTypeClient : System.ServiceModel.ClientBase<RSMServiceReference.IntimeServiceV3_6PortType>, RSMServiceReference.IntimeServiceV3_6PortType
+    public partial class IntimeServiceV3_4PortTypeClient : System.ServiceModel.ClientBase<RSMServiceReference.IntimeServiceV3_4PortType>, RSMServiceReference.IntimeServiceV3_4PortType
     {
         
         /// <summary>
@@ -29079,34 +28993,34 @@ namespace RSMServiceReference
         /// <param name="clientCredentials">The client credentials</param>
         static partial void ConfigureEndpoint(System.ServiceModel.Description.ServiceEndpoint serviceEndpoint, System.ServiceModel.Description.ClientCredentials clientCredentials);
         
-        public IntimeServiceV3_6PortTypeClient(EndpointConfiguration endpointConfiguration) : 
-                base(IntimeServiceV3_6PortTypeClient.GetBindingForEndpoint(endpointConfiguration), IntimeServiceV3_6PortTypeClient.GetEndpointAddress(endpointConfiguration))
+        public IntimeServiceV3_4PortTypeClient(EndpointConfiguration endpointConfiguration) : 
+                base(IntimeServiceV3_4PortTypeClient.GetBindingForEndpoint(endpointConfiguration), IntimeServiceV3_4PortTypeClient.GetEndpointAddress(endpointConfiguration))
         {
             this.Endpoint.Name = endpointConfiguration.ToString();
             ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
         }
         
-        public IntimeServiceV3_6PortTypeClient(EndpointConfiguration endpointConfiguration, string remoteAddress) : 
-                base(IntimeServiceV3_6PortTypeClient.GetBindingForEndpoint(endpointConfiguration), new System.ServiceModel.EndpointAddress(remoteAddress))
+        public IntimeServiceV3_4PortTypeClient(EndpointConfiguration endpointConfiguration, string remoteAddress) : 
+                base(IntimeServiceV3_4PortTypeClient.GetBindingForEndpoint(endpointConfiguration), new System.ServiceModel.EndpointAddress(remoteAddress))
         {
             this.Endpoint.Name = endpointConfiguration.ToString();
             ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
         }
         
-        public IntimeServiceV3_6PortTypeClient(EndpointConfiguration endpointConfiguration, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(IntimeServiceV3_6PortTypeClient.GetBindingForEndpoint(endpointConfiguration), remoteAddress)
+        public IntimeServiceV3_4PortTypeClient(EndpointConfiguration endpointConfiguration, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(IntimeServiceV3_4PortTypeClient.GetBindingForEndpoint(endpointConfiguration), remoteAddress)
         {
             this.Endpoint.Name = endpointConfiguration.ToString();
             ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
         }
         
-        public IntimeServiceV3_6PortTypeClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public IntimeServiceV3_4PortTypeClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress)
         {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getTimesheetByRefCodeAsync(RSMServiceReference.getTimesheetByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getTimesheetByRefCodeAsync(RSMServiceReference.getTimesheetByRefCodeRequest request)
         {
             return base.Channel.getTimesheetByRefCodeAsync(request);
         }
@@ -29116,11 +29030,11 @@ namespace RSMServiceReference
             RSMServiceReference.getTimesheetByRefCodeRequest inValue = new RSMServiceReference.getTimesheetByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getTimesheetByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getTimesheetByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getExpenseClaimByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getExpenseClaimByRefCodeAsync(RSMServiceReference.getExpenseClaimByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getExpenseClaimByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getExpenseClaimByRefCodeAsync(RSMServiceReference.getExpenseClaimByRefCodeRequest request)
         {
             return base.Channel.getExpenseClaimByRefCodeAsync(request);
         }
@@ -29130,11 +29044,11 @@ namespace RSMServiceReference
             RSMServiceReference.getExpenseClaimByRefCodeRequest inValue = new RSMServiceReference.getExpenseClaimByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getExpenseClaimByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getExpenseClaimByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getPurchaseOrderByReferenceResponse> RSMServiceReference.IntimeServiceV3_6PortType.getPurchaseOrderByReferenceAsync(RSMServiceReference.getPurchaseOrderByReferenceRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getPurchaseOrderByReferenceResponse> RSMServiceReference.IntimeServiceV3_4PortType.getPurchaseOrderByReferenceAsync(RSMServiceReference.getPurchaseOrderByReferenceRequest request)
         {
             return base.Channel.getPurchaseOrderByReferenceAsync(request);
         }
@@ -29145,11 +29059,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.purchaseOrderReference = purchaseOrderReference;
             inValue.clientExternalID = clientExternalID;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getPurchaseOrderByReferenceAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getPurchaseOrderByReferenceAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getAllFinancialTagsResponse> RSMServiceReference.IntimeServiceV3_6PortType.getAllFinancialTagsAsync(RSMServiceReference.getAllFinancialTagsRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getAllFinancialTagsResponse> RSMServiceReference.IntimeServiceV3_4PortType.getAllFinancialTagsAsync(RSMServiceReference.getAllFinancialTagsRequest request)
         {
             return base.Channel.getAllFinancialTagsAsync(request);
         }
@@ -29158,11 +29072,11 @@ namespace RSMServiceReference
         {
             RSMServiceReference.getAllFinancialTagsRequest inValue = new RSMServiceReference.getAllFinancialTagsRequest();
             inValue.token = token;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getAllFinancialTagsAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getAllFinancialTagsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.rejectExpenseItemResponse> RSMServiceReference.IntimeServiceV3_6PortType.rejectExpenseItemAsync(RSMServiceReference.rejectExpenseItemRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.rejectExpenseItemResponse> RSMServiceReference.IntimeServiceV3_4PortType.rejectExpenseItemAsync(RSMServiceReference.rejectExpenseItemRequest request)
         {
             return base.Channel.rejectExpenseItemAsync(request);
         }
@@ -29174,11 +29088,11 @@ namespace RSMServiceReference
             inValue.userId = userId;
             inValue.expenseId = expenseId;
             inValue.reason = reason;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).rejectExpenseItemAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).rejectExpenseItemAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.reinstateWorkerByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.reinstateWorkerByRefCodeAsync(RSMServiceReference.reinstateWorkerByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.reinstateWorkerByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.reinstateWorkerByRefCodeAsync(RSMServiceReference.reinstateWorkerByRefCodeRequest request)
         {
             return base.Channel.reinstateWorkerByRefCodeAsync(request);
         }
@@ -29193,11 +29107,11 @@ namespace RSMServiceReference
             inValue.paymentFrequency = paymentFrequency;
             inValue.starterStatement = starterStatement;
             inValue.cisBusinessType = cisBusinessType;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).reinstateWorkerByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).reinstateWorkerByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getAllPaymentFrequenciesResponse> RSMServiceReference.IntimeServiceV3_6PortType.getAllPaymentFrequenciesAsync(RSMServiceReference.getAllPaymentFrequenciesRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getAllPaymentFrequenciesResponse> RSMServiceReference.IntimeServiceV3_4PortType.getAllPaymentFrequenciesAsync(RSMServiceReference.getAllPaymentFrequenciesRequest request)
         {
             return base.Channel.getAllPaymentFrequenciesAsync(request);
         }
@@ -29206,11 +29120,11 @@ namespace RSMServiceReference
         {
             RSMServiceReference.getAllPaymentFrequenciesRequest inValue = new RSMServiceReference.getAllPaymentFrequenciesRequest();
             inValue.token = token;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getAllPaymentFrequenciesAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getAllPaymentFrequenciesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdatePurchaseOrderResponse> RSMServiceReference.IntimeServiceV3_6PortType.createOrUpdatePurchaseOrderAsync(RSMServiceReference.createOrUpdatePurchaseOrderRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdatePurchaseOrderResponse> RSMServiceReference.IntimeServiceV3_4PortType.createOrUpdatePurchaseOrderAsync(RSMServiceReference.createOrUpdatePurchaseOrderRequest request)
         {
             return base.Channel.createOrUpdatePurchaseOrderAsync(request);
         }
@@ -29220,11 +29134,11 @@ namespace RSMServiceReference
             RSMServiceReference.createOrUpdatePurchaseOrderRequest inValue = new RSMServiceReference.createOrUpdatePurchaseOrderRequest();
             inValue.token = token;
             inValue.purchaseOrder = purchaseOrder;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createOrUpdatePurchaseOrderAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).createOrUpdatePurchaseOrderAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateHolidayClaimResponse> RSMServiceReference.IntimeServiceV3_6PortType.createOrUpdateHolidayClaimAsync(RSMServiceReference.createOrUpdateHolidayClaimRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateHolidayClaimResponse> RSMServiceReference.IntimeServiceV3_4PortType.createOrUpdateHolidayClaimAsync(RSMServiceReference.createOrUpdateHolidayClaimRequest request)
         {
             return base.Channel.createOrUpdateHolidayClaimAsync(request);
         }
@@ -29234,11 +29148,11 @@ namespace RSMServiceReference
             RSMServiceReference.createOrUpdateHolidayClaimRequest inValue = new RSMServiceReference.createOrUpdateHolidayClaimRequest();
             inValue.token = token;
             inValue.wsClaim = wsClaim;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createOrUpdateHolidayClaimAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).createOrUpdateHolidayClaimAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getHolidayClaimByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getHolidayClaimByRefCodeAsync(RSMServiceReference.getHolidayClaimByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getHolidayClaimByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getHolidayClaimByRefCodeAsync(RSMServiceReference.getHolidayClaimByRefCodeRequest request)
         {
             return base.Channel.getHolidayClaimByRefCodeAsync(request);
         }
@@ -29248,11 +29162,11 @@ namespace RSMServiceReference
             RSMServiceReference.getHolidayClaimByRefCodeRequest inValue = new RSMServiceReference.getHolidayClaimByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getHolidayClaimByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getHolidayClaimByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getExpenseIdsWithStatusAndDatesResponse> RSMServiceReference.IntimeServiceV3_6PortType.getExpenseIdsWithStatusAndDatesAsync(RSMServiceReference.getExpenseIdsWithStatusAndDatesRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getExpenseIdsWithStatusAndDatesResponse> RSMServiceReference.IntimeServiceV3_4PortType.getExpenseIdsWithStatusAndDatesAsync(RSMServiceReference.getExpenseIdsWithStatusAndDatesRequest request)
         {
             return base.Channel.getExpenseIdsWithStatusAndDatesAsync(request);
         }
@@ -29264,11 +29178,11 @@ namespace RSMServiceReference
             inValue.status = status;
             inValue.rangeStartInstant = rangeStartInstant;
             inValue.rangeEndInstant = rangeEndInstant;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getExpenseIdsWithStatusAndDatesAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getExpenseIdsWithStatusAndDatesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getProvidersByExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getProvidersByExternalIdAsync(RSMServiceReference.getProvidersByExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getProvidersByExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getProvidersByExternalIdAsync(RSMServiceReference.getProvidersByExternalIdRequest request)
         {
             return base.Channel.getProvidersByExternalIdAsync(request);
         }
@@ -29278,11 +29192,11 @@ namespace RSMServiceReference
             RSMServiceReference.getProvidersByExternalIdRequest inValue = new RSMServiceReference.getProvidersByExternalIdRequest();
             inValue.token = token;
             inValue.externalId = externalId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getProvidersByExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getProvidersByExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getClientsByExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getClientsByExternalIdAsync(RSMServiceReference.getClientsByExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getClientsByExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getClientsByExternalIdAsync(RSMServiceReference.getClientsByExternalIdRequest request)
         {
             return base.Channel.getClientsByExternalIdAsync(request);
         }
@@ -29292,11 +29206,11 @@ namespace RSMServiceReference
             RSMServiceReference.getClientsByExternalIdRequest inValue = new RSMServiceReference.getClientsByExternalIdRequest();
             inValue.token = token;
             inValue.externalId = externalId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getClientsByExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getClientsByExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateManagerResponse> RSMServiceReference.IntimeServiceV3_6PortType.createOrUpdateManagerAsync(RSMServiceReference.createOrUpdateManagerRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateManagerResponse> RSMServiceReference.IntimeServiceV3_4PortType.createOrUpdateManagerAsync(RSMServiceReference.createOrUpdateManagerRequest request)
         {
             return base.Channel.createOrUpdateManagerAsync(request);
         }
@@ -29306,11 +29220,11 @@ namespace RSMServiceReference
             RSMServiceReference.createOrUpdateManagerRequest inValue = new RSMServiceReference.createOrUpdateManagerRequest();
             inValue.token = token;
             inValue.manager = manager;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createOrUpdateManagerAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).createOrUpdateManagerAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsInRangeWithRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getModifiedItemsInRangeWithRefCodeAsync(RSMServiceReference.getModifiedItemsInRangeWithRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsInRangeWithRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getModifiedItemsInRangeWithRefCodeAsync(RSMServiceReference.getModifiedItemsInRangeWithRefCodeRequest request)
         {
             return base.Channel.getModifiedItemsInRangeWithRefCodeAsync(request);
         }
@@ -29321,11 +29235,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.since = since;
             inValue.until = until;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getModifiedItemsInRangeWithRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getModifiedItemsInRangeWithRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.makeLeaverByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.makeLeaverByIdAsync(RSMServiceReference.makeLeaverByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.makeLeaverByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.makeLeaverByIdAsync(RSMServiceReference.makeLeaverByIdRequest request)
         {
             return base.Channel.makeLeaverByIdAsync(request);
         }
@@ -29336,11 +29250,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.workerId = workerId;
             inValue.leavingDate = leavingDate;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).makeLeaverByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).makeLeaverByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getHolidayClaimsByRefCodesResponse> RSMServiceReference.IntimeServiceV3_6PortType.getHolidayClaimsByRefCodesAsync(RSMServiceReference.getHolidayClaimsByRefCodesRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getHolidayClaimsByRefCodesResponse> RSMServiceReference.IntimeServiceV3_4PortType.getHolidayClaimsByRefCodesAsync(RSMServiceReference.getHolidayClaimsByRefCodesRequest request)
         {
             return base.Channel.getHolidayClaimsByRefCodesAsync(request);
         }
@@ -29350,11 +29264,11 @@ namespace RSMServiceReference
             RSMServiceReference.getHolidayClaimsByRefCodesRequest inValue = new RSMServiceReference.getHolidayClaimsByRefCodesRequest();
             inValue.token = token;
             inValue.holidayClaimRefCodes = holidayClaimRefCodes;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getHolidayClaimsByRefCodesAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getHolidayClaimsByRefCodesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getClientByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getClientByRefCodeAsync(RSMServiceReference.getClientByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getClientByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getClientByRefCodeAsync(RSMServiceReference.getClientByRefCodeRequest request)
         {
             return base.Channel.getClientByRefCodeAsync(request);
         }
@@ -29364,11 +29278,11 @@ namespace RSMServiceReference
             RSMServiceReference.getClientByRefCodeRequest inValue = new RSMServiceReference.getClientByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getClientByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getClientByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetIdsWithStatusResponse> RSMServiceReference.IntimeServiceV3_6PortType.getTimesheetIdsWithStatusAsync(RSMServiceReference.getTimesheetIdsWithStatusRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetIdsWithStatusResponse> RSMServiceReference.IntimeServiceV3_4PortType.getTimesheetIdsWithStatusAsync(RSMServiceReference.getTimesheetIdsWithStatusRequest request)
         {
             return base.Channel.getTimesheetIdsWithStatusAsync(request);
         }
@@ -29378,11 +29292,11 @@ namespace RSMServiceReference
             RSMServiceReference.getTimesheetIdsWithStatusRequest inValue = new RSMServiceReference.getTimesheetIdsWithStatusRequest();
             inValue.token = token;
             inValue.status = status;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getTimesheetIdsWithStatusAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getTimesheetIdsWithStatusAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.approveTimesheetResponse> RSMServiceReference.IntimeServiceV3_6PortType.approveTimesheetAsync(RSMServiceReference.approveTimesheetRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.approveTimesheetResponse> RSMServiceReference.IntimeServiceV3_4PortType.approveTimesheetAsync(RSMServiceReference.approveTimesheetRequest request)
         {
             return base.Channel.approveTimesheetAsync(request);
         }
@@ -29394,11 +29308,11 @@ namespace RSMServiceReference
             inValue.userId = userId;
             inValue.timesheetId = timesheetId;
             inValue.po = po;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).approveTimesheetAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).approveTimesheetAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getPaymentBatchByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getPaymentBatchByIdAsync(RSMServiceReference.getPaymentBatchByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getPaymentBatchByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getPaymentBatchByIdAsync(RSMServiceReference.getPaymentBatchByIdRequest request)
         {
             return base.Channel.getPaymentBatchByIdAsync(request);
         }
@@ -29408,11 +29322,11 @@ namespace RSMServiceReference
             RSMServiceReference.getPaymentBatchByIdRequest inValue = new RSMServiceReference.getPaymentBatchByIdRequest();
             inValue.token = token;
             inValue.paymentBatchId = paymentBatchId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getPaymentBatchByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getPaymentBatchByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getInvoicesForClientResponse> RSMServiceReference.IntimeServiceV3_6PortType.getInvoicesForClientAsync(RSMServiceReference.getInvoicesForClientRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getInvoicesForClientResponse> RSMServiceReference.IntimeServiceV3_4PortType.getInvoicesForClientAsync(RSMServiceReference.getInvoicesForClientRequest request)
         {
             return base.Channel.getInvoicesForClientAsync(request);
         }
@@ -29422,11 +29336,11 @@ namespace RSMServiceReference
             RSMServiceReference.getInvoicesForClientRequest inValue = new RSMServiceReference.getInvoicesForClientRequest();
             inValue.token = token;
             inValue.clientId = clientId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getInvoicesForClientAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getInvoicesForClientAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.rejectTimesheetResponse> RSMServiceReference.IntimeServiceV3_6PortType.rejectTimesheetAsync(RSMServiceReference.rejectTimesheetRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.rejectTimesheetResponse> RSMServiceReference.IntimeServiceV3_4PortType.rejectTimesheetAsync(RSMServiceReference.rejectTimesheetRequest request)
         {
             return base.Channel.rejectTimesheetAsync(request);
         }
@@ -29438,11 +29352,11 @@ namespace RSMServiceReference
             inValue.userId = userId;
             inValue.timesheetId = timesheetId;
             inValue.reason = reason;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).rejectTimesheetAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).rejectTimesheetAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getProviderByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getProviderByIdAsync(RSMServiceReference.getProviderByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getProviderByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getProviderByIdAsync(RSMServiceReference.getProviderByIdRequest request)
         {
             return base.Channel.getProviderByIdAsync(request);
         }
@@ -29452,11 +29366,11 @@ namespace RSMServiceReference
             RSMServiceReference.getProviderByIdRequest inValue = new RSMServiceReference.getProviderByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getProviderByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getProviderByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.searchHolidayClaimRefCodesResponse> RSMServiceReference.IntimeServiceV3_6PortType.searchHolidayClaimRefCodesAsync(RSMServiceReference.searchHolidayClaimRefCodesRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.searchHolidayClaimRefCodesResponse> RSMServiceReference.IntimeServiceV3_4PortType.searchHolidayClaimRefCodesAsync(RSMServiceReference.searchHolidayClaimRefCodesRequest request)
         {
             return base.Channel.searchHolidayClaimRefCodesAsync(request);
         }
@@ -29466,11 +29380,11 @@ namespace RSMServiceReference
             RSMServiceReference.searchHolidayClaimRefCodesRequest inValue = new RSMServiceReference.searchHolidayClaimRefCodesRequest();
             inValue.token = token;
             inValue.searchCriteria = searchCriteria;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).searchHolidayClaimRefCodesAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).searchHolidayClaimRefCodesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.updatePlacementExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.updatePlacementExternalIdAsync(RSMServiceReference.updatePlacementExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.updatePlacementExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.updatePlacementExternalIdAsync(RSMServiceReference.updatePlacementExternalIdRequest request)
         {
             return base.Channel.updatePlacementExternalIdAsync(request);
         }
@@ -29481,11 +29395,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.internalId = internalId;
             inValue.newExternalId = newExternalId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).updatePlacementExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).updatePlacementExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getTimesheetByIdAsync(RSMServiceReference.getTimesheetByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getTimesheetByIdAsync(RSMServiceReference.getTimesheetByIdRequest request)
         {
             return base.Channel.getTimesheetByIdAsync(request);
         }
@@ -29495,11 +29409,11 @@ namespace RSMServiceReference
             RSMServiceReference.getTimesheetByIdRequest inValue = new RSMServiceReference.getTimesheetByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getTimesheetByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getTimesheetByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsInRangeWithRefCodeByTypeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getModifiedItemsInRangeWithRefCodeByTypeAsync(RSMServiceReference.getModifiedItemsInRangeWithRefCodeByTypeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsInRangeWithRefCodeByTypeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getModifiedItemsInRangeWithRefCodeByTypeAsync(RSMServiceReference.getModifiedItemsInRangeWithRefCodeByTypeRequest request)
         {
             return base.Channel.getModifiedItemsInRangeWithRefCodeByTypeAsync(request);
         }
@@ -29511,11 +29425,11 @@ namespace RSMServiceReference
             inValue.since = since;
             inValue.until = until;
             inValue.types = types;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getModifiedItemsInRangeWithRefCodeByTypeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getModifiedItemsInRangeWithRefCodeByTypeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getLtdCoUserByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getLtdCoUserByRefCodeAsync(RSMServiceReference.getLtdCoUserByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getLtdCoUserByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getLtdCoUserByRefCodeAsync(RSMServiceReference.getLtdCoUserByRefCodeRequest request)
         {
             return base.Channel.getLtdCoUserByRefCodeAsync(request);
         }
@@ -29525,11 +29439,11 @@ namespace RSMServiceReference
             RSMServiceReference.getLtdCoUserByRefCodeRequest inValue = new RSMServiceReference.getLtdCoUserByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getLtdCoUserByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getLtdCoUserByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getWorkerByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getWorkerByIdAsync(RSMServiceReference.getWorkerByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getWorkerByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getWorkerByIdAsync(RSMServiceReference.getWorkerByIdRequest request)
         {
             return base.Channel.getWorkerByIdAsync(request);
         }
@@ -29539,11 +29453,11 @@ namespace RSMServiceReference
             RSMServiceReference.getWorkerByIdRequest inValue = new RSMServiceReference.getWorkerByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getWorkerByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getWorkerByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getAllExpenseTemplatesResponse> RSMServiceReference.IntimeServiceV3_6PortType.getAllExpenseTemplatesAsync(RSMServiceReference.getAllExpenseTemplatesRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getAllExpenseTemplatesResponse> RSMServiceReference.IntimeServiceV3_4PortType.getAllExpenseTemplatesAsync(RSMServiceReference.getAllExpenseTemplatesRequest request)
         {
             return base.Channel.getAllExpenseTemplatesAsync(request);
         }
@@ -29552,11 +29466,11 @@ namespace RSMServiceReference
         {
             RSMServiceReference.getAllExpenseTemplatesRequest inValue = new RSMServiceReference.getAllExpenseTemplatesRequest();
             inValue.token = token;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getAllExpenseTemplatesAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getAllExpenseTemplatesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsResponse> RSMServiceReference.IntimeServiceV3_6PortType.getModifiedItemsAsync(RSMServiceReference.getModifiedItemsRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsResponse> RSMServiceReference.IntimeServiceV3_4PortType.getModifiedItemsAsync(RSMServiceReference.getModifiedItemsRequest request)
         {
             return base.Channel.getModifiedItemsAsync(request);
         }
@@ -29566,11 +29480,11 @@ namespace RSMServiceReference
             RSMServiceReference.getModifiedItemsRequest inValue = new RSMServiceReference.getModifiedItemsRequest();
             inValue.token = token;
             inValue.since = since;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getModifiedItemsAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getModifiedItemsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateFinancialTagResponse> RSMServiceReference.IntimeServiceV3_6PortType.createOrUpdateFinancialTagAsync(RSMServiceReference.createOrUpdateFinancialTagRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateFinancialTagResponse> RSMServiceReference.IntimeServiceV3_4PortType.createOrUpdateFinancialTagAsync(RSMServiceReference.createOrUpdateFinancialTagRequest request)
         {
             return base.Channel.createOrUpdateFinancialTagAsync(request);
         }
@@ -29580,11 +29494,11 @@ namespace RSMServiceReference
             RSMServiceReference.createOrUpdateFinancialTagRequest inValue = new RSMServiceReference.createOrUpdateFinancialTagRequest();
             inValue.token = token;
             inValue.tagCategory = tagCategory;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createOrUpdateFinancialTagAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).createOrUpdateFinancialTagAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getPlacementByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getPlacementByIdAsync(RSMServiceReference.getPlacementByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getPlacementByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getPlacementByIdAsync(RSMServiceReference.getPlacementByIdRequest request)
         {
             return base.Channel.getPlacementByIdAsync(request);
         }
@@ -29594,11 +29508,11 @@ namespace RSMServiceReference
             RSMServiceReference.getPlacementByIdRequest inValue = new RSMServiceReference.getPlacementByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getPlacementByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getPlacementByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateClientResponse> RSMServiceReference.IntimeServiceV3_6PortType.createOrUpdateClientAsync(RSMServiceReference.createOrUpdateClientRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateClientResponse> RSMServiceReference.IntimeServiceV3_4PortType.createOrUpdateClientAsync(RSMServiceReference.createOrUpdateClientRequest request)
         {
             return base.Channel.createOrUpdateClientAsync(request);
         }
@@ -29608,11 +29522,11 @@ namespace RSMServiceReference
             RSMServiceReference.createOrUpdateClientRequest inValue = new RSMServiceReference.createOrUpdateClientRequest();
             inValue.token = token;
             inValue.client = client;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createOrUpdateClientAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).createOrUpdateClientAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getUserByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getUserByIdAsync(RSMServiceReference.getUserByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getUserByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getUserByIdAsync(RSMServiceReference.getUserByIdRequest request)
         {
             return base.Channel.getUserByIdAsync(request);
         }
@@ -29622,11 +29536,11 @@ namespace RSMServiceReference
             RSMServiceReference.getUserByIdRequest inValue = new RSMServiceReference.getUserByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getUserByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getUserByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.authenticateResponse> RSMServiceReference.IntimeServiceV3_6PortType.authenticateAsync(RSMServiceReference.authenticateRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.authenticateResponse> RSMServiceReference.IntimeServiceV3_4PortType.authenticateAsync(RSMServiceReference.authenticateRequest request)
         {
             return base.Channel.authenticateAsync(request);
         }
@@ -29637,11 +29551,11 @@ namespace RSMServiceReference
             inValue.agencyRefCode = agencyRefCode;
             inValue.username = username;
             inValue.password = password;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).authenticateAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).authenticateAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsWithRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getModifiedItemsWithRefCodeAsync(RSMServiceReference.getModifiedItemsWithRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsWithRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getModifiedItemsWithRefCodeAsync(RSMServiceReference.getModifiedItemsWithRefCodeRequest request)
         {
             return base.Channel.getModifiedItemsWithRefCodeAsync(request);
         }
@@ -29651,11 +29565,11 @@ namespace RSMServiceReference
             RSMServiceReference.getModifiedItemsWithRefCodeRequest inValue = new RSMServiceReference.getModifiedItemsWithRefCodeRequest();
             inValue.token = token;
             inValue.since = since;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getModifiedItemsWithRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getModifiedItemsWithRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getManagerByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getManagerByRefCodeAsync(RSMServiceReference.getManagerByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getManagerByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getManagerByRefCodeAsync(RSMServiceReference.getManagerByRefCodeRequest request)
         {
             return base.Channel.getManagerByRefCodeAsync(request);
         }
@@ -29665,11 +29579,11 @@ namespace RSMServiceReference
             RSMServiceReference.getManagerByRefCodeRequest inValue = new RSMServiceReference.getManagerByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getManagerByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getManagerByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getMissingTimesheetsForPlacementResponse> RSMServiceReference.IntimeServiceV3_6PortType.getMissingTimesheetsForPlacementAsync(RSMServiceReference.getMissingTimesheetsForPlacementRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getMissingTimesheetsForPlacementResponse> RSMServiceReference.IntimeServiceV3_4PortType.getMissingTimesheetsForPlacementAsync(RSMServiceReference.getMissingTimesheetsForPlacementRequest request)
         {
             return base.Channel.getMissingTimesheetsForPlacementAsync(request);
         }
@@ -29681,11 +29595,11 @@ namespace RSMServiceReference
             inValue.placementId = placementId;
             inValue.start = start;
             inValue.end = end;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getMissingTimesheetsForPlacementAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getMissingTimesheetsForPlacementAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getAllApprovalRoutesResponse> RSMServiceReference.IntimeServiceV3_6PortType.getAllApprovalRoutesAsync(RSMServiceReference.getAllApprovalRoutesRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getAllApprovalRoutesResponse> RSMServiceReference.IntimeServiceV3_4PortType.getAllApprovalRoutesAsync(RSMServiceReference.getAllApprovalRoutesRequest request)
         {
             return base.Channel.getAllApprovalRoutesAsync(request);
         }
@@ -29694,11 +29608,11 @@ namespace RSMServiceReference
         {
             RSMServiceReference.getAllApprovalRoutesRequest inValue = new RSMServiceReference.getAllApprovalRoutesRequest();
             inValue.token = token;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getAllApprovalRoutesAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getAllApprovalRoutesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getWorkerByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getWorkerByRefCodeAsync(RSMServiceReference.getWorkerByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getWorkerByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getWorkerByRefCodeAsync(RSMServiceReference.getWorkerByRefCodeRequest request)
         {
             return base.Channel.getWorkerByRefCodeAsync(request);
         }
@@ -29708,11 +29622,11 @@ namespace RSMServiceReference
             RSMServiceReference.getWorkerByRefCodeRequest inValue = new RSMServiceReference.getWorkerByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getWorkerByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getWorkerByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getExpenseItemsForWorkerResponse> RSMServiceReference.IntimeServiceV3_6PortType.getExpenseItemsForWorkerAsync(RSMServiceReference.getExpenseItemsForWorkerRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getExpenseItemsForWorkerResponse> RSMServiceReference.IntimeServiceV3_4PortType.getExpenseItemsForWorkerAsync(RSMServiceReference.getExpenseItemsForWorkerRequest request)
         {
             return base.Channel.getExpenseItemsForWorkerAsync(request);
         }
@@ -29722,11 +29636,11 @@ namespace RSMServiceReference
             RSMServiceReference.getExpenseItemsForWorkerRequest inValue = new RSMServiceReference.getExpenseItemsForWorkerRequest();
             inValue.token = token;
             inValue.workerRefCode = workerRefCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getExpenseItemsForWorkerAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getExpenseItemsForWorkerAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.updateLtdCoUserExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.updateLtdCoUserExternalIdAsync(RSMServiceReference.updateLtdCoUserExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.updateLtdCoUserExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.updateLtdCoUserExternalIdAsync(RSMServiceReference.updateLtdCoUserExternalIdRequest request)
         {
             return base.Channel.updateLtdCoUserExternalIdAsync(request);
         }
@@ -29737,11 +29651,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.internalId = internalId;
             inValue.newExternalId = newExternalId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).updateLtdCoUserExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).updateLtdCoUserExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getAdministratorsByExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getAdministratorsByExternalIdAsync(RSMServiceReference.getAdministratorsByExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getAdministratorsByExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getAdministratorsByExternalIdAsync(RSMServiceReference.getAdministratorsByExternalIdRequest request)
         {
             return base.Channel.getAdministratorsByExternalIdAsync(request);
         }
@@ -29751,11 +29665,11 @@ namespace RSMServiceReference
             RSMServiceReference.getAdministratorsByExternalIdRequest inValue = new RSMServiceReference.getAdministratorsByExternalIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getAdministratorsByExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getAdministratorsByExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.reinstateWorkerByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.reinstateWorkerByIdAsync(RSMServiceReference.reinstateWorkerByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.reinstateWorkerByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.reinstateWorkerByIdAsync(RSMServiceReference.reinstateWorkerByIdRequest request)
         {
             return base.Channel.reinstateWorkerByIdAsync(request);
         }
@@ -29770,11 +29684,11 @@ namespace RSMServiceReference
             inValue.paymentFrequency = paymentFrequency;
             inValue.starterStatement = starterStatement;
             inValue.cisBusinessType = cisBusinessType;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).reinstateWorkerByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).reinstateWorkerByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getExpenseItemByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getExpenseItemByIdAsync(RSMServiceReference.getExpenseItemByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getExpenseItemByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getExpenseItemByIdAsync(RSMServiceReference.getExpenseItemByIdRequest request)
         {
             return base.Channel.getExpenseItemByIdAsync(request);
         }
@@ -29784,11 +29698,11 @@ namespace RSMServiceReference
             RSMServiceReference.getExpenseItemByIdRequest inValue = new RSMServiceReference.getExpenseItemByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getExpenseItemByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getExpenseItemByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.updateExpenseStatusResponse> RSMServiceReference.IntimeServiceV3_6PortType.updateExpenseStatusAsync(RSMServiceReference.updateExpenseStatusRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.updateExpenseStatusResponse> RSMServiceReference.IntimeServiceV3_4PortType.updateExpenseStatusAsync(RSMServiceReference.updateExpenseStatusRequest request)
         {
             return base.Channel.updateExpenseStatusAsync(request);
         }
@@ -29798,11 +29712,11 @@ namespace RSMServiceReference
             RSMServiceReference.updateExpenseStatusRequest inValue = new RSMServiceReference.updateExpenseStatusRequest();
             inValue.token = token;
             inValue.expenseItem = expenseItem;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).updateExpenseStatusAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).updateExpenseStatusAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetsByIdsResponse> RSMServiceReference.IntimeServiceV3_6PortType.getTimesheetsByIdsAsync(RSMServiceReference.getTimesheetsByIdsRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetsByIdsResponse> RSMServiceReference.IntimeServiceV3_4PortType.getTimesheetsByIdsAsync(RSMServiceReference.getTimesheetsByIdsRequest request)
         {
             return base.Channel.getTimesheetsByIdsAsync(request);
         }
@@ -29812,11 +29726,11 @@ namespace RSMServiceReference
             RSMServiceReference.getTimesheetsByIdsRequest inValue = new RSMServiceReference.getTimesheetsByIdsRequest();
             inValue.token = token;
             inValue.timesheetIds = timesheetIds;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getTimesheetsByIdsAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getTimesheetsByIdsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getPlacementsByWorkerExternalIdAndDateResponse> RSMServiceReference.IntimeServiceV3_6PortType.getPlacementsByWorkerExternalIdAndDateAsync(RSMServiceReference.getPlacementsByWorkerExternalIdAndDateRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getPlacementsByWorkerExternalIdAndDateResponse> RSMServiceReference.IntimeServiceV3_4PortType.getPlacementsByWorkerExternalIdAndDateAsync(RSMServiceReference.getPlacementsByWorkerExternalIdAndDateRequest request)
         {
             return base.Channel.getPlacementsByWorkerExternalIdAndDateAsync(request);
         }
@@ -29827,11 +29741,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.workerExternalId = workerExternalId;
             inValue.activeDate = activeDate;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getPlacementsByWorkerExternalIdAndDateAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getPlacementsByWorkerExternalIdAndDateAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getInvoiceAdjustmentByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getInvoiceAdjustmentByIdAsync(RSMServiceReference.getInvoiceAdjustmentByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getInvoiceAdjustmentByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getInvoiceAdjustmentByIdAsync(RSMServiceReference.getInvoiceAdjustmentByIdRequest request)
         {
             return base.Channel.getInvoiceAdjustmentByIdAsync(request);
         }
@@ -29841,11 +29755,11 @@ namespace RSMServiceReference
             RSMServiceReference.getInvoiceAdjustmentByIdRequest inValue = new RSMServiceReference.getInvoiceAdjustmentByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getInvoiceAdjustmentByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getInvoiceAdjustmentByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getPlacementByExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getPlacementByExternalIdAsync(RSMServiceReference.getPlacementByExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getPlacementByExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getPlacementByExternalIdAsync(RSMServiceReference.getPlacementByExternalIdRequest request)
         {
             return base.Channel.getPlacementByExternalIdAsync(request);
         }
@@ -29855,11 +29769,11 @@ namespace RSMServiceReference
             RSMServiceReference.getPlacementByExternalIdRequest inValue = new RSMServiceReference.getPlacementByExternalIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getPlacementByExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getPlacementByExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.updateConsultantExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.updateConsultantExternalIdAsync(RSMServiceReference.updateConsultantExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.updateConsultantExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.updateConsultantExternalIdAsync(RSMServiceReference.updateConsultantExternalIdRequest request)
         {
             return base.Channel.updateConsultantExternalIdAsync(request);
         }
@@ -29870,11 +29784,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.internalId = internalId;
             inValue.newExternalId = newExternalId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).updateConsultantExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).updateConsultantExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.updateTimesheetFileResponse> RSMServiceReference.IntimeServiceV3_6PortType.updateTimesheetFileAsync(RSMServiceReference.updateTimesheetFileRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.updateTimesheetFileResponse> RSMServiceReference.IntimeServiceV3_4PortType.updateTimesheetFileAsync(RSMServiceReference.updateTimesheetFileRequest request)
         {
             return base.Channel.updateTimesheetFileAsync(request);
         }
@@ -29884,11 +29798,11 @@ namespace RSMServiceReference
             RSMServiceReference.updateTimesheetFileRequest inValue = new RSMServiceReference.updateTimesheetFileRequest();
             inValue.token = token;
             inValue.timesheet = timesheet;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).updateTimesheetFileAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).updateTimesheetFileAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getExpenseClaimByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getExpenseClaimByIdAsync(RSMServiceReference.getExpenseClaimByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getExpenseClaimByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getExpenseClaimByIdAsync(RSMServiceReference.getExpenseClaimByIdRequest request)
         {
             return base.Channel.getExpenseClaimByIdAsync(request);
         }
@@ -29898,11 +29812,11 @@ namespace RSMServiceReference
             RSMServiceReference.getExpenseClaimByIdRequest inValue = new RSMServiceReference.getExpenseClaimByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getExpenseClaimByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getExpenseClaimByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getPlacementIdsByConsultantIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getPlacementIdsByConsultantIdAsync(RSMServiceReference.getPlacementIdsByConsultantIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getPlacementIdsByConsultantIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getPlacementIdsByConsultantIdAsync(RSMServiceReference.getPlacementIdsByConsultantIdRequest request)
         {
             return base.Channel.getPlacementIdsByConsultantIdAsync(request);
         }
@@ -29912,11 +29826,11 @@ namespace RSMServiceReference
             RSMServiceReference.getPlacementIdsByConsultantIdRequest inValue = new RSMServiceReference.getPlacementIdsByConsultantIdRequest();
             inValue.token = token;
             inValue.consultantId = consultantId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getPlacementIdsByConsultantIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getPlacementIdsByConsultantIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getLtdCoUserByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getLtdCoUserByIdAsync(RSMServiceReference.getLtdCoUserByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getLtdCoUserByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getLtdCoUserByIdAsync(RSMServiceReference.getLtdCoUserByIdRequest request)
         {
             return base.Channel.getLtdCoUserByIdAsync(request);
         }
@@ -29926,11 +29840,11 @@ namespace RSMServiceReference
             RSMServiceReference.getLtdCoUserByIdRequest inValue = new RSMServiceReference.getLtdCoUserByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getLtdCoUserByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getLtdCoUserByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getWorkerByPayrollNumberResponse> RSMServiceReference.IntimeServiceV3_6PortType.getWorkerByPayrollNumberAsync(RSMServiceReference.getWorkerByPayrollNumberRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getWorkerByPayrollNumberResponse> RSMServiceReference.IntimeServiceV3_4PortType.getWorkerByPayrollNumberAsync(RSMServiceReference.getWorkerByPayrollNumberRequest request)
         {
             return base.Channel.getWorkerByPayrollNumberAsync(request);
         }
@@ -29940,11 +29854,11 @@ namespace RSMServiceReference
             RSMServiceReference.getWorkerByPayrollNumberRequest inValue = new RSMServiceReference.getWorkerByPayrollNumberRequest();
             inValue.token = token;
             inValue.payrollNumber = payrollNumber;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getWorkerByPayrollNumberAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getWorkerByPayrollNumberAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.revertExpenseItemResponse> RSMServiceReference.IntimeServiceV3_6PortType.revertExpenseItemAsync(RSMServiceReference.revertExpenseItemRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.revertExpenseItemResponse> RSMServiceReference.IntimeServiceV3_4PortType.revertExpenseItemAsync(RSMServiceReference.revertExpenseItemRequest request)
         {
             return base.Channel.revertExpenseItemAsync(request);
         }
@@ -29956,11 +29870,11 @@ namespace RSMServiceReference
             inValue.userId = userId;
             inValue.expenseId = expenseId;
             inValue.reason = reason;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).revertExpenseItemAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).revertExpenseItemAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getContractDocumentByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getContractDocumentByRefCodeAsync(RSMServiceReference.getContractDocumentByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getContractDocumentByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getContractDocumentByRefCodeAsync(RSMServiceReference.getContractDocumentByRefCodeRequest request)
         {
             return base.Channel.getContractDocumentByRefCodeAsync(request);
         }
@@ -29970,11 +29884,11 @@ namespace RSMServiceReference
             RSMServiceReference.getContractDocumentByRefCodeRequest inValue = new RSMServiceReference.getContractDocumentByRefCodeRequest();
             inValue.token = token;
             inValue.contractDocumentRefCode = contractDocumentRefCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getContractDocumentByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getContractDocumentByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getPlacementIdsByWorkerIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getPlacementIdsByWorkerIdAsync(RSMServiceReference.getPlacementIdsByWorkerIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getPlacementIdsByWorkerIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getPlacementIdsByWorkerIdAsync(RSMServiceReference.getPlacementIdsByWorkerIdRequest request)
         {
             return base.Channel.getPlacementIdsByWorkerIdAsync(request);
         }
@@ -29984,11 +29898,11 @@ namespace RSMServiceReference
             RSMServiceReference.getPlacementIdsByWorkerIdRequest inValue = new RSMServiceReference.getPlacementIdsByWorkerIdRequest();
             inValue.token = token;
             inValue.workerId = workerId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getPlacementIdsByWorkerIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getPlacementIdsByWorkerIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateWorkerResponse> RSMServiceReference.IntimeServiceV3_6PortType.createOrUpdateWorkerAsync(RSMServiceReference.createOrUpdateWorkerRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateWorkerResponse> RSMServiceReference.IntimeServiceV3_4PortType.createOrUpdateWorkerAsync(RSMServiceReference.createOrUpdateWorkerRequest request)
         {
             return base.Channel.createOrUpdateWorkerAsync(request);
         }
@@ -29998,11 +29912,11 @@ namespace RSMServiceReference
             RSMServiceReference.createOrUpdateWorkerRequest inValue = new RSMServiceReference.createOrUpdateWorkerRequest();
             inValue.token = token;
             inValue.worker = worker;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createOrUpdateWorkerAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).createOrUpdateWorkerAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getUserByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getUserByRefCodeAsync(RSMServiceReference.getUserByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getUserByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getUserByRefCodeAsync(RSMServiceReference.getUserByRefCodeRequest request)
         {
             return base.Channel.getUserByRefCodeAsync(request);
         }
@@ -30012,11 +29926,11 @@ namespace RSMServiceReference
             RSMServiceReference.getUserByRefCodeRequest inValue = new RSMServiceReference.getUserByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getUserByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getUserByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetIdsWithStatusAndDatesResponse> RSMServiceReference.IntimeServiceV3_6PortType.getTimesheetIdsWithStatusAndDatesAsync(RSMServiceReference.getTimesheetIdsWithStatusAndDatesRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetIdsWithStatusAndDatesResponse> RSMServiceReference.IntimeServiceV3_4PortType.getTimesheetIdsWithStatusAndDatesAsync(RSMServiceReference.getTimesheetIdsWithStatusAndDatesRequest request)
         {
             return base.Channel.getTimesheetIdsWithStatusAndDatesAsync(request);
         }
@@ -30028,11 +29942,11 @@ namespace RSMServiceReference
             inValue.status = status;
             inValue.rangeStartInstant = rangeStartInstant;
             inValue.rangeEndInstant = rangeEndInstant;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getTimesheetIdsWithStatusAndDatesAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getTimesheetIdsWithStatusAndDatesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getManagersByExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getManagersByExternalIdAsync(RSMServiceReference.getManagersByExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getManagersByExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getManagersByExternalIdAsync(RSMServiceReference.getManagersByExternalIdRequest request)
         {
             return base.Channel.getManagersByExternalIdAsync(request);
         }
@@ -30042,11 +29956,11 @@ namespace RSMServiceReference
             RSMServiceReference.getManagersByExternalIdRequest inValue = new RSMServiceReference.getManagersByExternalIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getManagersByExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getManagersByExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getPlacementIdsByManagerIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getPlacementIdsByManagerIdAsync(RSMServiceReference.getPlacementIdsByManagerIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getPlacementIdsByManagerIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getPlacementIdsByManagerIdAsync(RSMServiceReference.getPlacementIdsByManagerIdRequest request)
         {
             return base.Channel.getPlacementIdsByManagerIdAsync(request);
         }
@@ -30056,11 +29970,11 @@ namespace RSMServiceReference
             RSMServiceReference.getPlacementIdsByManagerIdRequest inValue = new RSMServiceReference.getPlacementIdsByManagerIdRequest();
             inValue.token = token;
             inValue.managerId = managerId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getPlacementIdsByManagerIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getPlacementIdsByManagerIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetIdsWithStatusAndDatesForWorkerResponse> RSMServiceReference.IntimeServiceV3_6PortType.getTimesheetIdsWithStatusAndDatesForWorkerAsync(RSMServiceReference.getTimesheetIdsWithStatusAndDatesForWorkerRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetIdsWithStatusAndDatesForWorkerResponse> RSMServiceReference.IntimeServiceV3_4PortType.getTimesheetIdsWithStatusAndDatesForWorkerAsync(RSMServiceReference.getTimesheetIdsWithStatusAndDatesForWorkerRequest request)
         {
             return base.Channel.getTimesheetIdsWithStatusAndDatesForWorkerAsync(request);
         }
@@ -30073,11 +29987,11 @@ namespace RSMServiceReference
             inValue.rangeStartInstant = rangeStartInstant;
             inValue.rangeEndInstant = rangeEndInstant;
             inValue.workerRefCode = workerRefCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getTimesheetIdsWithStatusAndDatesForWorkerAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getTimesheetIdsWithStatusAndDatesForWorkerAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getInvoicesByRefCodesResponse> RSMServiceReference.IntimeServiceV3_6PortType.getInvoicesByRefCodesAsync(RSMServiceReference.getInvoicesByRefCodesRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getInvoicesByRefCodesResponse> RSMServiceReference.IntimeServiceV3_4PortType.getInvoicesByRefCodesAsync(RSMServiceReference.getInvoicesByRefCodesRequest request)
         {
             return base.Channel.getInvoicesByRefCodesAsync(request);
         }
@@ -30087,11 +30001,11 @@ namespace RSMServiceReference
             RSMServiceReference.getInvoicesByRefCodesRequest inValue = new RSMServiceReference.getInvoicesByRefCodesRequest();
             inValue.token = token;
             inValue.invoiceRefCodes = invoiceRefCodes;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getInvoicesByRefCodesAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getInvoicesByRefCodesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getAdministratorByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getAdministratorByRefCodeAsync(RSMServiceReference.getAdministratorByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getAdministratorByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getAdministratorByRefCodeAsync(RSMServiceReference.getAdministratorByRefCodeRequest request)
         {
             return base.Channel.getAdministratorByRefCodeAsync(request);
         }
@@ -30101,11 +30015,11 @@ namespace RSMServiceReference
             RSMServiceReference.getAdministratorByRefCodeRequest inValue = new RSMServiceReference.getAdministratorByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getAdministratorByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getAdministratorByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getPurchaseOrderByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getPurchaseOrderByIdAsync(RSMServiceReference.getPurchaseOrderByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getPurchaseOrderByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getPurchaseOrderByIdAsync(RSMServiceReference.getPurchaseOrderByIdRequest request)
         {
             return base.Channel.getPurchaseOrderByIdAsync(request);
         }
@@ -30115,11 +30029,11 @@ namespace RSMServiceReference
             RSMServiceReference.getPurchaseOrderByIdRequest inValue = new RSMServiceReference.getPurchaseOrderByIdRequest();
             inValue.token = token;
             inValue.purchaseOrderId = purchaseOrderId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getPurchaseOrderByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getPurchaseOrderByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.readFileResponse> RSMServiceReference.IntimeServiceV3_6PortType.readFileAsync(RSMServiceReference.readFileRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.readFileResponse> RSMServiceReference.IntimeServiceV3_4PortType.readFileAsync(RSMServiceReference.readFileRequest request)
         {
             return base.Channel.readFileAsync(request);
         }
@@ -30129,11 +30043,11 @@ namespace RSMServiceReference
             RSMServiceReference.readFileRequest inValue = new RSMServiceReference.readFileRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).readFileAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).readFileAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getConsultantsByExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getConsultantsByExternalIdAsync(RSMServiceReference.getConsultantsByExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getConsultantsByExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getConsultantsByExternalIdAsync(RSMServiceReference.getConsultantsByExternalIdRequest request)
         {
             return base.Channel.getConsultantsByExternalIdAsync(request);
         }
@@ -30143,11 +30057,11 @@ namespace RSMServiceReference
             RSMServiceReference.getConsultantsByExternalIdRequest inValue = new RSMServiceReference.getConsultantsByExternalIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getConsultantsByExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getConsultantsByExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.makeLeaverByExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.makeLeaverByExternalIdAsync(RSMServiceReference.makeLeaverByExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.makeLeaverByExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.makeLeaverByExternalIdAsync(RSMServiceReference.makeLeaverByExternalIdRequest request)
         {
             return base.Channel.makeLeaverByExternalIdAsync(request);
         }
@@ -30158,11 +30072,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.externalId = externalId;
             inValue.leavingDate = leavingDate;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).makeLeaverByExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).makeLeaverByExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsWithRefCodeByTypeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getModifiedItemsWithRefCodeByTypeAsync(RSMServiceReference.getModifiedItemsWithRefCodeByTypeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsWithRefCodeByTypeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getModifiedItemsWithRefCodeByTypeAsync(RSMServiceReference.getModifiedItemsWithRefCodeByTypeRequest request)
         {
             return base.Channel.getModifiedItemsWithRefCodeByTypeAsync(request);
         }
@@ -30173,11 +30087,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.since = since;
             inValue.types = types;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getModifiedItemsWithRefCodeByTypeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getModifiedItemsWithRefCodeByTypeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getInvoicesForWorkerResponse> RSMServiceReference.IntimeServiceV3_6PortType.getInvoicesForWorkerAsync(RSMServiceReference.getInvoicesForWorkerRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getInvoicesForWorkerResponse> RSMServiceReference.IntimeServiceV3_4PortType.getInvoicesForWorkerAsync(RSMServiceReference.getInvoicesForWorkerRequest request)
         {
             return base.Channel.getInvoicesForWorkerAsync(request);
         }
@@ -30187,11 +30101,11 @@ namespace RSMServiceReference
             RSMServiceReference.getInvoicesForWorkerRequest inValue = new RSMServiceReference.getInvoicesForWorkerRequest();
             inValue.token = token;
             inValue.workerId = workerId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getInvoicesForWorkerAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getInvoicesForWorkerAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getAdministratorByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getAdministratorByIdAsync(RSMServiceReference.getAdministratorByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getAdministratorByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getAdministratorByIdAsync(RSMServiceReference.getAdministratorByIdRequest request)
         {
             return base.Channel.getAdministratorByIdAsync(request);
         }
@@ -30201,11 +30115,11 @@ namespace RSMServiceReference
             RSMServiceReference.getAdministratorByIdRequest inValue = new RSMServiceReference.getAdministratorByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getAdministratorByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getAdministratorByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.approveExpenseItemResponse> RSMServiceReference.IntimeServiceV3_6PortType.approveExpenseItemAsync(RSMServiceReference.approveExpenseItemRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.approveExpenseItemResponse> RSMServiceReference.IntimeServiceV3_4PortType.approveExpenseItemAsync(RSMServiceReference.approveExpenseItemRequest request)
         {
             return base.Channel.approveExpenseItemAsync(request);
         }
@@ -30216,11 +30130,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.userId = userId;
             inValue.expenseId = expenseId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).approveExpenseItemAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).approveExpenseItemAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.markInvoiceAsPaidResponse> RSMServiceReference.IntimeServiceV3_6PortType.markInvoiceAsPaidAsync(RSMServiceReference.markInvoiceAsPaidRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.markInvoiceAsPaidResponse> RSMServiceReference.IntimeServiceV3_4PortType.markInvoiceAsPaidAsync(RSMServiceReference.markInvoiceAsPaidRequest request)
         {
             return base.Channel.markInvoiceAsPaidAsync(request);
         }
@@ -30231,11 +30145,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.invoiceRefCode = invoiceRefCode;
             inValue.datetime = datetime;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).markInvoiceAsPaidAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).markInvoiceAsPaidAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getConsultantByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getConsultantByRefCodeAsync(RSMServiceReference.getConsultantByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getConsultantByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getConsultantByRefCodeAsync(RSMServiceReference.getConsultantByRefCodeRequest request)
         {
             return base.Channel.getConsultantByRefCodeAsync(request);
         }
@@ -30245,11 +30159,11 @@ namespace RSMServiceReference
             RSMServiceReference.getConsultantByRefCodeRequest inValue = new RSMServiceReference.getConsultantByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getConsultantByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getConsultantByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getAllPayElementsResponse> RSMServiceReference.IntimeServiceV3_6PortType.getAllPayElementsAsync(RSMServiceReference.getAllPayElementsRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getAllPayElementsResponse> RSMServiceReference.IntimeServiceV3_4PortType.getAllPayElementsAsync(RSMServiceReference.getAllPayElementsRequest request)
         {
             return base.Channel.getAllPayElementsAsync(request);
         }
@@ -30258,11 +30172,11 @@ namespace RSMServiceReference
         {
             RSMServiceReference.getAllPayElementsRequest inValue = new RSMServiceReference.getAllPayElementsRequest();
             inValue.token = token;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getAllPayElementsAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getAllPayElementsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getLtdCoUsersByExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getLtdCoUsersByExternalIdAsync(RSMServiceReference.getLtdCoUsersByExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getLtdCoUsersByExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getLtdCoUsersByExternalIdAsync(RSMServiceReference.getLtdCoUsersByExternalIdRequest request)
         {
             return base.Channel.getLtdCoUsersByExternalIdAsync(request);
         }
@@ -30272,11 +30186,11 @@ namespace RSMServiceReference
             RSMServiceReference.getLtdCoUsersByExternalIdRequest inValue = new RSMServiceReference.getLtdCoUsersByExternalIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getLtdCoUsersByExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getLtdCoUsersByExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.updateClientExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.updateClientExternalIdAsync(RSMServiceReference.updateClientExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.updateClientExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.updateClientExternalIdAsync(RSMServiceReference.updateClientExternalIdRequest request)
         {
             return base.Channel.updateClientExternalIdAsync(request);
         }
@@ -30287,11 +30201,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.internalId = internalId;
             inValue.newExternalId = newExternalId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).updateClientExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).updateClientExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getPlacementByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getPlacementByRefCodeAsync(RSMServiceReference.getPlacementByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getPlacementByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getPlacementByRefCodeAsync(RSMServiceReference.getPlacementByRefCodeRequest request)
         {
             return base.Channel.getPlacementByRefCodeAsync(request);
         }
@@ -30301,11 +30215,11 @@ namespace RSMServiceReference
             RSMServiceReference.getPlacementByRefCodeRequest inValue = new RSMServiceReference.getPlacementByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getPlacementByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getPlacementByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.submitExpenseClaimResponse> RSMServiceReference.IntimeServiceV3_6PortType.submitExpenseClaimAsync(RSMServiceReference.submitExpenseClaimRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.submitExpenseClaimResponse> RSMServiceReference.IntimeServiceV3_4PortType.submitExpenseClaimAsync(RSMServiceReference.submitExpenseClaimRequest request)
         {
             return base.Channel.submitExpenseClaimAsync(request);
         }
@@ -30315,11 +30229,11 @@ namespace RSMServiceReference
             RSMServiceReference.submitExpenseClaimRequest inValue = new RSMServiceReference.submitExpenseClaimRequest();
             inValue.token = token;
             inValue.expenseClaimId = expenseClaimId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).submitExpenseClaimAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).submitExpenseClaimAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getUsersByExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getUsersByExternalIdAsync(RSMServiceReference.getUsersByExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getUsersByExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getUsersByExternalIdAsync(RSMServiceReference.getUsersByExternalIdRequest request)
         {
             return base.Channel.getUsersByExternalIdAsync(request);
         }
@@ -30329,11 +30243,11 @@ namespace RSMServiceReference
             RSMServiceReference.getUsersByExternalIdRequest inValue = new RSMServiceReference.getUsersByExternalIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getUsersByExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getUsersByExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.updateProviderExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.updateProviderExternalIdAsync(RSMServiceReference.updateProviderExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.updateProviderExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.updateProviderExternalIdAsync(RSMServiceReference.updateProviderExternalIdRequest request)
         {
             return base.Channel.updateProviderExternalIdAsync(request);
         }
@@ -30344,11 +30258,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.internalId = internalId;
             inValue.newExternalId = newExternalId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).updateProviderExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).updateProviderExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getProjectByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getProjectByIdAsync(RSMServiceReference.getProjectByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getProjectByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getProjectByIdAsync(RSMServiceReference.getProjectByIdRequest request)
         {
             return base.Channel.getProjectByIdAsync(request);
         }
@@ -30358,11 +30272,11 @@ namespace RSMServiceReference
             RSMServiceReference.getProjectByIdRequest inValue = new RSMServiceReference.getProjectByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getProjectByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getProjectByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getPurchaseOrderByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getPurchaseOrderByRefCodeAsync(RSMServiceReference.getPurchaseOrderByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getPurchaseOrderByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getPurchaseOrderByRefCodeAsync(RSMServiceReference.getPurchaseOrderByRefCodeRequest request)
         {
             return base.Channel.getPurchaseOrderByRefCodeAsync(request);
         }
@@ -30372,11 +30286,11 @@ namespace RSMServiceReference
             RSMServiceReference.getPurchaseOrderByRefCodeRequest inValue = new RSMServiceReference.getPurchaseOrderByRefCodeRequest();
             inValue.token = token;
             inValue.purchaseOrderRefCode = purchaseOrderRefCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getPurchaseOrderByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getPurchaseOrderByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetsForWorkerResponse> RSMServiceReference.IntimeServiceV3_6PortType.getTimesheetsForWorkerAsync(RSMServiceReference.getTimesheetsForWorkerRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetsForWorkerResponse> RSMServiceReference.IntimeServiceV3_4PortType.getTimesheetsForWorkerAsync(RSMServiceReference.getTimesheetsForWorkerRequest request)
         {
             return base.Channel.getTimesheetsForWorkerAsync(request);
         }
@@ -30386,11 +30300,11 @@ namespace RSMServiceReference
             RSMServiceReference.getTimesheetsForWorkerRequest inValue = new RSMServiceReference.getTimesheetsForWorkerRequest();
             inValue.token = token;
             inValue.workerRefCode = workerRefCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getTimesheetsForWorkerAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getTimesheetsForWorkerAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getPlacementIdsByClientIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getPlacementIdsByClientIdAsync(RSMServiceReference.getPlacementIdsByClientIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getPlacementIdsByClientIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getPlacementIdsByClientIdAsync(RSMServiceReference.getPlacementIdsByClientIdRequest request)
         {
             return base.Channel.getPlacementIdsByClientIdAsync(request);
         }
@@ -30400,11 +30314,11 @@ namespace RSMServiceReference
             RSMServiceReference.getPlacementIdsByClientIdRequest inValue = new RSMServiceReference.getPlacementIdsByClientIdRequest();
             inValue.token = token;
             inValue.clientId = clientId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getPlacementIdsByClientIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getPlacementIdsByClientIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateExchangeRateResponse> RSMServiceReference.IntimeServiceV3_6PortType.createOrUpdateExchangeRateAsync(RSMServiceReference.createOrUpdateExchangeRateRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateExchangeRateResponse> RSMServiceReference.IntimeServiceV3_4PortType.createOrUpdateExchangeRateAsync(RSMServiceReference.createOrUpdateExchangeRateRequest request)
         {
             return base.Channel.createOrUpdateExchangeRateAsync(request);
         }
@@ -30414,11 +30328,11 @@ namespace RSMServiceReference
             RSMServiceReference.createOrUpdateExchangeRateRequest inValue = new RSMServiceReference.createOrUpdateExchangeRateRequest();
             inValue.token = token;
             inValue.exchangeRate = exchangeRate;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createOrUpdateExchangeRateAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).createOrUpdateExchangeRateAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateTaxRateResponse> RSMServiceReference.IntimeServiceV3_6PortType.createOrUpdateTaxRateAsync(RSMServiceReference.createOrUpdateTaxRateRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateTaxRateResponse> RSMServiceReference.IntimeServiceV3_4PortType.createOrUpdateTaxRateAsync(RSMServiceReference.createOrUpdateTaxRateRequest request)
         {
             return base.Channel.createOrUpdateTaxRateAsync(request);
         }
@@ -30428,11 +30342,11 @@ namespace RSMServiceReference
             RSMServiceReference.createOrUpdateTaxRateRequest inValue = new RSMServiceReference.createOrUpdateTaxRateRequest();
             inValue.token = token;
             inValue.vatCode = vatCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createOrUpdateTaxRateAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).createOrUpdateTaxRateAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getProjectByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getProjectByRefCodeAsync(RSMServiceReference.getProjectByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getProjectByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getProjectByRefCodeAsync(RSMServiceReference.getProjectByRefCodeRequest request)
         {
             return base.Channel.getProjectByRefCodeAsync(request);
         }
@@ -30442,11 +30356,11 @@ namespace RSMServiceReference
             RSMServiceReference.getProjectByRefCodeRequest inValue = new RSMServiceReference.getProjectByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getProjectByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getProjectByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getExpenseItemByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getExpenseItemByRefCodeAsync(RSMServiceReference.getExpenseItemByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getExpenseItemByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getExpenseItemByRefCodeAsync(RSMServiceReference.getExpenseItemByRefCodeRequest request)
         {
             return base.Channel.getExpenseItemByRefCodeAsync(request);
         }
@@ -30456,11 +30370,11 @@ namespace RSMServiceReference
             RSMServiceReference.getExpenseItemByRefCodeRequest inValue = new RSMServiceReference.getExpenseItemByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getExpenseItemByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getExpenseItemByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.revertTimesheetResponse> RSMServiceReference.IntimeServiceV3_6PortType.revertTimesheetAsync(RSMServiceReference.revertTimesheetRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.revertTimesheetResponse> RSMServiceReference.IntimeServiceV3_4PortType.revertTimesheetAsync(RSMServiceReference.revertTimesheetRequest request)
         {
             return base.Channel.revertTimesheetAsync(request);
         }
@@ -30472,11 +30386,11 @@ namespace RSMServiceReference
             inValue.userId = userId;
             inValue.timesheetId = timesheetId;
             inValue.reason = reason;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).revertTimesheetAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).revertTimesheetAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.reinstateWorkerByExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.reinstateWorkerByExternalIdAsync(RSMServiceReference.reinstateWorkerByExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.reinstateWorkerByExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.reinstateWorkerByExternalIdAsync(RSMServiceReference.reinstateWorkerByExternalIdRequest request)
         {
             return base.Channel.reinstateWorkerByExternalIdAsync(request);
         }
@@ -30491,11 +30405,11 @@ namespace RSMServiceReference
             inValue.paymentFrequency = paymentFrequency;
             inValue.starterStatement = starterStatement;
             inValue.cisBusinessType = cisBusinessType;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).reinstateWorkerByExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).reinstateWorkerByExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getInvoiceAdjustmentByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getInvoiceAdjustmentByRefCodeAsync(RSMServiceReference.getInvoiceAdjustmentByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getInvoiceAdjustmentByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getInvoiceAdjustmentByRefCodeAsync(RSMServiceReference.getInvoiceAdjustmentByRefCodeRequest request)
         {
             return base.Channel.getInvoiceAdjustmentByRefCodeAsync(request);
         }
@@ -30505,11 +30419,11 @@ namespace RSMServiceReference
             RSMServiceReference.getInvoiceAdjustmentByRefCodeRequest inValue = new RSMServiceReference.getInvoiceAdjustmentByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getInvoiceAdjustmentByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getInvoiceAdjustmentByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getExpenseIdsForPlacementWithStatusAndDatesResponse> RSMServiceReference.IntimeServiceV3_6PortType.getExpenseIdsForPlacementWithStatusAndDatesAsync(RSMServiceReference.getExpenseIdsForPlacementWithStatusAndDatesRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getExpenseIdsForPlacementWithStatusAndDatesResponse> RSMServiceReference.IntimeServiceV3_4PortType.getExpenseIdsForPlacementWithStatusAndDatesAsync(RSMServiceReference.getExpenseIdsForPlacementWithStatusAndDatesRequest request)
         {
             return base.Channel.getExpenseIdsForPlacementWithStatusAndDatesAsync(request);
         }
@@ -30522,11 +30436,11 @@ namespace RSMServiceReference
             inValue.status = status;
             inValue.rangeStartInstant = rangeStartInstant;
             inValue.rangeEndInstant = rangeEndInstant;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getExpenseIdsForPlacementWithStatusAndDatesAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getExpenseIdsForPlacementWithStatusAndDatesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getPaymentBatchByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getPaymentBatchByRefCodeAsync(RSMServiceReference.getPaymentBatchByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getPaymentBatchByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getPaymentBatchByRefCodeAsync(RSMServiceReference.getPaymentBatchByRefCodeRequest request)
         {
             return base.Channel.getPaymentBatchByRefCodeAsync(request);
         }
@@ -30536,11 +30450,11 @@ namespace RSMServiceReference
             RSMServiceReference.getPaymentBatchByRefCodeRequest inValue = new RSMServiceReference.getPaymentBatchByRefCodeRequest();
             inValue.token = token;
             inValue.paymentBatchRefCode = paymentBatchRefCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getPaymentBatchByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getPaymentBatchByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsByTypeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getModifiedItemsByTypeAsync(RSMServiceReference.getModifiedItemsByTypeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getModifiedItemsByTypeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getModifiedItemsByTypeAsync(RSMServiceReference.getModifiedItemsByTypeRequest request)
         {
             return base.Channel.getModifiedItemsByTypeAsync(request);
         }
@@ -30551,11 +30465,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.since = since;
             inValue.types = types;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getModifiedItemsByTypeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getModifiedItemsByTypeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateConsultantResponse> RSMServiceReference.IntimeServiceV3_6PortType.createOrUpdateConsultantAsync(RSMServiceReference.createOrUpdateConsultantRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateConsultantResponse> RSMServiceReference.IntimeServiceV3_4PortType.createOrUpdateConsultantAsync(RSMServiceReference.createOrUpdateConsultantRequest request)
         {
             return base.Channel.createOrUpdateConsultantAsync(request);
         }
@@ -30565,11 +30479,11 @@ namespace RSMServiceReference
             RSMServiceReference.createOrUpdateConsultantRequest inValue = new RSMServiceReference.createOrUpdateConsultantRequest();
             inValue.token = token;
             inValue.consultant = consultant;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createOrUpdateConsultantAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).createOrUpdateConsultantAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.searchInvoiceRefCodesResponse> RSMServiceReference.IntimeServiceV3_6PortType.searchInvoiceRefCodesAsync(RSMServiceReference.searchInvoiceRefCodesRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.searchInvoiceRefCodesResponse> RSMServiceReference.IntimeServiceV3_4PortType.searchInvoiceRefCodesAsync(RSMServiceReference.searchInvoiceRefCodesRequest request)
         {
             return base.Channel.searchInvoiceRefCodesAsync(request);
         }
@@ -30579,11 +30493,11 @@ namespace RSMServiceReference
             RSMServiceReference.searchInvoiceRefCodesRequest inValue = new RSMServiceReference.searchInvoiceRefCodesRequest();
             inValue.token = token;
             inValue.searchCriteria = searchCriteria;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).searchInvoiceRefCodesAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).searchInvoiceRefCodesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.markInvoiceAsExportedResponse> RSMServiceReference.IntimeServiceV3_6PortType.markInvoiceAsExportedAsync(RSMServiceReference.markInvoiceAsExportedRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.markInvoiceAsExportedResponse> RSMServiceReference.IntimeServiceV3_4PortType.markInvoiceAsExportedAsync(RSMServiceReference.markInvoiceAsExportedRequest request)
         {
             return base.Channel.markInvoiceAsExportedAsync(request);
         }
@@ -30594,11 +30508,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.invoiceRefCode = invoiceRefCode;
             inValue.datetime = datetime;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).markInvoiceAsExportedAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).markInvoiceAsExportedAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getInvoicesForProviderResponse> RSMServiceReference.IntimeServiceV3_6PortType.getInvoicesForProviderAsync(RSMServiceReference.getInvoicesForProviderRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getInvoicesForProviderResponse> RSMServiceReference.IntimeServiceV3_4PortType.getInvoicesForProviderAsync(RSMServiceReference.getInvoicesForProviderRequest request)
         {
             return base.Channel.getInvoicesForProviderAsync(request);
         }
@@ -30608,11 +30522,11 @@ namespace RSMServiceReference
             RSMServiceReference.getInvoicesForProviderRequest inValue = new RSMServiceReference.getInvoicesForProviderRequest();
             inValue.token = token;
             inValue.providerId = providerId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getInvoicesForProviderAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getInvoicesForProviderAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.readFilesResponse> RSMServiceReference.IntimeServiceV3_6PortType.readFilesAsync(RSMServiceReference.readFilesRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.readFilesResponse> RSMServiceReference.IntimeServiceV3_4PortType.readFilesAsync(RSMServiceReference.readFilesRequest request)
         {
             return base.Channel.readFilesAsync(request);
         }
@@ -30622,11 +30536,11 @@ namespace RSMServiceReference
             RSMServiceReference.readFilesRequest inValue = new RSMServiceReference.readFilesRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).readFilesAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).readFilesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getInvoiceByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getInvoiceByRefCodeAsync(RSMServiceReference.getInvoiceByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getInvoiceByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getInvoiceByRefCodeAsync(RSMServiceReference.getInvoiceByRefCodeRequest request)
         {
             return base.Channel.getInvoiceByRefCodeAsync(request);
         }
@@ -30636,11 +30550,11 @@ namespace RSMServiceReference
             RSMServiceReference.getInvoiceByRefCodeRequest inValue = new RSMServiceReference.getInvoiceByRefCodeRequest();
             inValue.token = token;
             inValue.invoiceRefCode = invoiceRefCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getInvoiceByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getInvoiceByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.makeLeaverByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.makeLeaverByRefCodeAsync(RSMServiceReference.makeLeaverByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.makeLeaverByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.makeLeaverByRefCodeAsync(RSMServiceReference.makeLeaverByRefCodeRequest request)
         {
             return base.Channel.makeLeaverByRefCodeAsync(request);
         }
@@ -30651,11 +30565,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.workerRefCode = workerRefCode;
             inValue.leavingDate = leavingDate;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).makeLeaverByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).makeLeaverByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getWorkersByExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getWorkersByExternalIdAsync(RSMServiceReference.getWorkersByExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getWorkersByExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getWorkersByExternalIdAsync(RSMServiceReference.getWorkersByExternalIdRequest request)
         {
             return base.Channel.getWorkersByExternalIdAsync(request);
         }
@@ -30665,11 +30579,11 @@ namespace RSMServiceReference
             RSMServiceReference.getWorkersByExternalIdRequest inValue = new RSMServiceReference.getWorkersByExternalIdRequest();
             inValue.token = token;
             inValue.externalId = externalId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getWorkersByExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getWorkersByExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdatePlacementResponse> RSMServiceReference.IntimeServiceV3_6PortType.createOrUpdatePlacementAsync(RSMServiceReference.createOrUpdatePlacementRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdatePlacementResponse> RSMServiceReference.IntimeServiceV3_4PortType.createOrUpdatePlacementAsync(RSMServiceReference.createOrUpdatePlacementRequest request)
         {
             return base.Channel.createOrUpdatePlacementAsync(request);
         }
@@ -30680,11 +30594,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.placement = placement;
             inValue.updateParticipants = updateParticipants;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createOrUpdatePlacementAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).createOrUpdatePlacementAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getConsultantByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getConsultantByIdAsync(RSMServiceReference.getConsultantByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getConsultantByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getConsultantByIdAsync(RSMServiceReference.getConsultantByIdRequest request)
         {
             return base.Channel.getConsultantByIdAsync(request);
         }
@@ -30694,11 +30608,11 @@ namespace RSMServiceReference
             RSMServiceReference.getConsultantByIdRequest inValue = new RSMServiceReference.getConsultantByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getConsultantByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getConsultantByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getManagerByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getManagerByIdAsync(RSMServiceReference.getManagerByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getManagerByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getManagerByIdAsync(RSMServiceReference.getManagerByIdRequest request)
         {
             return base.Channel.getManagerByIdAsync(request);
         }
@@ -30708,11 +30622,11 @@ namespace RSMServiceReference
             RSMServiceReference.getManagerByIdRequest inValue = new RSMServiceReference.getManagerByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getManagerByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getManagerByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createContractDocumentResponse> RSMServiceReference.IntimeServiceV3_6PortType.createContractDocumentAsync(RSMServiceReference.createContractDocumentRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.createContractDocumentResponse> RSMServiceReference.IntimeServiceV3_4PortType.createContractDocumentAsync(RSMServiceReference.createContractDocumentRequest request)
         {
             return base.Channel.createContractDocumentAsync(request);
         }
@@ -30722,11 +30636,11 @@ namespace RSMServiceReference
             RSMServiceReference.createContractDocumentRequest inValue = new RSMServiceReference.createContractDocumentRequest();
             inValue.token = token;
             inValue.contractDocument = contractDocument;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createContractDocumentAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).createContractDocumentAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.updateWorkerExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.updateWorkerExternalIdAsync(RSMServiceReference.updateWorkerExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.updateWorkerExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.updateWorkerExternalIdAsync(RSMServiceReference.updateWorkerExternalIdRequest request)
         {
             return base.Channel.updateWorkerExternalIdAsync(request);
         }
@@ -30737,11 +30651,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.internalId = internalId;
             inValue.newExternalId = newExternalId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).updateWorkerExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).updateWorkerExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.markTimesheetAndExpenseAsExportedResponse> RSMServiceReference.IntimeServiceV3_6PortType.markTimesheetAndExpenseAsExportedAsync(RSMServiceReference.markTimesheetAndExpenseAsExportedRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.markTimesheetAndExpenseAsExportedResponse> RSMServiceReference.IntimeServiceV3_4PortType.markTimesheetAndExpenseAsExportedAsync(RSMServiceReference.markTimesheetAndExpenseAsExportedRequest request)
         {
             return base.Channel.markTimesheetAndExpenseAsExportedAsync(request);
         }
@@ -30751,11 +30665,11 @@ namespace RSMServiceReference
             RSMServiceReference.markTimesheetAndExpenseAsExportedRequest inValue = new RSMServiceReference.markTimesheetAndExpenseAsExportedRequest();
             inValue.token = token;
             inValue.sheetRefCode = sheetRefCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).markTimesheetAndExpenseAsExportedAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).markTimesheetAndExpenseAsExportedAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getExpenseItemsByPayrollRefResponse> RSMServiceReference.IntimeServiceV3_6PortType.getExpenseItemsByPayrollRefAsync(RSMServiceReference.getExpenseItemsByPayrollRefRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getExpenseItemsByPayrollRefResponse> RSMServiceReference.IntimeServiceV3_4PortType.getExpenseItemsByPayrollRefAsync(RSMServiceReference.getExpenseItemsByPayrollRefRequest request)
         {
             return base.Channel.getExpenseItemsByPayrollRefAsync(request);
         }
@@ -30765,11 +30679,11 @@ namespace RSMServiceReference
             RSMServiceReference.getExpenseItemsByPayrollRefRequest inValue = new RSMServiceReference.getExpenseItemsByPayrollRefRequest();
             inValue.token = token;
             inValue.payrollRef = payrollRef;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getExpenseItemsByPayrollRefAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getExpenseItemsByPayrollRefAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.updateManagerExternalIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.updateManagerExternalIdAsync(RSMServiceReference.updateManagerExternalIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.updateManagerExternalIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.updateManagerExternalIdAsync(RSMServiceReference.updateManagerExternalIdRequest request)
         {
             return base.Channel.updateManagerExternalIdAsync(request);
         }
@@ -30780,11 +30694,24 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.internalId = internalId;
             inValue.newExternalId = newExternalId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).updateManagerExternalIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).updateManagerExternalIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getClientByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getClientByIdAsync(RSMServiceReference.getClientByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getRootCauseResponse> RSMServiceReference.IntimeServiceV3_4PortType.getRootCauseAsync(RSMServiceReference.getRootCauseRequest request)
+        {
+            return base.Channel.getRootCauseAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<RSMServiceReference.getRootCauseResponse> getRootCauseAsync(object rootCause)
+        {
+            RSMServiceReference.getRootCauseRequest inValue = new RSMServiceReference.getRootCauseRequest();
+            inValue.rootCause = rootCause;
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getRootCauseAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<RSMServiceReference.getClientByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getClientByIdAsync(RSMServiceReference.getClientByIdRequest request)
         {
             return base.Channel.getClientByIdAsync(request);
         }
@@ -30794,11 +30721,11 @@ namespace RSMServiceReference
             RSMServiceReference.getClientByIdRequest inValue = new RSMServiceReference.getClientByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getClientByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getClientByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getAllTaxRatesResponse> RSMServiceReference.IntimeServiceV3_6PortType.getAllTaxRatesAsync(RSMServiceReference.getAllTaxRatesRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getAllTaxRatesResponse> RSMServiceReference.IntimeServiceV3_4PortType.getAllTaxRatesAsync(RSMServiceReference.getAllTaxRatesRequest request)
         {
             return base.Channel.getAllTaxRatesAsync(request);
         }
@@ -30807,28 +30734,24 @@ namespace RSMServiceReference
         {
             RSMServiceReference.getAllTaxRatesRequest inValue = new RSMServiceReference.getAllTaxRatesRequest();
             inValue.token = token;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getAllTaxRatesAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getAllTaxRatesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateTimesheetsResponse> RSMServiceReference.IntimeServiceV3_6PortType.createOrUpdateTimesheetsAsync(RSMServiceReference.createOrUpdateTimesheetsRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getElapsedTimeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getElapsedTimeAsync(RSMServiceReference.getElapsedTimeRequest request)
         {
-            return base.Channel.createOrUpdateTimesheetsAsync(request);
+            return base.Channel.getElapsedTimeAsync(request);
         }
         
-        public System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateTimesheetsResponse> createOrUpdateTimesheetsAsync(string token, RSMServiceReference.Timesheet[] timesheets, bool submit, string idField, bool updateIfExists)
+        public System.Threading.Tasks.Task<RSMServiceReference.getElapsedTimeResponse> getElapsedTimeAsync(long startTime)
         {
-            RSMServiceReference.createOrUpdateTimesheetsRequest inValue = new RSMServiceReference.createOrUpdateTimesheetsRequest();
-            inValue.token = token;
-            inValue.timesheets = timesheets;
-            inValue.submit = submit;
-            inValue.idField = idField;
-            inValue.updateIfExists = updateIfExists;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createOrUpdateTimesheetsAsync(inValue);
+            RSMServiceReference.getElapsedTimeRequest inValue = new RSMServiceReference.getElapsedTimeRequest();
+            inValue.startTime = startTime;
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getElapsedTimeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.searchTimesheetIdsResponse> RSMServiceReference.IntimeServiceV3_6PortType.searchTimesheetIdsAsync(RSMServiceReference.searchTimesheetIdsRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.searchTimesheetIdsResponse> RSMServiceReference.IntimeServiceV3_4PortType.searchTimesheetIdsAsync(RSMServiceReference.searchTimesheetIdsRequest request)
         {
             return base.Channel.searchTimesheetIdsAsync(request);
         }
@@ -30838,11 +30761,11 @@ namespace RSMServiceReference
             RSMServiceReference.searchTimesheetIdsRequest inValue = new RSMServiceReference.searchTimesheetIdsRequest();
             inValue.token = token;
             inValue.searchCriteria = searchCriteria;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).searchTimesheetIdsAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).searchTimesheetIdsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getSingleSignOnTokenResponse> RSMServiceReference.IntimeServiceV3_6PortType.getSingleSignOnTokenAsync(RSMServiceReference.getSingleSignOnTokenRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getSingleSignOnTokenResponse> RSMServiceReference.IntimeServiceV3_4PortType.getSingleSignOnTokenAsync(RSMServiceReference.getSingleSignOnTokenRequest request)
         {
             return base.Channel.getSingleSignOnTokenAsync(request);
         }
@@ -30853,11 +30776,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.username = username;
             inValue.timeToLiveSeconds = timeToLiveSeconds;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getSingleSignOnTokenAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getSingleSignOnTokenAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateProviderResponse> RSMServiceReference.IntimeServiceV3_6PortType.createOrUpdateProviderAsync(RSMServiceReference.createOrUpdateProviderRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateProviderResponse> RSMServiceReference.IntimeServiceV3_4PortType.createOrUpdateProviderAsync(RSMServiceReference.createOrUpdateProviderRequest request)
         {
             return base.Channel.createOrUpdateProviderAsync(request);
         }
@@ -30867,11 +30790,11 @@ namespace RSMServiceReference
             RSMServiceReference.createOrUpdateProviderRequest inValue = new RSMServiceReference.createOrUpdateProviderRequest();
             inValue.token = token;
             inValue.provider = provider;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createOrUpdateProviderAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).createOrUpdateProviderAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateExpenseClaimResponse> RSMServiceReference.IntimeServiceV3_6PortType.createOrUpdateExpenseClaimAsync(RSMServiceReference.createOrUpdateExpenseClaimRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateExpenseClaimResponse> RSMServiceReference.IntimeServiceV3_4PortType.createOrUpdateExpenseClaimAsync(RSMServiceReference.createOrUpdateExpenseClaimRequest request)
         {
             return base.Channel.createOrUpdateExpenseClaimAsync(request);
         }
@@ -30881,11 +30804,11 @@ namespace RSMServiceReference
             RSMServiceReference.createOrUpdateExpenseClaimRequest inValue = new RSMServiceReference.createOrUpdateExpenseClaimRequest();
             inValue.token = token;
             inValue.expenseClaim = expenseClaim;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createOrUpdateExpenseClaimAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).createOrUpdateExpenseClaimAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getHolidayClaimByIdResponse> RSMServiceReference.IntimeServiceV3_6PortType.getHolidayClaimByIdAsync(RSMServiceReference.getHolidayClaimByIdRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getHolidayClaimByIdResponse> RSMServiceReference.IntimeServiceV3_4PortType.getHolidayClaimByIdAsync(RSMServiceReference.getHolidayClaimByIdRequest request)
         {
             return base.Channel.getHolidayClaimByIdAsync(request);
         }
@@ -30895,11 +30818,11 @@ namespace RSMServiceReference
             RSMServiceReference.getHolidayClaimByIdRequest inValue = new RSMServiceReference.getHolidayClaimByIdRequest();
             inValue.token = token;
             inValue.id = id;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getHolidayClaimByIdAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getHolidayClaimByIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetsByPayrollRefResponse> RSMServiceReference.IntimeServiceV3_6PortType.getTimesheetsByPayrollRefAsync(RSMServiceReference.getTimesheetsByPayrollRefRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getTimesheetsByPayrollRefResponse> RSMServiceReference.IntimeServiceV3_4PortType.getTimesheetsByPayrollRefAsync(RSMServiceReference.getTimesheetsByPayrollRefRequest request)
         {
             return base.Channel.getTimesheetsByPayrollRefAsync(request);
         }
@@ -30909,11 +30832,11 @@ namespace RSMServiceReference
             RSMServiceReference.getTimesheetsByPayrollRefRequest inValue = new RSMServiceReference.getTimesheetsByPayrollRefRequest();
             inValue.token = token;
             inValue.payrollRef = payrollRef;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getTimesheetsByPayrollRefAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getTimesheetsByPayrollRefAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateLtdCoUserResponse> RSMServiceReference.IntimeServiceV3_6PortType.createOrUpdateLtdCoUserAsync(RSMServiceReference.createOrUpdateLtdCoUserRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.createOrUpdateLtdCoUserResponse> RSMServiceReference.IntimeServiceV3_4PortType.createOrUpdateLtdCoUserAsync(RSMServiceReference.createOrUpdateLtdCoUserRequest request)
         {
             return base.Channel.createOrUpdateLtdCoUserAsync(request);
         }
@@ -30923,11 +30846,11 @@ namespace RSMServiceReference
             RSMServiceReference.createOrUpdateLtdCoUserRequest inValue = new RSMServiceReference.createOrUpdateLtdCoUserRequest();
             inValue.token = token;
             inValue.ltdCoUser = ltdCoUser;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).createOrUpdateLtdCoUserAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).createOrUpdateLtdCoUserAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getURLForContractorsPayslipResponse> RSMServiceReference.IntimeServiceV3_6PortType.getURLForContractorsPayslipAsync(RSMServiceReference.getURLForContractorsPayslipRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getURLForContractorsPayslipResponse> RSMServiceReference.IntimeServiceV3_4PortType.getURLForContractorsPayslipAsync(RSMServiceReference.getURLForContractorsPayslipRequest request)
         {
             return base.Channel.getURLForContractorsPayslipAsync(request);
         }
@@ -30938,11 +30861,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.userId = userId;
             inValue.daily = daily;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getURLForContractorsPayslipAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getURLForContractorsPayslipAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.updateTimesheetStatusResponse> RSMServiceReference.IntimeServiceV3_6PortType.updateTimesheetStatusAsync(RSMServiceReference.updateTimesheetStatusRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.updateTimesheetStatusResponse> RSMServiceReference.IntimeServiceV3_4PortType.updateTimesheetStatusAsync(RSMServiceReference.updateTimesheetStatusRequest request)
         {
             return base.Channel.updateTimesheetStatusAsync(request);
         }
@@ -30952,11 +30875,11 @@ namespace RSMServiceReference
             RSMServiceReference.updateTimesheetStatusRequest inValue = new RSMServiceReference.updateTimesheetStatusRequest();
             inValue.token = token;
             inValue.timesheet = timesheet;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).updateTimesheetStatusAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).updateTimesheetStatusAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getProviderByRefCodeResponse> RSMServiceReference.IntimeServiceV3_6PortType.getProviderByRefCodeAsync(RSMServiceReference.getProviderByRefCodeRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getProviderByRefCodeResponse> RSMServiceReference.IntimeServiceV3_4PortType.getProviderByRefCodeAsync(RSMServiceReference.getProviderByRefCodeRequest request)
         {
             return base.Channel.getProviderByRefCodeAsync(request);
         }
@@ -30966,11 +30889,11 @@ namespace RSMServiceReference
             RSMServiceReference.getProviderByRefCodeRequest inValue = new RSMServiceReference.getProviderByRefCodeRequest();
             inValue.token = token;
             inValue.refCode = refCode;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getProviderByRefCodeAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getProviderByRefCodeAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.updateTimesheetResponse> RSMServiceReference.IntimeServiceV3_6PortType.updateTimesheetAsync(RSMServiceReference.updateTimesheetRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.updateTimesheetResponse> RSMServiceReference.IntimeServiceV3_4PortType.updateTimesheetAsync(RSMServiceReference.updateTimesheetRequest request)
         {
             return base.Channel.updateTimesheetAsync(request);
         }
@@ -30980,11 +30903,11 @@ namespace RSMServiceReference
             RSMServiceReference.updateTimesheetRequest inValue = new RSMServiceReference.updateTimesheetRequest();
             inValue.token = token;
             inValue.timesheet = timesheet;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).updateTimesheetAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).updateTimesheetAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getAllInvoicingTermsResponse> RSMServiceReference.IntimeServiceV3_6PortType.getAllInvoicingTermsAsync(RSMServiceReference.getAllInvoicingTermsRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getAllInvoicingTermsResponse> RSMServiceReference.IntimeServiceV3_4PortType.getAllInvoicingTermsAsync(RSMServiceReference.getAllInvoicingTermsRequest request)
         {
             return base.Channel.getAllInvoicingTermsAsync(request);
         }
@@ -30993,11 +30916,11 @@ namespace RSMServiceReference
         {
             RSMServiceReference.getAllInvoicingTermsRequest inValue = new RSMServiceReference.getAllInvoicingTermsRequest();
             inValue.token = token;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getAllInvoicingTermsAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getAllInvoicingTermsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.markInvoiceAsSentResponse> RSMServiceReference.IntimeServiceV3_6PortType.markInvoiceAsSentAsync(RSMServiceReference.markInvoiceAsSentRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.markInvoiceAsSentResponse> RSMServiceReference.IntimeServiceV3_4PortType.markInvoiceAsSentAsync(RSMServiceReference.markInvoiceAsSentRequest request)
         {
             return base.Channel.markInvoiceAsSentAsync(request);
         }
@@ -31008,11 +30931,11 @@ namespace RSMServiceReference
             inValue.token = token;
             inValue.invoiceRefCode = invoiceRefCode;
             inValue.datetime = datetime;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).markInvoiceAsSentAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).markInvoiceAsSentAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getNumberOfPayslipsResponse> RSMServiceReference.IntimeServiceV3_6PortType.getNumberOfPayslipsAsync(RSMServiceReference.getNumberOfPayslipsRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getNumberOfPayslipsResponse> RSMServiceReference.IntimeServiceV3_4PortType.getNumberOfPayslipsAsync(RSMServiceReference.getNumberOfPayslipsRequest request)
         {
             return base.Channel.getNumberOfPayslipsAsync(request);
         }
@@ -31022,11 +30945,11 @@ namespace RSMServiceReference
             RSMServiceReference.getNumberOfPayslipsRequest inValue = new RSMServiceReference.getNumberOfPayslipsRequest();
             inValue.token = token;
             inValue.userId = userId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getNumberOfPayslipsAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getNumberOfPayslipsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.getAllExchangeRatesResponse> RSMServiceReference.IntimeServiceV3_6PortType.getAllExchangeRatesAsync(RSMServiceReference.getAllExchangeRatesRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.getAllExchangeRatesResponse> RSMServiceReference.IntimeServiceV3_4PortType.getAllExchangeRatesAsync(RSMServiceReference.getAllExchangeRatesRequest request)
         {
             return base.Channel.getAllExchangeRatesAsync(request);
         }
@@ -31035,11 +30958,11 @@ namespace RSMServiceReference
         {
             RSMServiceReference.getAllExchangeRatesRequest inValue = new RSMServiceReference.getAllExchangeRatesRequest();
             inValue.token = token;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).getAllExchangeRatesAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).getAllExchangeRatesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<RSMServiceReference.submitTimesheetResponse> RSMServiceReference.IntimeServiceV3_6PortType.submitTimesheetAsync(RSMServiceReference.submitTimesheetRequest request)
+        System.Threading.Tasks.Task<RSMServiceReference.submitTimesheetResponse> RSMServiceReference.IntimeServiceV3_4PortType.submitTimesheetAsync(RSMServiceReference.submitTimesheetRequest request)
         {
             return base.Channel.submitTimesheetAsync(request);
         }
@@ -31049,7 +30972,7 @@ namespace RSMServiceReference
             RSMServiceReference.submitTimesheetRequest inValue = new RSMServiceReference.submitTimesheetRequest();
             inValue.token = token;
             inValue.timesheetId = timesheetId;
-            return ((RSMServiceReference.IntimeServiceV3_6PortType)(this)).submitTimesheetAsync(inValue);
+            return ((RSMServiceReference.IntimeServiceV3_4PortType)(this)).submitTimesheetAsync(inValue);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()
@@ -31064,7 +30987,7 @@ namespace RSMServiceReference
         
         private static System.ServiceModel.Channels.Binding GetBindingForEndpoint(EndpointConfiguration endpointConfiguration)
         {
-            if ((endpointConfiguration == EndpointConfiguration.IntimeServiceV3_6HttpsSoap11Endpoint))
+            if ((endpointConfiguration == EndpointConfiguration.IntimeServiceV3_4HttpsSoap11Endpoint))
             {
                 System.ServiceModel.BasicHttpBinding result = new System.ServiceModel.BasicHttpBinding();
                 result.MaxBufferSize = int.MaxValue;
@@ -31074,7 +30997,7 @@ namespace RSMServiceReference
                 result.Security.Mode = System.ServiceModel.BasicHttpSecurityMode.Transport;
                 return result;
             }
-            if ((endpointConfiguration == EndpointConfiguration.IntimeServiceV3_6HttpsSoap12Endpoint))
+            if ((endpointConfiguration == EndpointConfiguration.IntimeServiceV3_4HttpsSoap12Endpoint))
             {
                 System.ServiceModel.Channels.CustomBinding result = new System.ServiceModel.Channels.CustomBinding();
                 System.ServiceModel.Channels.TextMessageEncodingBindingElement textBindingElement = new System.ServiceModel.Channels.TextMessageEncodingBindingElement();
@@ -31092,14 +31015,14 @@ namespace RSMServiceReference
         
         private static System.ServiceModel.EndpointAddress GetEndpointAddress(EndpointConfiguration endpointConfiguration)
         {
-            if ((endpointConfiguration == EndpointConfiguration.IntimeServiceV3_6HttpsSoap11Endpoint))
+            if ((endpointConfiguration == EndpointConfiguration.IntimeServiceV3_4HttpsSoap11Endpoint))
             {
-                return new System.ServiceModel.EndpointAddress("https://demo.in-time.co.uk/services/IntimeServiceV3_6.IntimeServiceV3_6HttpsSoap1" +
+                return new System.ServiceModel.EndpointAddress("https://demo.in-time.co.uk/services/IntimeServiceV3_4.IntimeServiceV3_4HttpsSoap1" +
                         "1Endpoint/");
             }
-            if ((endpointConfiguration == EndpointConfiguration.IntimeServiceV3_6HttpsSoap12Endpoint))
+            if ((endpointConfiguration == EndpointConfiguration.IntimeServiceV3_4HttpsSoap12Endpoint))
             {
-                return new System.ServiceModel.EndpointAddress("https://demo.in-time.co.uk/services/IntimeServiceV3_6.IntimeServiceV3_6HttpsSoap1" +
+                return new System.ServiceModel.EndpointAddress("https://demo.in-time.co.uk/services/IntimeServiceV3_4.IntimeServiceV3_4HttpsSoap1" +
                         "2Endpoint/");
             }
             throw new System.InvalidOperationException(string.Format("Could not find endpoint with name \'{0}\'.", endpointConfiguration));
@@ -31108,9 +31031,9 @@ namespace RSMServiceReference
         public enum EndpointConfiguration
         {
             
-            IntimeServiceV3_6HttpsSoap11Endpoint,
+            IntimeServiceV3_4HttpsSoap11Endpoint,
             
-            IntimeServiceV3_6HttpsSoap12Endpoint,
+            IntimeServiceV3_4HttpsSoap12Endpoint,
         }
     }
 }

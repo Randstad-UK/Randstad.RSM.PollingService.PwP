@@ -3,11 +3,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Randstad.Logging;
-using Randstad.RSM.PollingService.PwP.Models;
+using Randstad.RSM.PollingService.PwP.Services;
 using Randstad.RSM.PollingService.PwP.Services.Api;
 using Randstad.RSM.PollingService.PwP.Services.DataAccess;
-using Randstad.RSM.PollingService.PwP.Services.FileConversion;
-using Randstad.RSM.PollingService.PwP.Services.Import;
 using Randstad.RSM.PollingService.PwP.Settings;
 using Randstad.RSM.PollingService.PwP.Template.Application;
 using Randstad.RSM.PollingService.PwP.Template.Extensions;
@@ -15,6 +13,7 @@ using RandstadMessageExchange;
 using ServiceDiscovery;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 
@@ -43,7 +42,7 @@ namespace Randstad.RSM.PollingService.PwP
                     services.AddSingleton(_ => _.GetRequiredService<IOptions<ServiceDiscoverySettings>>().Value);
                     services.AddSingleton(_ => _.GetRequiredService<IOptions<LoggingSettings>>().Value);
                     services.AddSingleton(_ => _.GetRequiredService<IOptions<MonitoringSettings>>().Value);
-                    services.AddSingleton(_ => _.GetRequiredService<IOptions<ClientApiSettings>>().Value);
+                    services.AddSingleton(_ => _.GetRequiredService<IOptions<RsmApiSettings>>().Value);
 
                     // services IoC
                     var applicationSettings = new ApplicationSettings();
@@ -61,6 +60,7 @@ namespace Randstad.RSM.PollingService.PwP
                         serviceDetailsSettings.IsApi,
                         serviceDetailsSettings.BaseUrl,
                         serviceDetailsSettings.AllowMonitorRestart);
+
                     var rabbitSettingsForLogger = sdClient.GetConfigurationGroup_RabbitMQSettings().ForLogger();
 
                     var retentionPolicy = new RetentionPolicy
@@ -99,6 +99,11 @@ namespace Randstad.RSM.PollingService.PwP
                     services.AddSingleton<IProducerService>(_ => new ProducerService(producerSettings));
                     services.AddSingleton<IErrorHandler, ErrorHandler>();
                     services.AddSingleton<IMessageProducer, MessageProducer>();
+                    services.AddSingleton<IRSMService, RSMService>();
+                    services.AddSingleton<IDreamDAL, DreamDAL>();
+                    services.AddSingleton<ILogger, Logger>();
+                    services.AddSingleton<IPwpService, PwpService>();
+
                     services.AddScoped<IDataAccess>(_ =>
                     {
                         var connectionString =
@@ -106,13 +111,24 @@ namespace Randstad.RSM.PollingService.PwP
                                 $"{applicationSettings.Environment}.{serviceDetailsSettings.Name}");
                         return new SqlDataAccess(connectionString);
                     });
-                    services.AddScoped<IImportService, ImportService>();
-                    services.AddHttpClient<IApiService, ApiService>(httpClient =>
+
+                    if (!Debugger.IsAttached)
                     {
-                        var clientApiSettings = hostContext.Configuration.GetSection(Constants.RSMApiHeader).Get<ClientApiSettings>();
-                        var baseUrl = sdClient.GetService(clientApiSettings.Name, applicationSettings.Environment).FirstOrDefault()?.BaseUrl;
-                        httpClient.BaseAddress = new Uri(baseUrl ?? string.Empty);
-                    });
+                        services.AddHttpClient<IApiService, ApiService>(httpClient =>
+                        {
+                            var rsmApiSettings = hostContext.Configuration.GetSection(Constants.RSMApiConfigHeader).Get<RsmApiSettings>();
+                            var baseUrl = sdClient.GetService(rsmApiSettings.Name, applicationSettings.Environment).FirstOrDefault()?.BaseUrl;
+                            httpClient.BaseAddress = new Uri(baseUrl ?? string.Empty);
+                        });
+                    }
+                    else
+                    {
+                        services.AddHttpClient<IApiService, ApiService>(httpClient =>
+                        {
+                            var baseUrl = "http://localhost:5237/api/";
+                            httpClient.BaseAddress = new Uri(baseUrl ?? string.Empty);
+                        });
+                    }
 
                     logger.Info("ConfigureServices done.", Guid.NewGuid(), null, null, null, null);
                 });

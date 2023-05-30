@@ -1,12 +1,8 @@
 using Randstad.Logging;
 using Randstad.RSM.PollingService.PwP.Services;
-using Randstad.RSM.PollingService.PwP.Services.Api;
-using Randstad.RSM.PollingService.PwP.Services.DataAccess;
 using Randstad.RSM.PollingService.PwP.Settings;
 using Randstad.RSM.PollingService.PwP.Template.Application;
-using RSMServiceReference;
 using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Randstad.RSM.PollingService.PwP
@@ -41,11 +37,11 @@ namespace Randstad.RSM.PollingService.PwP
             {
                 await _pwpService.CheckInvoicesHaveBeenPaid(correlationId);
 
-                _logger.Debug($"Completed RSM invoice update for paid when paid ", correlationId, null, null, null, null);
+                _logger.Debug($"Completed RSM invoice update, paid when paid ", correlationId, null, null, null, null);
             }
             catch (Exception ex)
             {
-                _logger.Error($"Errors occured processing RSM invoices paid when paid.", correlationId, null, null, null, null, ex);
+                _logger.Error($"Errors occured processing RSM invoices, paid when paid.", correlationId, null, null, null, null, ex);
                 throw;
             }
 

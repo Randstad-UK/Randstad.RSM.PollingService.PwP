@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <RootNamespace>Randstad.RSM.PollingService.PwP</RootNamespace>
     <UserSecretsId>8a539f07-1009-4171-b58e-f54e74cb055e</UserSecretsId>
     <Configurations>Debug;Dev;Test;Staging;Live</Configurations>
