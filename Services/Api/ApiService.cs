@@ -1,5 +1,4 @@
 ﻿using Randstad.Logging;
-using Randstad.RSM.PollingService.PwP.Models;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
@@ -26,19 +25,56 @@ namespace Randstad.RSM.PollingService.PwP.Services.Api
             };
         }
 
-        public async Task ProcessPostRequestAsync(string apiRequestUrl, object content, Guid correlationId,
-            Dictionary<string, string> customHttpHeaders = null)
+        public async Task<HttpResponseMessage> ProcessPostRequestAsync(string apiRequestUrl, object content, Guid correlationId, Dictionary<string, string> customHttpHeaders = null)
         {
-            await DoCallApiAsync(HttpMethod.Post, apiRequestUrl, customHttpHeaders, correlationId, content);
+            var response = await DoCallApiAsync(HttpMethod.Post, apiRequestUrl, customHttpHeaders, correlationId, content);
+
+            _logger.Info("Raw Response from URL: " + apiRequestUrl, correlationId, response, null, null, null);
+
+            return response.Item2;
+        }
+
+        public async Task<T> ProcessPostRequestAsync<T>(string apiRequestUrl, object content, Guid correlationId, Dictionary<string, string> customHttpHeaders = null)
+        {
+            var response  = await DoCallApiAsync(HttpMethod.Post, apiRequestUrl, customHttpHeaders, correlationId, content);
+            try
+            {              
+                response.Item2.EnsureSuccessStatusCode();
+            }
+            catch (Exception e)
+            {
+                _logger.Error(
+                    $"{nameof(ApiService)}.{nameof(DoCallApiAsync)} - endpoint: {_httpClient.BaseAddress}{apiRequestUrl} message: {e.Message}",
+                    correlationId, content, null, null, null, e);
+                throw;
+            }
+            return JsonSerializer.Deserialize<T>(response.Item1, _jsonSerializerOptions);            
         }
 
         public async Task<T> ProcessGetRequestAsync<T>(string apiRequestUrl, Guid correlationId, Dictionary<string, string> customHttpHeaders = null)
         {
-            var response = await DoCallApiAsync(HttpMethod.Get, apiRequestUrl, customHttpHeaders, correlationId);
-            return JsonSerializer.Deserialize<T>(response, _jsonSerializerOptions);
+            var response = await DoCallApiAsync(HttpMethod.Get, apiRequestUrl, customHttpHeaders, correlationId);           
+            return JsonSerializer.Deserialize<T>(response.Item1, _jsonSerializerOptions);
         }
 
-        private async Task<string> DoCallApiAsync(HttpMethod httpMethod, string apiRequestUrl, Dictionary<string, string> customHttpHeaders, Guid correlationId, object content = null)
+        public async Task<HttpResponseMessage> ProcessPatchRequestAsync(string apiRequestUrl, Guid correlationId, Dictionary<string, string> customHttpHeaders = null)
+        {
+            var response = await DoCallApiAsync(HttpMethod.Patch, apiRequestUrl, customHttpHeaders, correlationId);
+            try
+            {
+                response.Item2.EnsureSuccessStatusCode();
+            }
+            catch (Exception e)
+            {
+                _logger.Error(
+                    $"{nameof(ApiService)}.{nameof(DoCallApiAsync)} - endpoint: {_httpClient.BaseAddress}{apiRequestUrl} message: {e.Message}",
+                    correlationId, null, null, null, null, e);
+                throw;
+            }
+            return response.Item2;
+        }
+
+        private async Task<(string, HttpResponseMessage)> DoCallApiAsync(HttpMethod httpMethod, string apiRequestUrl, Dictionary<string, string> customHttpHeaders, Guid correlationId, object content = null)
         {
             try
             {
@@ -54,20 +90,17 @@ namespace Randstad.RSM.PollingService.PwP.Services.Api
                 }
 
                 request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                request.Headers.Add(Constants.CorrelationIdApiKey, correlationId.ToString());
+                request.Headers.Add("correlation-id", correlationId.ToString());
 
                 if (content != null)
                 {
-                    var jsonContent = JsonSerializer.Serialize(content);
+                    var jsonContent = System.Text.Json.JsonSerializer.Serialize(content);
                     request.Content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
                 }
 
                 var response = await _httpClient.SendAsync(request);
-
-                response.EnsureSuccessStatusCode();
-
                 var data = await response.Content.ReadAsStringAsync();
-                return data;
+                return (data, response);
             }
             catch (Exception e)
             {
@@ -77,8 +110,6 @@ namespace Randstad.RSM.PollingService.PwP.Services.Api
                 throw;
             }
         }
-
     }
-
 
 }

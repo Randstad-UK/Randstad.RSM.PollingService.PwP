@@ -29,7 +29,6 @@ namespace Randstad.RSM.PollingService.PwP
 
         private static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureTemplate()
                 .UseWindowsService()
                 .ConfigureServices((hostContext, services) =>
                 {
@@ -38,11 +37,6 @@ namespace Randstad.RSM.PollingService.PwP
 
                     // get configurations
                     services.Configure<ApplicationSettings>(hostContext.Configuration.GetSection(Constants.ApplicationConfigHeader));
-                    services.Configure<LoggingSettings>(hostContext.Configuration.GetSection(Constants.LoggingConfigHeader));
-                    services.Configure<ServiceDiscoverySettings>(hostContext.Configuration.GetSection(Constants.ServiceDiscoveryConfigHeader));
-                    services.Configure<MonitoringSettings>(hostContext.Configuration.GetSection(Constants.MonitoringConfigHeader));
-                    services.Configure<ClientApiSettings>(
-                        hostContext.Configuration.GetSection(Constants.ClientApiHeader));
 
                     // configuration IoC
                     services.AddSingleton(_ => _.GetRequiredService<IOptions<ApplicationSettings>>().Value);
@@ -58,10 +52,6 @@ namespace Randstad.RSM.PollingService.PwP
                     var serviceDiscoverySettings = new ServiceDiscoverySettings();
                     var monitoringSettings = new MonitoringSettings();
                     hostContext.Configuration.GetSection(Constants.ApplicationConfigHeader).Bind(applicationSettings);
-                    hostContext.Configuration.GetSection(Constants.CustomConfigHeader).Bind(customSettings);
-                    hostContext.Configuration.GetSection(Constants.ServiceDiscoveryConfigHeader).Bind(serviceDiscoverySettings);
-                    hostContext.Configuration.GetSection(Constants.LoggingConfigHeader).Bind(loggingSettings);
-                    hostContext.Configuration.GetSection(Constants.MonitoringConfigHeader).Bind(monitoringSettings);
                     var serviceDetailsSettings = serviceDiscoverySettings.ServiceDetails;
                     var sdClient = new ServiceDiscoveryClient(new List<string> { serviceDiscoverySettings.BaseUrl },
                         serviceDiscoverySettings.ServiceDetails.Name,
@@ -109,7 +99,6 @@ namespace Randstad.RSM.PollingService.PwP
                     services.AddSingleton<IProducerService>(_ => new ProducerService(producerSettings));
                     services.AddSingleton<IErrorHandler, ErrorHandler>();
                     services.AddSingleton<IMessageProducer, MessageProducer>();
-                    services.AddSingleton<IFileConversionService<string>, JsonFileConversionService>();
                     services.AddScoped<IDataAccess>(_ =>
                     {
                         var connectionString =
@@ -120,7 +109,7 @@ namespace Randstad.RSM.PollingService.PwP
                     services.AddScoped<IImportService, ImportService>();
                     services.AddHttpClient<IApiService, ApiService>(httpClient =>
                     {
-                        var clientApiSettings = hostContext.Configuration.GetSection(Constants.ClientApiHeader).Get<ClientApiSettings>();
+                        var clientApiSettings = hostContext.Configuration.GetSection(Constants.RSMApiHeader).Get<ClientApiSettings>();
                         var baseUrl = sdClient.GetService(clientApiSettings.Name, applicationSettings.Environment).FirstOrDefault()?.BaseUrl;
                         httpClient.BaseAddress = new Uri(baseUrl ?? string.Empty);
                     });

@@ -1,8 +1,10 @@
 using Randstad.Logging;
-using Randstad.RSM.PollingService.PwP.Services.Import;
+using Randstad.RSM.PollingService.PwP.Services;
+using Randstad.RSM.PollingService.PwP.Services.Api;
+using Randstad.RSM.PollingService.PwP.Services.DataAccess;
 using Randstad.RSM.PollingService.PwP.Settings;
 using Randstad.RSM.PollingService.PwP.Template.Application;
-using RandstadMessageExchange;
+using RSMServiceReference;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -12,16 +14,17 @@ namespace Randstad.RSM.PollingService.PwP
     internal class MessageProducer : IMessageProducer
     {
         private readonly ILogger _logger;
-        private readonly IProducerService _producerService;
         private readonly ApplicationSettings _applicationSettings;
-        private readonly IImportService _importService;
+        private readonly IPwpService _pwpService;
+        private Guid _correlationId;
 
-        public MessageProducer(ILogger logger, IProducerService producerService, ApplicationSettings applicationSettings, IImportService importService)
+        public MessageProducer(ILogger logger, 
+                               ApplicationSettings applicationSettings, 
+                               IPwpService pwpService)
         {
             _logger = logger;
-            _producerService = producerService;
             _applicationSettings = applicationSettings;
-            _importService = importService;
+            _pwpService = pwpService;
         }
 
         /// <summary>
@@ -32,29 +35,12 @@ namespace Randstad.RSM.PollingService.PwP
         public async Task<bool> Process(Guid correlationId)
         {
             _logger.Debug($"Entering {nameof(Process)}.", correlationId, null, null, null, null);
+            _correlationId = correlationId;
 
-            var timesheetList = await _importService.ProcessAsync(correlationId);
-
-            foreach (var timesheet in timesheetList)
-            {
-                var messageBody = System.Text.Json.JsonSerializer.Serialize(timesheet);
-                PublishMessage(messageBody, _applicationSettings.RoutingKey, correlationId);
-
-                _logger.Success(
-                    $"{nameof(MessageProducer)}.{nameof(Process)}: Timesheet with timesheet-id {timesheet.Id}) published - routing key: {_applicationSettings.RoutingKey}",
-                    timesheet.CorrelationId, timesheet, timesheet.ExternalTimesheetReference, null, null);
-            }
-
+            var resp = _pwpService.CheckInvoicesHaveBeenPaid(correlationId);
+       
             return false;
         }
 
-        private void PublishMessage(string body, string routingKey, Guid correlationId)
-        {
-            var headers = new Dictionary<string, object>
-            {
-                { "CorrelationId", correlationId.ToString("D") }
-            };
-            _producerService.Publish(headers, correlationId, routingKey, body);
-        }
     }
 }

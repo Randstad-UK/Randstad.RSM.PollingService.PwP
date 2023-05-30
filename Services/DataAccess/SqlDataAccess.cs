@@ -28,6 +28,7 @@ namespace Randstad.RSM.PollingService.PwP.Services.DataAccess
         }
 
         private IDbConnection GetConnection => new SqlConnection(_connectionString);
+
         private IDbConnection EnsureConnection(IDbConnection connection)
         {
             if (connection.State != ConnectionState.Open)
