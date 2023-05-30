@@ -37,9 +37,19 @@ namespace Randstad.RSM.PollingService.PwP
             _logger.Debug($"Entering {nameof(Process)}.", correlationId, null, null, null, null);
             _correlationId = correlationId;
 
-            var resp = _pwpService.CheckInvoicesHaveBeenPaid(correlationId);
-       
-            return false;
+            try
+            {
+                await _pwpService.CheckInvoicesHaveBeenPaid(correlationId);
+
+                _logger.Debug($"Completed RSM invoice update for paid when paid ", correlationId, null, null, null, null);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error($"Errors occured processing RSM invoices paid when paid.", correlationId, null, null, null, null, ex);
+                throw;
+            }
+
+            return true;
         }
 
     }

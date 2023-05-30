@@ -44,11 +44,9 @@ namespace Randstad.RSM.PollingService.PwP.Services
 
                 if (invoice != null && paidStatuses.Contains(invoice.DetailStatus))
                 {
-                    _rsmService.UpdateInvoiceToBePaid();
+                    await _rsmService.UpdateInvoiceToBePaid(inv.invoiceNumber, correlationId);
                 }
             }
-
-
         }
     }
 }
