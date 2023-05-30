@@ -9,6 +9,7 @@ using Randstad.RSM.PollingService.PwP.Services.DataAccess;
 using Randstad.RSM.PollingService.PwP.Settings;
 using Randstad.RSM.PollingService.PwP.Template.Application;
 using Randstad.RSM.PollingService.PwP.Template.Extensions;
+using Randstad.RSM.PollingService.PwP.Template.Settings;
 using RandstadMessageExchange;
 using ServiceDiscovery;
 using System;
@@ -36,21 +37,32 @@ namespace Randstad.RSM.PollingService.PwP
 
                     // get configurations
                     services.Configure<ApplicationSettings>(hostContext.Configuration.GetSection(Constants.ApplicationConfigHeader));
+                    services.Configure<LoggingSettings>(hostContext.Configuration.GetSection(Constants.LoggingConfigHeader));
+                    services.Configure<MonitoringSettings>(hostContext.Configuration.GetSection(Constants.MonitoringConfigHeader));
+                    services.Configure<RsmApiSettings>(hostContext.Configuration.GetSection(Constants.RSMApiConfigHeader));
+                    services.Configure<ServiceDiscoverySettings>(hostContext.Configuration.GetSection(Constants.ServiceDiscoveryConfigHeader));
 
+         
                     // configuration IoC
-                    services.AddSingleton(_ => _.GetRequiredService<IOptions<ApplicationSettings>>().Value);
-                    services.AddSingleton(_ => _.GetRequiredService<IOptions<ServiceDiscoverySettings>>().Value);
+                    services.AddSingleton(_ => _.GetRequiredService<IOptions<ApplicationSettings>>().Value);        
                     services.AddSingleton(_ => _.GetRequiredService<IOptions<LoggingSettings>>().Value);
                     services.AddSingleton(_ => _.GetRequiredService<IOptions<MonitoringSettings>>().Value);
                     services.AddSingleton(_ => _.GetRequiredService<IOptions<RsmApiSettings>>().Value);
+                    services.AddSingleton(_ => _.GetRequiredService<IOptions<ServiceDiscoverySettings>>().Value);
 
                     // services IoC
-                    var applicationSettings = new ApplicationSettings();
-                    var customSettings = new CustomSettings();
+                    var applicationSettings = new ApplicationSettings();          
                     var loggingSettings = new LoggingSettings();
-                    var serviceDiscoverySettings = new ServiceDiscoverySettings();
                     var monitoringSettings = new MonitoringSettings();
+                    var rsmApiSettings = new RsmApiSettings();
+                    var serviceDiscoverySettings = new ServiceDiscoverySettings();
+
                     hostContext.Configuration.GetSection(Constants.ApplicationConfigHeader).Bind(applicationSettings);
+                    hostContext.Configuration.GetSection(Constants.LoggingConfigHeader).Bind(loggingSettings);
+                    hostContext.Configuration.GetSection(Constants.MonitoringConfigHeader).Bind(monitoringSettings);
+                    hostContext.Configuration.GetSection(Constants.RSMApiConfigHeader).Bind(rsmApiSettings);
+                    hostContext.Configuration.GetSection(Constants.ServiceDiscoveryConfigHeader).Bind(serviceDiscoverySettings);
+
                     var serviceDetailsSettings = serviceDiscoverySettings.ServiceDetails;
                     var sdClient = new ServiceDiscoveryClient(new List<string> { serviceDiscoverySettings.BaseUrl },
                         serviceDiscoverySettings.ServiceDetails.Name,
@@ -84,14 +96,6 @@ namespace Randstad.RSM.PollingService.PwP
                         retentionPolicy);
                     var producerSettings = sdClient.GetConfigurationGroup_RabbitMQ();
 
-                    using (var monitorConsumerService = new ConsumerService(
-                        producerSettings,
-                        monitoringSettings.QueueName,
-                        new List<string> { monitoringSettings.RoutingKey }))
-                    {
-                        monitorConsumerService.CreateQueueAndBindings();
-                    }
-
                     // services IoC
                     services.AddHostedService<MessageProducerService>();
                     services.AddSingleton<ILogger>(_ => logger);
@@ -101,7 +105,6 @@ namespace Randstad.RSM.PollingService.PwP
                     services.AddSingleton<IMessageProducer, MessageProducer>();
                     services.AddSingleton<IRSMService, RSMService>();
                     services.AddSingleton<IDreamDAL, DreamDAL>();
-                    services.AddSingleton<ILogger, Logger>();
                     services.AddSingleton<IPwpService, PwpService>();
 
                     services.AddScoped<IDataAccess>(_ =>

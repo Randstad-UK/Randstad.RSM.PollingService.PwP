@@ -7,6 +7,7 @@ using RSMServiceReference;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using Randstad.RSM.PollingService.PwP.Settings;
+using Randstad.RSM.PollingService.PwP.Template.Settings;
 
 namespace Randstad.RSM.PollingService.PwP.Services.Api
 {

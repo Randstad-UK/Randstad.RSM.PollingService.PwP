@@ -1,8 +1,8 @@
 ﻿// ReSharper disable once CheckNamespace
 
-namespace Randstad.RSM.PollingService.PwP.Settings
+namespace Randstad.RSM.PollingService.PwP.Template.Settings
 {
-    internal partial class Constants
+    partial class Constants
     {
         public const string ApplicationConfigHeader = "Application";
         public const string LoggingConfigHeader = "RandstadLogging";

@@ -1,5 +1,6 @@
 using Randstad.Environments;
 using Randstad.Logging;
+using Randstad.RSM.PollingService.PwP.Template.Settings;
 using Randstad.RSM.PollingService.PwP.Settings;
 using RandstadMessageExchange;
 using ServiceDiscovery;

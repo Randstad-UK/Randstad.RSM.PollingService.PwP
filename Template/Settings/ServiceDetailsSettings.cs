@@ -1,7 +1,7 @@
 ﻿
-namespace Randstad.RSM.PollingService.PwP.Settings
+namespace Randstad.RSM.PollingService.PwP.Template.Settings
 {
-    internal class ServiceDetailsSettings
+    partial class ServiceDetailsSettings
     {
         public string HostServer { get; set; }
         public string Name { get; set; }

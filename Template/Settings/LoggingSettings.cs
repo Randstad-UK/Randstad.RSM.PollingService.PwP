@@ -1,7 +1,7 @@
 ﻿using Randstad.Logging;
 using Randstad.OperatingCompanies;
 
-namespace Randstad.RSM.PollingService.PwP.Settings
+namespace Randstad.RSM.PollingService.PwP.Template.Settings
 {
     internal class LoggingSettings
     {

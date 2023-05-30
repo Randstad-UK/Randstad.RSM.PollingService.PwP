@@ -1,6 +1,7 @@
 using Microsoft.Extensions.Hosting;
 using Randstad.Logging;
 using Randstad.RSM.PollingService.PwP.Settings;
+using Randstad.RSM.PollingService.PwP.Template.Settings;
 using ServiceDiscovery;
 using System;
 using System.Diagnostics;

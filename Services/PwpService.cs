@@ -3,6 +3,7 @@ using Randstad.RSM.PollingService.PwP.Models;
 using Randstad.RSM.PollingService.PwP.Services.Api;
 using Randstad.RSM.PollingService.PwP.Services.DataAccess;
 using Randstad.RSM.PollingService.PwP.Settings;
+using Randstad.RSM.PollingService.PwP.Template.Settings;
 using RSMServiceReference;
 using System;
 using System.Collections.Generic;

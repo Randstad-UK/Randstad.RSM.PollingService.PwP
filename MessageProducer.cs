@@ -1,7 +1,7 @@
 using Randstad.Logging;
 using Randstad.RSM.PollingService.PwP.Services;
-using Randstad.RSM.PollingService.PwP.Settings;
 using Randstad.RSM.PollingService.PwP.Template.Application;
+using Randstad.RSM.PollingService.PwP.Template.Settings;
 using System;
 using System.Threading.Tasks;
 

@@ -1,5 +1,5 @@
 ﻿
-namespace Randstad.RSM.PollingService.PwP.Settings
+namespace Randstad.RSM.PollingService.PwP.Template.Settings
 {
     internal class ServiceDiscoverySettings
     {
