@@ -18,7 +18,7 @@ namespace Randstad.RSM.PollingService.PwP.Services.DataAccess
                                                 + "from ranlive.SQSDBA.D_DETAILS with (nolock) "
                                                 + "where ledger  = 'DEBTORS' and "
                                                 + "NOMINAL in ('6000','6001') and "
-                                                + "DOCNUM in (@invoiceNumber) ";
+                                                + "DOCNUM = @invoiceNumber ";
 
         public DreamDAL(IDataAccess dataAccess)
         {
