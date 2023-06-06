@@ -34,12 +34,15 @@ namespace Randstad.RSM.PollingService.PwP.Services
             _applicationSettings = applicationSettings;
         }
 
-        public async Task CheckInvoicesHaveBeenPaid(Guid correlationId)
+        public async Task CheckInvoicesHaveBeenPaid(Guid correlationId, string opCo)
         {
-            List<InvoiceInfo> invoices = await _rsmService.GetUnpaidInvoiceNumbers(correlationId);
+            List<string> invoices = await _rsmService.GetUnpaidInvoiceRefCodes(opCo, correlationId);
+
+            List<InvoiceInfo> invoiceList = await _rsmService.GetInvoicesByRefCodes(invoices, opCo, correlationId);
+
             string[] paidStatuses = _applicationSettings.PaidStatuses.Split(',');
 
-            foreach (InvoiceInfo inv in invoices)
+            foreach (InvoiceInfo inv in invoiceList)
             {
                 DreamInvoice invoice =_dreamDAL.GetInvoiceByInvoiceNumber(inv.invoiceNumber, correlationId).Result;
 

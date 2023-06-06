@@ -26,20 +26,35 @@ namespace Randstad.RSM.PollingService.PwP.Services.Api
             _applicationSettings = applicationSettings;
         }
 
-        public async Task<List<InvoiceInfo>> GetUnpaidInvoiceNumbers(Guid correlationId)
+        public async Task<List<string>> GetUnpaidInvoiceRefCodes(Guid correlationId, string opCo)
         {
-            var url = _rsmApiSettings.GetInvoicesNotPaidEndpoint;
+            var url = _rsmApiSettings.GetUnpaidInvoiceRefCodesEndpoint.Replace("{opCo}", opCo); ;
 
-            _logger.Debug($"Get invoicea not paid: URL {url}", correlationId, null, null, null, null);
+            _logger.Debug($"Get invoices references not paid: URL {url}", correlationId, null, null, null, null);
 
             var resp = await _apiService.ProcessPostRequestAsync<string>(url, null, correlationId);
 
             var @return = JObject.Parse(resp).SelectToken("return");
 
-            List<InvoiceInfo> invoices = JsonConvert.DeserializeObject<List<InvoiceInfo>>(@return.ToString());
+            List<string> invoices = JsonConvert.DeserializeObject<List<string>>(@return.ToString());
 
             return invoices;
-        }          
+        }
+
+        private async Task<List<InvoiceInfo>> GetInvoicesByRefCodes(List<string> invoiceRefs, Guid correlationId)
+        {
+            var url = _rsmApiSettings.GetInvoicesByRefCodesEndpoint;
+
+            _logger.Debug($"Get invoices that are not paid: URL {url}", correlationId, null, null, null, null);
+
+            var resp = await _apiService.ProcessPostRequestAsync<string>(url, invoiceRefs, correlationId);
+
+            var @return = JObject.Parse(resp).SelectToken("return");
+
+            List<InvoiceInfo> invoices = JsonConvert.DeserializeObject<List<InvoiceInfo>>(@return.ToString());
+              
+            return invoices;
+        }
 
         public async Task<bool> UpdateInvoiceToBePaid(string invoiceNumber, Guid correlationId)
         {

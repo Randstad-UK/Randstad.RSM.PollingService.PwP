@@ -1,7 +1,7 @@
 {
   "ExtendedData": {
     "inputs": [
-      "https://demo.in-time.co.uk/services/IntimeServiceV3_4?wsdl"
+      "https://demo.in-time.co.uk/services/IntimeServiceV3_6?wsdl"
     ],
     "collectionTypes": [
       "System.Array",
@@ -10,7 +10,7 @@
     "namespaceMappings": [
       "*, RSMServiceReference"
     ],
-    "targetFramework": "net5.0",
+    "targetFramework": "net7.0",
     "typeReuseMode": "All"
   }
 }
