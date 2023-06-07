@@ -34,7 +34,7 @@ namespace Randstad.RSM.PollingService.PwP.Services
             _applicationSettings = applicationSettings;
         }
 
-        public async Task CheckInvoicesHaveBeenPaid(Guid correlationId, string opCo)
+        public async Task CheckInvoicesHaveBeenPaid(string opCo, Guid correlationId)
         {
             List<string> invoices = await _rsmService.GetUnpaidInvoiceRefCodes(opCo, correlationId);
 
@@ -48,7 +48,7 @@ namespace Randstad.RSM.PollingService.PwP.Services
 
                 if (invoice != null && paidStatuses.Contains(invoice.DetailStatus))
                 {
-                    await _rsmService.UpdateInvoiceToBePaid(inv.invoiceNumber, correlationId);
+                    await _rsmService.UpdateInvoiceToBePaid(inv.invoiceGUID, opCo, correlationId);
                 }
             }
         }

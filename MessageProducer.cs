@@ -35,7 +35,7 @@ namespace Randstad.RSM.PollingService.PwP
 
             try
             {
-                await _pwpService.CheckInvoicesHaveBeenPaid(correlationId);
+                await _pwpService.CheckInvoicesHaveBeenPaid(_applicationSettings.OpCo, correlationId);
 
                 _logger.Debug($"Completed RSM invoice update, paid when paid ", correlationId, null, null, null, null);
             }

@@ -10,6 +10,6 @@ namespace Randstad.RSM.PollingService.PwP.Services.Api
     {
         Task<List<string>> GetUnpaidInvoiceRefCodes(string opCo, Guid correlationId);
         Task<List<InvoiceInfo>> GetInvoicesByRefCodes(List<string> invoiceRefs, string opCo, Guid correlationId);
-        Task<bool> UpdateInvoiceToBePaid(string url, Guid correlationId);
+        Task<bool> UpdateInvoiceToBePaid(string invoiceGuid, string opCo, Guid correlationId);
     }
 }

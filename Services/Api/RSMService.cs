@@ -26,7 +26,7 @@ namespace Randstad.RSM.PollingService.PwP.Services.Api
             _applicationSettings = applicationSettings;
         }
 
-        public async Task<List<string>> GetUnpaidInvoiceRefCodes(Guid correlationId, string opCo)
+        public async Task<List<string>> GetUnpaidInvoiceRefCodes(string opCo, Guid correlationId)
         {
             var url = _rsmApiSettings.GetUnpaidInvoiceRefCodesEndpoint.Replace("{opCo}", opCo); ;
 
@@ -41,9 +41,9 @@ namespace Randstad.RSM.PollingService.PwP.Services.Api
             return invoices;
         }
 
-        private async Task<List<InvoiceInfo>> GetInvoicesByRefCodes(List<string> invoiceRefs, Guid correlationId)
+        public async Task<List<InvoiceInfo>> GetInvoicesByRefCodes(List<string> invoiceRefs, string opCo, Guid correlationId)
         {
-            var url = _rsmApiSettings.GetInvoicesByRefCodesEndpoint;
+            var url = _rsmApiSettings.GetInvoicesByRefCodesEndpoint.Replace("{opCo}", opCo);
 
             _logger.Debug($"Get invoices that are not paid: URL {url}", correlationId, null, null, null, null);
 
@@ -56,15 +56,15 @@ namespace Randstad.RSM.PollingService.PwP.Services.Api
             return invoices;
         }
 
-        public async Task<bool> UpdateInvoiceToBePaid(string invoiceNumber, Guid correlationId)
+        public async Task<bool> UpdateInvoiceToBePaid(string invoiceGuid, string opCo, Guid correlationId)
         {
-            var url = _rsmApiSettings.UpdateInvoiceToBePaidEndpoint.Replace("{invoiceNumber}", invoiceNumber);
+            var url = _rsmApiSettings.UpdateInvoiceToBePaidEndpoint.Replace("{invoiceGuid}", invoiceGuid).Replace("{opCo}", opCo);
 
-            _logger.Debug($"Set invoice to be paid: URL {url}", correlationId, null, invoiceNumber, "Invoice Number", null);
+            _logger.Debug($"Set invoice to be paid: URL {url}", correlationId, null, invoiceGuid, "Invoice Guid", null);
 
             HttpResponseMessage response = await _apiService.ProcessPatchRequestAsync(url, correlationId);
 
-            _logger.Info($"Set invoice to be paid returned response;", correlationId, response, response.StatusCode.ToString(), "Invoice Number", null);
+            _logger.Info($"Set invoice to be paid returned response;", correlationId, response, response.StatusCode.ToString(), "Invoice Guid", null);
 
             return (response.StatusCode == System.Net.HttpStatusCode.OK);
         }

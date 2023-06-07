@@ -8,6 +8,6 @@ namespace Randstad.RSM.PollingService.PwP.Services
 {
     internal interface IPwpService
     {
-        Task CheckInvoicesHaveBeenPaid(Guid correlationId);
+        Task CheckInvoicesHaveBeenPaid(string opCo, Guid correlationId);
     }
 }

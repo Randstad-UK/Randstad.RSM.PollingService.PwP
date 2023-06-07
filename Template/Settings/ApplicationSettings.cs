@@ -8,6 +8,7 @@ namespace Randstad.RSM.PollingService.PwP.Template.Settings
         public DeploymentEnvironment Environment { get; set; }
         public string ServiceName { get; set; }
         public string PaidStatuses { get; set; }
+        public string OpCo { get; set; }
         public int MaxPollingIntervalInSeconds { get; set; }
         public int PollingIntervalInSeconds { get; set; }
         public int PollingIntervalIncrementInSeconds { get; set; }
