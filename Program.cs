@@ -127,7 +127,7 @@ namespace Randstad.RSM.PollingService.PwP
                     {
                         services.AddHttpClient<IApiService, ApiService>(httpClient =>
                         {
-                            var baseUrl = "http://localhost:5237/api/";
+                            var baseUrl = "http://localhost:5237/api/rsminvoices";
                             httpClient.BaseAddress = new Uri(baseUrl ?? string.Empty);
                         });
                     }

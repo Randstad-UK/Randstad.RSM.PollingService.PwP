@@ -9,6 +9,6 @@ namespace Randstad.RSM.PollingService.PwP.Settings
         public string Name { get; set; }
         public string GetUnpaidInvoiceRefCodesEndpoint { get; set; }
         public string GetInvoicesByRefCodesEndpoint { get; set; }
-        public string UpdateInvoiceToBePaidEndpoint { get; set; }
+        public string UpdateInvoiceAsPaidEndpoint { get; set; }
     }
 }

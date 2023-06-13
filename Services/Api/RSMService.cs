@@ -28,11 +28,11 @@ namespace Randstad.RSM.PollingService.PwP.Services.Api
 
         public async Task<List<string>> GetUnpaidInvoiceRefCodes(string opCo, Guid correlationId)
         {
-            var url = _rsmApiSettings.GetUnpaidInvoiceRefCodesEndpoint.Replace("{opCo}", opCo); ;
+            var url = _rsmApiSettings.GetUnpaidInvoiceRefCodesEndpoint.Replace("{opCo}", opCo); 
 
             _logger.Debug($"Get invoices references not paid: URL {url}", correlationId, null, null, null, null);
 
-            var resp = await _apiService.ProcessPostRequestAsync<string>(url, null, correlationId);
+            var resp = await _apiService.ProcessGetRequestAsync<string>(url, correlationId);
 
             var @return = JObject.Parse(resp).SelectToken("return");
 
@@ -58,7 +58,7 @@ namespace Randstad.RSM.PollingService.PwP.Services.Api
 
         public async Task<bool> UpdateInvoiceToBePaid(string invoiceGuid, string opCo, Guid correlationId)
         {
-            var url = _rsmApiSettings.UpdateInvoiceToBePaidEndpoint.Replace("{invoiceGuid}", invoiceGuid).Replace("{opCo}", opCo);
+            var url = _rsmApiSettings.UpdateInvoiceAsPaidEndpoint.Replace("{invoiceGuid}", invoiceGuid).Replace("{opCo}", opCo);
 
             _logger.Debug($"Set invoice to be paid: URL {url}", correlationId, null, invoiceGuid, "Invoice Guid", null);
 
