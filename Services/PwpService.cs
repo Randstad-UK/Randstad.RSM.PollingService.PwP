@@ -42,15 +42,13 @@ namespace Randstad.RSM.PollingService.PwP.Services
 
             string[] paidStatuses = _applicationSettings.PaidStatuses.Split(',');
 
-            string a = "";
-
             foreach (InvoiceInfo inv in invoiceList)
             {
                 DreamInvoice invoice =_dreamDAL.GetInvoiceByInvoiceNumber(inv.invoiceNumber, correlationId).Result;
 
                 if (invoice != null && paidStatuses.Contains(invoice.DetailStatus))
                 {
-                    await _rsmService.UpdateInvoiceToBePaid(a, opCo, correlationId);
+                    await _rsmService.UpdateInvoiceToBePaid(inv.invoiceGUID, opCo, correlationId);
                 }
             }
         }
